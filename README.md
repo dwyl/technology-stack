@@ -8,6 +8,7 @@ If you have ***any questions*** please
 ## Overview
 
 This diagram is meant to give complete beginners an overview of our stack:
+(_**click** the image **to enlarge**_)
 
 ![dwyl-stack-lighter-blue](https://cloud.githubusercontent.com/assets/194400/9354261/e971fe58-4666-11e5-848f-67dc11d41bfb.jpg)
 
@@ -21,11 +22,11 @@ We ***craft code*** to ***scratch our own itch*** and ***everything*** we do is 
 
 | Project | Use Case | Build | Coverage | Dependencies | Learn |
 | --------|----------|:-----:|:--------:|:------------:|-------|
-| **[hapi-auth-jwt2]** | Authorization | [![build][jwt2-bi]][jwt2] | [![cov][jwt2-dep]][jwt2] | [![deps][jwt2-dep]][jwt2] | [learn-jwt] |
-| **[env2]** | Environment Variables | [![build][env2-bi]][env2] | [![cov][env2-dep]][env2] | [![deps][env2-dep]][env2] | [learn-env2] |
-| **[esta]** | ElasticSearch | [![build][env2-bi]][env2] | [![cov][env2-dep]][env2] | [![deps][env2-dep]][env2] | [learn-elasticsearch] |
+| **[hapi-auth-jwt2]** | Authorization | [![build][jwt2-bi]][jwt2] | [![cov][jwt2-cc]][jwt2] | [![deps][jwt2-dep]][jwt2] | [learn-jwt] |
+| **[env2]** | Environment Variables | [![build][env2-bi]][env2] | [![cov][env2-cc]][env2] | [![deps][env2-dep]][env2] | [learn-env2] |
+| **[esta]** | ElasticSearch | [![build][esta-bi]][esta] | [![cov][esta-cc]][esta] | [![deps][env2-dep]][env2] | [learn-elasticsearch] |
 
-### External <small>(*projects built by people we trust*)</small>
+### Dependencies <small>(*projects built by people we trust*)</small>
 
 + **Node.js** - the most popular JavaScript runtime for easily building fast,
 scalable network applications. Lightweight and efficient, perfect for
@@ -38,6 +39,13 @@ server. Socket.io lets us send data to/from everyone connected to our app(s)
 without having to refresh the web page. http://socket.io/
 + **Riot.js** - user interface micro-library for building the part of our app
 that people see and interact with. its tiny and fast. http://riotjs.com/
+
+### Development Dependencies
+
+
+### Continuous Integration
+
+
 
 <br />
 <br />
@@ -64,7 +72,7 @@ Example Image Link Markdown:
 [learn-env2]: https://github.com/dwyl/env2#what
 
 [esta]: https://github.com/dwyl/esta
-[env2-bi]: https://travis-ci.org/dwyl/esta.svg?branch=master
-[env2-cc]: https://codeclimate.com/github/dwyl/eta/badges/coverage.svg
-[env2-dep]: https://david-dm.org/dwyl/esta.svg
+[esta-bi]: https://travis-ci.org/dwyl/esta.svg?branch=master
+[esta-cc]: https://codeclimate.com/github/dwyl/esta/badges/coverage.svg
+[esta-dep]: https://david-dm.org/dwyl/esta.svg
 [learn-elasticsearch]: https://github.com/dwyl/learn-elasticsearch
