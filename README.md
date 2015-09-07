@@ -56,10 +56,13 @@ https://github.com/dwyl/learn-jshint
 + **CodeClimate** for tracking code quality:
 https://github.com/nelsonic/learn-codeclimate
 + **CodeCov** for *detailed* test/code coverage stats
+https://codecov.io/
 
 ### Continuous Integration
 
-
+We use and *recommend* Travis-CI for Continuous Integration (CI).
+If you or anyone on your team are *new* to Travis-CI,
+checkout our beginners guide: https://github.com/dwyl/learn-travis
 
 <br />
 <br />
