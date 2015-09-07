@@ -12,6 +12,8 @@ This diagram is meant to give complete beginners an overview of our stack:
 
 ![dwyl-stack-lighter-blue](https://cloud.githubusercontent.com/assets/194400/9354261/e971fe58-4666-11e5-848f-67dc11d41bfb.jpg)
 
+<small>To edit/improve this diagram: https://github.com/dwyl/technology-stack/issues/1 </small>
+
 Each of these components will be described in detail below:
 
 ## Open Source Modules We Use
@@ -42,6 +44,18 @@ that people see and interact with. its tiny and fast. http://riotjs.com/
 
 ### Development Dependencies
 
+We *carefully* select and only use *well-maintained* "*pure*" JavaScript modules
+in our development toolchain:
+
++ **Tape** for testing: https://github.com/substack/tape
++ **Istanbul** for Code Coverage: https://github.com/dwyl/learn-istanbul
++ **Chalk** for colors in test output (readability)
++ **Pre-commit** for ensuring all commits pass strict quality checks before being pushed to GitHub. see: https://github.com/dwyl/learn-pre-commit
++ **jshint** checks code style is consistent:
+https://github.com/dwyl/learn-jshint
++ **CodeClimate** for tracking code quality:
+https://github.com/nelsonic/learn-codeclimate
++ **CodeCov** for *detailed* test/code coverage stats
 
 ### Continuous Integration
 
