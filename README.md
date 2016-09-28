@@ -12,7 +12,7 @@ The following diagram is an overview of our stack:
 ![dwyl-stack-lighter-blue](https://cloud.githubusercontent.com/assets/194400/9354261/e971fe58-4666-11e5-848f-67dc11d41bfb.jpg)
 (_**click** the image **to enlarge**_)
 
-<small>To edit/improve this diagram: https://github.com/dwyl/technology-stack/issues/1 </small>
+> <small>Note: To edit/improve this diagram: https://github.com/dwyl/technology-stack/issues/1 </small>
 
 We have produced a ***complete beginners guide*** for *each* of the components in our stack. (see below)
 
@@ -22,17 +22,15 @@ We have produced a ***complete beginners guide*** for *each* of the components i
 
 We ***craft code*** to [***scratch our own itch***](https://github.com/dwyl/start-here#our-approach-scratching-your-own-itch) and ***everything*** we do is ***always Open Source***
 
-| Project | Use Case | Build | Coverage | Dependencies | Learn |
+| Project | Used For | Build Status | Test Coverage | Dependency Status | Tutorial |
 | --------|----------|:-----:|:--------:|:------------:|-------|
-| **[hapi-auth-jwt2]** | Authorization | [![build][jwt2-bi]][jwt2] | [![cov][jwt2-cc]][jwt2] | [![deps][jwt2-dep]][jwt2] | [learn-jwt] |
-| **[env2]** | Environment Variables | [![build][env2-bi]][env2] | [![cov][env2-cc]][env2] | [![deps][env2-dep]][env2] | [learn-env] |
-| **[esta]** | ElasticSearch | [![build][esta-bi]][esta] | [![cov][esta-cc]][esta] | [![deps][env2-dep]][env2] | [learn-elasticsearch] |
-| **[redis-connection]** | Redis Connection | [![build][rcon-bi]][esta] | [![cov][rcon-cov]][rcon] | [![deps][rcon-dep]][rcon] | [learn-redis] |
+| [**env2**](https://github.com/dwyl/env2) | Loading Environment Variables | [![Build Status](https://travis-ci.org/dwyl/env2.svg?branch=master)](https://travis-ci.org/dwyl/env2) | [![Test Coverage](https://img.shields.io/codecov/c/github/dwyl/env2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/env2?branch=master) | [![dependencies Status](https://david-dm.org/dwyl/env2/status.svg)](https://david-dm.org/dwyl/env2) | [learn-environment-variables](https://github.com/dwyl/learn-environment-variables) |
+| [**esta**](https://github.com/dwyl/esta) | ElasticSearch CRUD | [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) | [![Test Coverage](https://img.shields.io/codecov/c/github/dwyl/esta.svg?maxAge=2592000)](https://codecov.io/github/dwyl/esta?branch=master) | [![dependencies Status](https://david-dm.org/dwyl/esta/status.svg)](https://david-dm.org/dwyl/esta) | [learn-elasticsearch](https://github.com/dwyl/learn-elasticsearch) |
+| [**hapi-auth-jwt2**](https://github.com/dwyl/hapi-auth-jwt2) | Authentication & Sessions | [![Build Status](https://travis-ci.org/dwyl/hapi-auth-jwt2.svg?branch=master)](https://travis-ci.org/dwyl/hapi-auth-jwt2) | [![Test Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master) | [![dependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2) | [learn-json-web-tokens](https://github.com/dwyl/learn-json-web-tokens) |
+| [**hapi-postgres-connection**](https://github.com/dwyl/hapi-postgres-connection) | Postgres Connection Pooling | [![Build Status](https://travis-ci.org/dwyl/hapi-postgres-connection.svg?branch=master)](https://travis-ci.org/dwyl/hapi-postgres-connection) | [![Test Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-postgres-connection.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-postgres-connection?branch=master) | [![dependencies Status](https://david-dm.org/dwyl/hapi-postgres-connection/status.svg)](https://david-dm.org/dwyl/hapi-postgres-connection) | [learn-postgresql](https://github.com/dwyl/learn-postgresql) |
+| [**redis-connection**](https://github.com/dwyl/redis-connection) | Simplify Redis Connection | [![Build Status](https://travis-ci.org/dwyl/redis-connection.svg?branch=master)](https://travis-ci.org/dwyl/redis-connection) | [![Test Coverage](https://img.shields.io/codecov/c/github/dwyl/redis-connection.svg?maxAge=2592000)](https://codecov.io/github/dwyl/redis-connection?branch=master) | [![dependencies Status](https://david-dm.org/dwyl/redis-connection/status.svg)](https://david-dm.org/dwyl/redis-connection) | [learn-redis](https://github.com/dwyl/learn-redis) |
 
-> Note: don't _manually_ update this table, use the script: `generate_dependency_table.js`
-
-
-
+> <small>Note: to update this table, use the script: `generate_dependency_table.js`</small>
 
 ### Dependencies <small>(*projects built by people we trust*)</small>
 
@@ -64,7 +62,7 @@ in our development toolchain:
 + **Tape** for testing: https://github.com/dwyl/learn-tape
 + **Istanbul** for Code Coverage: https://github.com/dwyl/learn-istanbul
 + **Pre-commit** for ensuring all commits pass strict quality checks before being pushed to GitHub. see: https://github.com/dwyl/learn-pre-commit
-+ **GoodParts** "_linting_" and checks code style is consistent:
++ **GoodParts** "_linting_" and checking code style is _consistent_:
 https://github.com/dwyl/goodparts
 + **CodeCov** for *detailed* test/code coverage stats
 https://codecov.io/
@@ -79,37 +77,3 @@ checkout our beginners guide: https://github.com/dwyl/learn-travis
 
 <br />
 <br />
-## tl;dr
-
-Example Image Link Markdown:
-```sh
-[![Node.js Version][node-version-image]][node-version-url]
-[node-version-image]: https://img.shields.io/node/v/listdirs.svg?style=flat
-[node-version-url]: http://nodejs.org/download/
-```
-
-[hapi-auth-jwt2]: https://github.com/dwyl/hapi-auth-jwt2
-[jwt2-bi]: https://travis-ci.org/dwyl/hapi-auth-jwt2.svg?branch=master
-[jwt2-cc]: https://codeclimate.com/github/dwyl/hapi-auth-jwt2/badges/coverage.svg
-[jwt2-dep]: https://david-dm.org/dwyl/hapi-auth-jwt2.svg
-[learn-jwt]: https://github.com/dwyl/learn-json-web-tokens
-[jwt2]: https://github.com/dwyl/hapi-auth-jwt2
-
-[env2]: https://github.com/dwyl/env2
-[env2-bi]: https://travis-ci.org/dwyl/env2.svg?branch=master
-[env2-cc]: https://codeclimate.com/github/dwyl/env2/badges/coverage.svg
-[env2-dep]: https://david-dm.org/dwyl/env2.svg
-[learn-env]: https://github.com/dwyl/learn-environment-variables
-
-[esta]: https://github.com/dwyl/esta
-[esta-bi]: https://travis-ci.org/dwyl/esta.svg?branch=master
-[esta-cc]: https://codeclimate.com/github/dwyl/esta/badges/coverage.svg
-[esta-dep]: https://david-dm.org/dwyl/esta.svg
-[learn-elasticsearch]: https://github.com/dwyl/learn-elasticsearch
-
-[redis-connection]: https://github.com/dwyl/redis-connection
-[rcon]: https://github.com/dwyl/redis-connection
-[rcon-bi]: https://travis-ci.org/dwyl/redis-connection.svg?branch=master
-[rcon-cov]: http://codecov.io/github/dwyl/redis-connection/coverage.svg?branch=master
-[rcon-dep]: https://david-dm.org/dwyl/redis-connection.svg
-[learn-redis]: https://github.com/dwyl/learn-redis

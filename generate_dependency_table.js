@@ -1,8 +1,7 @@
 /**
 
-| Project | Used For | Build | Coverage | Dependencies | Learn |
+| Project | Used For | Build Status | Test Coverage | Dependency Status | Tutorial |
 | --------|----------|:-----:|:--------:|:------------:|-------|
-| **[hapi-auth-jwt2]** | Authorization | [![build][jwt2-bi]][jwt2] | [![cov][jwt2-cc]][jwt2] | [![deps][jwt2-dep]][jwt2] | [learn-jwt] |
 
 **/
 var baseurl = 'https://github.com/dwyl/';
@@ -13,13 +12,14 @@ var deps = Object.keys(pkg.dependencies);
 var learn = Object.keys(pkg.learn);
 
 // table header:
-table = ['| Project | Used For | Build | Coverage | Dependencies | Learn |'];
+table = ['| Project | Used For | Build Status | Test Coverage | Dependency Status | Tutorial |'];
 // table row alignment:
 table.push('| --------|----------|:-----:|:--------:|:------------:|-------|');
 
 // loop through the list of dependencies and add a line
 deps.forEach(function (d) {
   table.push(row(d));
+  pkg.learn[d] = pkg.learn[d] || { 'use': '', 'repo': '' };
 });
 
 function row (d) {
@@ -41,7 +41,6 @@ function repo_link (d) {
 }
 
 function used_for (d) {
-  console.log(d, learn[d], pkg.learn[d].use);
   return pkg.learn[d] && pkg.learn[d].use ? pkg.learn[d].use : 'please update in package.json';
 }
 
@@ -61,14 +60,13 @@ function dependencies (d) {
 }
 
 function learn_link (d) {
-  return pkg.learn[d] && pkg.learn[d].link ? pkg.learn[d].link : 'please update in package.json';
+  return pkg.learn[d] && pkg.learn[d].repo ?
+    '[' + pkg.learn[d].repo + '](' + baseurl + pkg.learn[d].repo + ')'
+    : 'please update in package.json';
 }
-
-
-function end () {
-  return '---';
-}
-
 
 console.log(table.join('\n'));
+
 // Write the Learn Section to package.json based on latest dependencies list
+var fs = require('fs');
+fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
