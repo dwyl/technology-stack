@@ -29,6 +29,11 @@ We ***craft code*** to [***scratch our own itch***](https://github.com/dwyl/star
 | **[esta]** | ElasticSearch | [![build][esta-bi]][esta] | [![cov][esta-cc]][esta] | [![deps][env2-dep]][env2] | [learn-elasticsearch] |
 | **[redis-connection]** | Redis Connection | [![build][rcon-bi]][esta] | [![cov][rcon-cov]][rcon] | [![deps][rcon-dep]][rcon] | [learn-redis] |
 
+> Note: don't _manually_ update this table, use the script: `generate_dependency_table.js`
+
+
+
+
 ### Dependencies <small>(*projects built by people we trust*)</small>
 
 + **Node.js** - the most popular JavaScript runtime for easily building fast,

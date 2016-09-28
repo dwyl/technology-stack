@@ -1,0 +1,30 @@
+{
+  "name": "technology-stack",
+  "version": "1.0.1",
+  "description": "Clarity for all Technology used in DWYL products & client work.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwyl/technology-stack.git"
+  },
+  "author": "dwyl & co",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "env2": "^2.1.1",
+    "hapi-auth-jwt2": "^7.1.3",
+    "redis-connection": "^5.0.0"
+  },
+  "learn": {
+    "env2": {
+      "use": "Loading Environment Variables",
+      "repo":"learn-environment-variables"
+    },
+    "hapi-auth-jwt2":  {
+      "use": "Authentication & Sessions",
+      "repo":"learn-json-web-tokens"
+    },
+    "redis-connection": {
+      "use": "Simplify Redis Connection",
+      "repo":"learn-redis"
+    }
+  }
+}
