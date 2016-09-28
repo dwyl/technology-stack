@@ -9,8 +9,7 @@ If you have ***any questions*** please
 
 The following diagram is an overview of our stack:  
 
-![dwyl-stack-lighter-blue](https://cloud.githubusercontent.com/assets/194400/9354261/e971fe58-4666-11e5-848f-67dc11d41bfb.jpg)
-(_**click** the image **to enlarge**_)
+![dwyl-stack-with-postgres](https://cloud.githubusercontent.com/assets/194400/18927934/e5a9d0a4-85b5-11e6-9c59-4d5052d09053.png)
 
 > <small>Note: To edit/improve this diagram: https://github.com/dwyl/technology-stack/issues/1 </small>
 
