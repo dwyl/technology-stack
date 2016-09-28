@@ -35,7 +35,7 @@ We ***craft code*** to [***scratch our own itch***](https://github.com/dwyl/star
 scalable network applications. Lightweight and efficient, perfect for
 data-intensive real-time apps. http://nodejs.org/
 + **Hapi.js** - A rich web framework for building applications and services.
-https://github.com/nelsonic/learn-hapi
+https://github.com/dwyl/learn-hapi
 + **Socket.io** - a JavaScript library for realtime web applications.
 It enables realtime, bi-directional communication between web clients and
 server. Socket.io lets us send data to/from everyone connected to our app(s)
@@ -43,7 +43,7 @@ without having to refresh the web page. http://socket.io/
 + **Riot.js** - is the most ***light-weight*** user-interface (UI) framework
 available which is compatible with IE 8/9 and has good
 server-side rendering (*which means pages load faster for slow devices like budget smart phones*).
-see: https://github.com/dwyl/learn-riot (*help wanted!*)
+see: https://github.com/dwyl/learn-riot
 + **Redis** - the most popular *in-memory* data store which is *essential*  
 for building the ***fastest possible*** apps.
 read more: https://github.com/dwyl/learn-redis
@@ -56,16 +56,15 @@ it to find things fast. Learn more: https://github.com/dwyl/learn-elasticsearch
 We *carefully* select and only use *well-maintained* "*pure*" JavaScript modules
 in our development toolchain:
 
-+ **Tape** for testing: https://github.com/substack/tape
++ **Tape** for testing: https://github.com/dwyl/learn-tape
 + **Istanbul** for Code Coverage: https://github.com/dwyl/learn-istanbul
-+ **Chalk** for colors in test output (readability)
 + **Pre-commit** for ensuring all commits pass strict quality checks before being pushed to GitHub. see: https://github.com/dwyl/learn-pre-commit
-+ **jshint** checks code style is consistent:
-https://github.com/dwyl/learn-jshint
-+ **CodeClimate** for tracking code quality:
-https://github.com/nelsonic/learn-codeclimate
++ **GoodParts** "_linting_" and checks code style is consistent:
+https://github.com/dwyl/goodparts
 + **CodeCov** for *detailed* test/code coverage stats
 https://codecov.io/
++ **CodeClimate** for tracking code quality:
+https://github.com/dwyl/learn-codeclimate
 
 ### Continuous Integration
 
