@@ -1,0 +1,66 @@
+{
+  "name": "technology-stack",
+  "version": "1.0.2",
+  "description": "Clarity for all Technology used in DWYL products & client work.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwyl/technology-stack.git"
+  },
+  "author": "dwyl & co",
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/dwyl/technology-stack#readme",
+  "dependencies": {
+    "env2": "^2.1.1",
+    "esta": "^4.2.0",
+    "goodparts": "^1.0.4",
+    "hapi-auth-jwt2": "^7.1.3",
+    "hapi-error": "^1.1.3",
+    "hapi-login": "^1.2.2",
+    "hapi-postgres-connection": "^6.1.0",
+    "hapi-redis-connection": "^5.0.0",
+    "hapi-register": "^1.1.0",
+    "hapi-riot": "^1.0.2"
+  },
+  "learn": {
+    "env2": {
+      "use": "Loading Environment Variables",
+      "repo": "learn-environment-variables"
+    },
+    "hapi-auth-jwt2": {
+      "use": "Authentication & Sessions",
+      "repo": "learn-json-web-tokens"
+    },
+    "hapi-redis-connection": {
+      "use": "Simplify Redis Connection",
+      "repo": "learn-redis"
+    },
+    "esta": {
+      "use": "ElasticSearch CRUD",
+      "repo": "learn-elasticsearch"
+    },
+    "hapi-postgres-connection": {
+      "use": "Postgres Connection Pooling",
+      "repo": "learn-postgresql"
+    },
+    "hapi-riot": {
+      "use": "Server-side (Fast) Rendering of Riot Tags",
+      "repo": "learn-riot"
+    },
+    "hapi-error": {
+      "use": "Human-Friendly Error Messages",
+      "repo": "hapi-error#why"
+    },
+    "goodparts": {
+      "use": "Consistent Code (Linting & Style)",
+      "repo": "goodparts#why"
+    },
+    "hapi-login": {
+      "use": "User Login",
+      "repo": "learn-hapi"
+    },
+    "hapi-register": {
+      "use": "User Registration",
+      "repo": "learn-hapi"
+    }
+  }
+}
