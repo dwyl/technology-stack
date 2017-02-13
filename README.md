@@ -1,9 +1,56 @@
-# Technology Stack [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Technology Stack
 
 This document describes the full technology stack we are using in dwyl.
 
 If you have ***any questions*** please
 [***ask***](https://github.com/dwyl/technology-stack/issues)
+
+# "PETE" Stack
+
+"PETE" is an acronym for the following components:
++ **Phoenix** - The Web Application Framework built from scratch
+by experienced "Ruby-on-Rails" developers using all the knowledge
+they gained from building Rails apps.
++ **Elixir** -
++ **Tachyons** -
++ **Elm** -
+
+
+## Database?
+
+The _reason_ we do not _specify_ our Database in the Acronym is
+that Phoenix allows us to use **_any_ Relational Database**.
+
+By _abstracting_ the data layer using "Ecto" the application is "_decoupled_"
+from the database. This means that if a client _asks_ us to deploy to MySQL
+Microsoft SQL Server (_e.g. because they already have in-house capability
+  for maintaining one of these databases, we can easily accomodate that!_)
+
+### We _Prefer_ PostgreSQL
+
+Our "_standard_" (_preference_) @dwyl is for PostgreSQL.
+PostgreSQL is the most "_mature_" Open Source Relational Database,
+_many_ well-known/successful apps rely on PostgreSQL for their database.
+
+https://github.com/dwyl/learn-postgresql/issues/31
+
+
+
+### No JavaScript ?
+
+This not the place to "diss" JavaScript,
+plenty of people have written blog posts/tweets "_ranting_"
+about the "state of JavaScript"
+
++ The Post JavaScript Apocalypse: https://youtu.be/6Fg3Aj9GzNw
+
+<br /> <br />
+
+# Node.js Stack
+
+We refer to our Node.js Stack as "Classic".
+We have deployed this stacked for several of our clients and internal apps.
+It works _really_ well and we have not had any "_scaling issues_".
 
 ## Overview
 
