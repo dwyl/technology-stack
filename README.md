@@ -1,20 +1,65 @@
 # Technology Stack
 
-This document describes the full technology stack we are using in dwyl.
+This document describes the full "Technology Stack"
+we use for dwyl products and services (clients).
 
-If you have ***any questions*** please
-[***ask***](https://github.com/dwyl/technology-stack/issues)
+_If **anything** is **unclear** or you have **any questions** please_
+[***ask***](https://github.com/dwyl/technology-stack/issues).
 
 # "PETE" Stack
 
-"PETE" is an acronym for the following components:
-+ **Phoenix** - The Web Application Framework built from scratch
-by experienced "Ruby-on-Rails" developers using all the knowledge
-they gained from building Rails apps.
-+ **Elixir** -
-+ **Tachyons** -
-+ **Elm** -
+"PETE" is an acronym<sup>1</sup> for the following elements:
 
++ **Phoenix** is a Web Application Framework without compromise.
+Phoenix is the "_successor_"
+to the incredibly popular "Ruby-on-Rails" framework.
+Built _from scratch_ by highly experienced engineers
+who worked on/with Rails. It _solves_
+all of the maintainability, speed/scaling/concurrency, issues
+people felt when building/using Rails apps.
+The list of ***benefits*** Phoenix has over
+(_vertually every_) other Web Frameworks is _extensive_.  <br />
+Please see:
+[github.com/dwyl/learn-phoenix-framework#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
+
++ **Elixir** is the _functional_ programming language used to
+build using the Phoenix framework. Elixir is a _beautiful_ language
+written _from scratch_ to be ***friendly, concise and efficient***.
+***Yes***, Elixir not a "_popular_" as JavaScript, Java, C# or PHP,
+but its' adoption is growing rapidly and most importantly its'
+what many _experienced_ developers are gravitating towards and
+described as their ["most wanted"]()
+Also a language's popularity has more
+to do with the intellectual inertia people/companies have because
+they allow existing (_legacy_) codebases to dictate future development;
+i.e.
+[***sunk cost bias***](http://www.investopedia.com/terms/s/sunk-cost-trap.asp).
+see: [github.com/dwyl/learn-elixir#key-advantages](https://github.com/dwyl/learn-elixir#**key-advantages**)
+
++ **Tachyons** is the most _sane_ way of creating a _beatiful_ web app UI
+that can _easily_ be extended by a team of people
+without fear of one person's change "_breaking_" another feature.
+Unlike "_traditional_" CSS which - _as it's name implies_ - encourages
+"_cascading_" of styles, Tachyons makes the style of each component _specific_
+and _local_ to that component.
+see: https://github.com/dwyl/learn-tachyons
+
++ **Elm** is a front-end developer's _dream_
+made _reality_ by a community of unbelievably
+intelligent and dedicated developers.
+Elm has [**_considerably_ better performance**](http://elm-lang.org/blog/blazing-fast-html-round-two)
+than similar/alternative front-end frameworks e.g: Angular, Ember, React, Vue.js etc. so the "performance" discussion is moot.
+However the _reason_ we love elm is _nothing_ to do
+with "_benchmarks_" and everything to do with the _experience_ of writing/reading/maintaining
+an app built with elm; _that experience is like
+a **reassuring hug** from a loved one_.
+When you discover elm things that used to be _difficult_ or "_error-prone_" become easy and reliable.
+See: [github.com/dwyl/learn-elm#why](https://github.com/dwyl/learn-elm#**why**)
+
+
+
+
+<sup>1</sup><small>Thanks [Jimmy](https://github.com/jruts) for coining the "PETE" acronym. He's the guy we go to for _naming_ and other [_hard things_!](https://twitter.com/codinghorror/status/506010907021828096) ;-)</small>
 
 ## Database?
 
@@ -36,13 +81,18 @@ https://github.com/dwyl/learn-postgresql/issues/31
 
 
 
-### No JavaScript ?
+### No JavaScript in "PETE"?
 
 This not the place to "diss" JavaScript,
 plenty of people have written blog posts/tweets "_ranting_"
-about the "state of JavaScript"
+about the "state of JavaScript"<sup>2</sup>.
 
-+ The Post JavaScript Apocalypse: https://youtu.be/6Fg3Aj9GzNw
+
+
+
++
++ The **Post JavaScript _Apocalypse_**: https://youtu.be/6Fg3Aj9GzNw (_desribes all the features of JS that are "noise"..._)
++
 
 <br /> <br />
 
