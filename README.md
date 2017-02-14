@@ -6,16 +6,25 @@ we use for dwyl products and services (clients).
 _If **anything** is **unclear** or you have **any questions** please_
 [***ask***](https://github.com/dwyl/technology-stack/issues).
 
+## Why?
+
+It's ~~good~~ _essential_ to be _unambiguous_
+about the technology we use for our work.
+
+## What?
+
+
 # "PETE" Stack
 
 "PETE" is an acronym<sup>1</sup> for the following elements:
 
-+ **Phoenix** is a Web Application Framework without compromise.
++ **Phoenix** is a Web Application Framework that does not compromise
+on speed, reliability or maintainability!
 Phoenix is the "_successor_"
 to the incredibly popular "Ruby-on-Rails" framework.
 Built _from scratch_ by highly experienced engineers
 who worked on/with Rails. It _solves_
-all of the maintainability, speed/scaling/concurrency, issues
+all of the speed/socket/scaling/concurrency, issues
 people felt when building/using Rails apps.
 The list of ***benefits*** Phoenix has over
 (_vertually every_) other Web Frameworks is _extensive_.  <br />
@@ -57,9 +66,8 @@ When you discover elm things that used to be _difficult_ or "_error-prone_" beco
 See: [github.com/dwyl/learn-elm#why](https://github.com/dwyl/learn-elm#**why**)
 
 
-
-
-<sup>1</sup><small>Thanks [Jimmy](https://github.com/jruts) for coining the "PETE" acronym. He's the guy we go to for _naming_ and other [_hard things_!](https://twitter.com/codinghorror/status/506010907021828096) ;-)</small>
+<sup>1</sup><small>Thanks [Jimmy](https://github.com/dwyl/technology-stack/issues/37#issuecomment-278282619)
+for _coining_ the "PETE" acronym. He's the guy we go to for _naming_ and other [_hard things_!](https://twitter.com/codinghorror/status/506010907021828096) ;-)</small>
 
 ## Database?
 
@@ -69,38 +77,100 @@ that Phoenix allows us to use **_any_ Relational Database**.
 By _abstracting_ the data layer using "Ecto" the application is "_decoupled_"
 from the database. This means that if a client _asks_ us to deploy to MySQL
 Microsoft SQL Server (_e.g. because they already have in-house capability
-  for maintaining one of these databases, we can easily accomodate that!_)
+  for maintaining one of these databases, we can easily accommodate that!_)
 
-### We _Prefer_ PostgreSQL
+### We _Prefer_ PostgreSQL (Postgres)
 
-Our "_standard_" (_preference_) @dwyl is for PostgreSQL.
-PostgreSQL is the most "_mature_" Open Source Relational Database,
-_many_ well-known/successful apps rely on PostgreSQL for their database.
-
-https://github.com/dwyl/learn-postgresql/issues/31
+![postgresql logo](https://cloud.githubusercontent.com/assets/194400/22939394/6cc00918-f2d6-11e6-8400-77886d70b520.png)
 
 
+Our "_standard_" (_preference_) @dwyl is for Postgres. <br />
+Postgres is the most "_mature_" Open Source Relational Database,
+_many_ well-known/successful apps rely on Postgres for their database.
 
-### No JavaScript in "PETE"?
+> _**NOT** that you should adopt a particular technology
+based on who `else` is using it, <br />
+but it's **good to know** that **plenty** of teams
+are getting **excellent results** with PostgreSQL!
+<br />
+See:_ [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
 
-This not the place to "diss" JavaScript,
-plenty of people have written blog posts/tweets "_ranting_"
-about the "state of JavaScript"<sup>2</sup>.
 
+We have used MySQL, MS SQL Server, Oracle and Aurora and all have their
+pros/cons. The ***reason*** we like/use Postgres is because the ***community***
+is _superb_. There is a great "_bank_" of _answered_ questions on
+[StackOverflow](http://stackoverflow.com/questions/tagged/postgresql)
+and new questions get answered _fast_.
 
-
-
-+
-+ The **Post JavaScript _Apocalypse_**: https://youtu.be/6Fg3Aj9GzNw (_desribes all the features of JS that are "noise"..._)
-+
+> If we were to _consider_ an alternative to SQL, we
+would use RethinkDB:
+https://rethinkdb.com <br />
+But we are _relieved_ that the Phoenix team
+is _focussed_ on PostgreSQL because that _eliminates_ the "discussion"
+of "_which database_" to use! <br />
+Postgres is a _fantastic_ "_general purpose_"
+store that has a _rich_ ("_structured_") query language
+that lets you JOIN data!! <br />
+Also given that [Citus DB is Open Source](https://www.citusdata.com/blog/2016/03/24/citus-unforks-goes-open-source/)
 
 <br /> <br />
+
+### _No JavaScript_ in "PETE"...?
+
+![no-javascript](https://cloud.githubusercontent.com/assets/194400/22939705/88d3e524-f2d7-11e6-91c6-47513f6b4fa7.jpg)
+
+This not the place to "diss" JavaScript;
+_plenty_ of people have written blog posts/tweets "_ranting_"
+about the
+["_State of Web Development_"](https://medium.com/@wob/the-sad-state-of-web-development-1603a861d29f).
+<br />
+e.g: Douglas Crockford (_the authority on JS_) recently gave a presentation on
+The **Post JavaScript _Apocalypse_**: https://youtu.be/6Fg3Aj9GzNw <br />
+(_in which he describes all the "features" of JS that are "**unnecessary**"..._)
+<br />
+
+The **fact** is: we _only_ use JavaScript because it is the
+["***Lingua Franca***"](https://en.wikipedia.org/wiki/Lingua_franca)
+that _all_ web browsers "_understand_".<br />
+It's _definately_ not because it's a "_better_" language than Python or Lisp;
+we write JS out of _necessity_ not by _choice_. <br />
+
+
+With Elm we no longer _need_ to write our Client-side code in JS,
+we can write in a beautiful/functional language <br />
+and "_compile_" it to JS for running in Browsers.
+The JS that is produced by the Elm compiler
+is almost _always_ more efficient/faster <br />
+than "_hand-written_" JS,
+so _why_ would we waste our _time_ with writing JavaScript...?!
+
+> _If you aren't `.ready()` to try something (way) **more productive**
+than **JavaScript**, `.then` please just **ignore** `this`! <br />
+We have written this "Technology Stack" description for **ourselves**
+and not because we want to "**convince**" anyone. <br />
+But ... we wanted to put down our thoughts
+in `case` anyone is
+["**on the fence**"](https://en.wikipedia.org/wiki/Sitting_on_the_fence)!
+If you're in any doubt, ***Just Do it***._
+
+![just-do-it-nike-log](https://cloud.githubusercontent.com/assets/194400/22940322/63db1308-f2d9-11e6-8d84-e024b00e37a4.png)
+
+### What About _Full Stack JavaScript_?
+
+We still think that "***Full Stack JavaScript***"
+is a ***compelling proposition***
+_especially_ for people who are just starting out!
+If you are learning programming and want a "_quick start_"
+
+
+
+<br /> <br /><br /><br />
 
 # Node.js Stack
 
 We refer to our Node.js Stack as "Classic".
-We have deployed this stacked for several of our clients and internal apps.
-It works _really_ well and we have not had any "_scaling issues_".
+We have deployed this stack for many clients and internal apps and achieved great results!
+It works _really_ well and we have not had any "_scaling issues_". See: "tl;dr" section if you _interested_ in ***why*** we decided to "_evolve_".
 
 ## Overview
 
@@ -136,7 +206,7 @@ We ***craft code*** to [***scratch our own itch***](https://github.com/dwyl/star
 ### Dependencies <small>(*projects built by people we trust*)</small>
 
 + **Node.js** - the most popular JavaScript runtime for easily building fast,
-scalable network applications. Lightweight and efficient, perfect for
+~~scalable~~ simple network applications. Lightweight and efficient, perfect for
 data-intensive real-time apps. http://nodejs.org/
 + **Hapi.js** - A rich web framework for building applications and services.
 https://github.com/dwyl/learn-hapi
@@ -176,5 +246,100 @@ We use and *recommend* Travis-CI for Continuous Integration (CI).
 If you or anyone on your team are *new* to Travis-CI,
 checkout our beginners guide: https://github.com/dwyl/learn-travis
 
-<br />
-<br />
+<br /> <br /> <br /> <br />
+
+
+## tl;dr
+
+There is _no shortage_ of options available for
+Technology Stack: https://www.google.co.uk/search?q=technology+stack&tbm=isch
+How did we _arrive_ at the conclusion that "PETE"
+was "_the **one**_" for us?
+
+### *Contextualising* Technology Adoption (Mini History Lesson)
+
+In 2006 _nobody_ was making/buying "smart" mobile phones
+with glass touch screens that ran "apps" ...
+in [January 2007 Steve Jobs introduced the iPhone](https://www.youtube.com/results?search_query=Steve+Jobs+iPhone+Introduction+2007)
+and _litterally_ changed the industry!
+
+![Steve Jobs introduces iphone](https://cloud.githubusercontent.com/assets/194400/22934275/4bc76090-f2c6-11e6-9b90-91226e39ea09.png)
+
+The dominant/incumbent devices maker **Nokia**
+(_which had_ [***49% market share in 2007***](http://www.bbc.co.uk/news/technology-23947212))
+_mocked_ Apple's lack of features, poor battery life and high price.
+By 2013 Nokia had 3% Market Share and was sold off "for parts" to Microsoft
+while Apple was the [most valuable company](https://www.statista.com/statistics/263264/top-companies-in-the-world-by-market-value/)
+on the planet!
+
+> _Many **people still buy** "**feature phones**"
+(the polite name a device that does not have any
+  "smart" functionality!) <br />
+but few people can **convincingly** argue that the **reason**
+they **don't have** a smart phone is because they **don't want** one; <br />
+[**over 90% 16-24 year olds own a smart phone**](https://www.ofcom.org.uk/about-ofcom/latest/media/media-releases/2015/cmr-uk-2015) ...
+ask someone in their 20's if they would go "**back**"
+to using a non-smart phone <br />
+and see what they say ... "**No Way**!!" they laugh uncomfortably and
+admit that: "**My Smartphone is my Life**!" <br />
+We feel **exactly** the same about "**old technology**".
+Sure the "**old way still works**",
+but if you can **inexpensively switch** <br />
+to something **demonstrably better** in **every dimension**,
+why would you stick with the "feature phone" of web frameworks...?_
+
+We are not _suggesting_ that _everyone_
+is going to _suddenly_ flock to the "PETE" stack
+the way people adopted smart phones.
+This is merely an _illustration_ that when a technology
+has a _specific_ advantage to it's users the adoption _can_ be fast.
+
+In the case of programming languages or application frameworks,
+moving one framework to another is a _much_ more difficult decision.
+
+But one thing is for _sure_ we are going to use the "_smart phone_"
+even if other people insist on using the
+
+### Availablility Bias
+
+When we started using Node.js in 2010 _almost nobody_ was using it.
+In fact there were _many_ blog posts & tweets asserting that
+using JavaScript "on the server" was a "***terrible idea***".
+But
+The reason we aren't using Node.js for any new projects
+
+### But Phoenix Uses Node.js for Static Asset Compilation ...
+
+***Yes***, if you are using the "_static asset compilation_"
+
+
+Our _reasoning_ for
+_considering_ an alternative approach was fueled
+by the _maturity_ of Elixir, Phoenix and Elm!
+
+### Does it Scale?!?
+
+If you are new to web development, _forget about "**scale**"_! <br />
+
+> _Unless you work somewhere that
+  **already** has "**millions of users**" and <br />
+your team **cannot consider** anything that does not support a million concurrent users..._ <br />
+
+> _But let's face it, **most** people have [**imaginary scaling
+issues**](https://twitter.com/ThePracticalDev/status/800752571497545729)
+not **real** ones. <br />
+discussing "scalability" before you have 10,000 paying customers is
+a waste of time!!_ <br />
+
+Stop worrying about "scalability"
+and instead **focus** on building something **useful** <br />
+**focus** on **User Experience** not "backend" **scalability**!
+
+The _good_ news is that Phoenix was _does_ "***scale***" _really well_! <br />
+see: http://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections
+
+Forget about "_scaling_" until you have _made_
+[***something people want***](http://paulgraham.com/good.html)
+and are _paying_ for! <br />
+Then _use_ the pile of cash you got from your product
+to hire "_engineers_" to make it _available_ to more people!!
