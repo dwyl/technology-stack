@@ -130,6 +130,17 @@ that lets you JOIN data!! <br />
 Also, now that [Citus DB is Open Source](https://www.citusdata.com/blog/2016/03/24/citus-unforks-goes-open-source)
 we _know_ that Postgres can _easily_ handle billions of writes per day!
 
+## Operating System?
+
+A "_traditional_" "**LAMP**" stack includes the **Linux** Operating System
+in the _name_. <br />
+The "**PETE**" stack runs on _any_ (_desktop/server_) Operating System <br />
+and can be deployed to any "_cloud_" infrastructure provider. <br />
+
+While we have a _strong_ preference for Unix (e.g. FreeBSD) or
+Linux (_e.g. Ubuntu or CentOS_) we know that <br />
+_both_ Phoenix and Postgres run
+on almost _any_ environment _including_ Microsoft Windows (_because Erlang!_)
 
 <br /> <br />
 
@@ -236,12 +247,12 @@ and _litterally_ changed the industry!
 
 ![Steve Jobs introduces iphone](https://cloud.githubusercontent.com/assets/194400/22934275/4bc76090-f2c6-11e6-9b90-91226e39ea09.png)
 
-The dominant/incumbent devices maker **Nokia**
-(_which had_ [***49% market share in 2007***](http://www.bbc.co.uk/news/technology-23947212))
-_mocked_ Apple's lack of features, poor battery life and high price.
+The dominant/incumbent mobile phone maker **Nokia** had
+[***49% market share in 2007***](http://www.bbc.co.uk/news/technology-23947212)
+_mocked_ Apple's lack of features, poor battery life and high price. <br />
 By 2013 Nokia had 3% Market Share and was sold off "for parts" to Microsoft
 while Apple was the [most valuable company](https://www.statista.com/statistics/263264/top-companies-in-the-world-by-market-value/)
-on the planet!
+in history!
 
 > _Many **people still buy** "**feature phones**"
 (the polite name a device that does not have any
@@ -342,12 +353,18 @@ e.g: Douglas Crockford (_the authority on JS_) recently gave a presentation on
 The **Post JavaScript _Apocalypse_**: https://youtu.be/6Fg3Aj9GzNw <br />
 (_in which he describes all the "features" of JS that are "**unnecessary**"..._)
 <br />
+Or Max Ogden (_a prominent JS developer_) who created
+a website dedicated to the "Callback Hell" issue: http://callbackhell.com <br />
+why do we even _need_ to have an _expression_ for that?
+why can't ***elegant*** asynchronous control flow
+be the **_only_ way** to write code?
+
 
 The **fact** is: we _only_ use JavaScript because it is the
 ["***Lingua Franca***"](https://en.wikipedia.org/wiki/Lingua_franca)
 that _all_ web browsers "_understand_".<br />
 It's _definately_ not because it's a "_better_" language than Python or Lisp;
-we write JS out of _necessity_ not by _choice_. <br />
+we write JS out of _necessity_ not _choice_. <br />
 
 
 With Elm we no longer _need_ to write our Client-side code in JS,
