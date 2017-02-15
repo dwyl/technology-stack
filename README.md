@@ -1,10 +1,5 @@
 # Technology Stack
 
-This document describes the full "Technology Stack"
-we use for dwyl products and services (clients).
-
-_If **anything** is **unclear** or you have **any questions** please_
-[***ask***](https://github.com/dwyl/technology-stack/issues).
 
 ## Why?
 
@@ -13,8 +8,19 @@ about the technology we use for our work.
 
 ## What?
 
+This document + diagram _describes_ the full "**PETE**" Technology Stack
+we use for dwyl products and services (clients).
 
-# "PETE" Stack
+
+For an _example_ project where this "Stack" is implemented
+see: https://github.com/healthlocker/healthlocker
+
+_If **anything** is **unclear** or you have **any questions** please_
+[***ask***](https://github.com/dwyl/technology-stack/issues).
+
+### The "PETE" Stack
+
+![dwyl-pete-stack](https://cloud.githubusercontent.com/assets/194400/23000022/7e7c9c88-f3d6-11e6-952a-6d394c0b53f1.png)
 
 "PETE" is an acronym<sup>1</sup> for the following elements:
 
