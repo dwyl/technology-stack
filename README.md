@@ -3,7 +3,8 @@
 
 ## Why?
 
-As a ***development team member*** it's ~~good~~ _essential_ to **be _unambiguous_**
+As a ***development team***, <br />
+it's ~~good~~ _essential_ to **be _unambiguous_**
 about the **technology/tools** we use for our work. <br />
 **So that _everyone_** is **clear** what we need to learn/use
 to deliver **outstanding results**!
@@ -11,11 +12,15 @@ to deliver **outstanding results**!
 > _If **anything** is **unclear** or you have **any questions** please_
 [***ask***](https://github.com/dwyl/technology-stack/issues).
 
-### Why Switch from What _Already_ Good At...?
+#### Why Consider a "New Stack" when we _Already_ Good with the "Old" One...?
 
 Our _reasoning_ for
-_considering_ an alternative approach/stack was fueled by our _curiousity_
-and ["_shoshin_"](https://en.wikipedia.org/wiki/Shoshin).
+_considering_ an alternative approach/stack for building web apps
+was fueled by our
+[_curiousity_](https://www.goodreads.com/quotes/tag/curiosity)
+and
+["_shoshin_"](https://en.wikipedia.org/wiki/Shoshin). <br />
+
 In November 2016 we [_surveyed_](https://github.com/dwyl/learn-elm/issues/10) the "landscape" of web app development,
 and were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
 made by the people in the Elixir, Phoenix and Elm comminities!
