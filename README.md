@@ -432,16 +432,6 @@ moving one framework to another is a _much_ more difficult decision.
 But one thing is for _sure_ we are going to use the "_smart phone_"
 even if other people insist on using the "brick".
 
-<!--
-### Availabilility Bias
-
-When we started using Node.js in 2010 _almost nobody_ was using it.
-In fact there were _many_ blog posts & tweets asserting that
-using JavaScript "on the server" was a "***terrible idea***".
-At the time
-But
-The reason we aren't using Node.js for any new projects
--->
 
 ### But Phoenix Uses Node.js for Static Asset Compilation ...
 
