@@ -465,7 +465,7 @@ Stop worrying about "scalability"
 and instead **focus** on building something **useful** <br />
 **focus** on **User Experience** not "backend" **scalability**!
 
-The _good_ news is that Phoenix was _does_ "***scale***" _really well_! <br />
+The _good_ news is that Phoenix "***scales***" _really well_! <br />
 see: http://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections
 
 Forget about "_scaling_" until you have _made_
@@ -499,12 +499,14 @@ be the **_only_ way** to write code?
 The **fact** is: we _only_ use JavaScript because it is the
 ["***Lingua Franca***"](https://en.wikipedia.org/wiki/Lingua_franca)
 that _all_ web browsers "_understand_".<br />
-It's _definately_ not because it's a "_better_" language than Python or Lisp;
+It's _definitely_ not because it's a
+"_better_" language than Python, Julia or Lisp;
 we write JS out of _necessity_ not _choice_. <br />
 
 
-With Elm we no longer _need_ to write our Client-side code in JS,
-we can write in a beautiful/functional language <br />
+With Elm we no longer _need_ to write our Client-side
+(_progressive enhancement_) code in JavaScript!
+We can write in a beautiful/functional language <br />
 and "_compile_" it to JS for running in Browsers.
 The JS that is produced by the Elm compiler
 is almost _always_ more efficient/faster <br />
