@@ -21,8 +21,9 @@ was fueled by our
 and
 ["_shoshin_"](https://en.wikipedia.org/wiki/Shoshin). <br />
 
-> "_The important thing is not to **stop questioning**. **Curiosity** has its own reason for existence._" - "Old Man's Advice to Youth: 'Never Lose a Holy Curiosity.'"
-LIFE Magazine (2 May 1955) p. 64” ~ Albert Einstein
+> "_The important thing is not to **stop questioning**. **Curiosity** has its own reason for existence._" ~ Albert Einstein <br /> ~
+"Old Man's Advice to Youth: '**Never Lose** a Holy ***Curiosity***.'"
+LIFE Magazine (2 May 1955) p. 64”
 
 In November 2016 we (_once again_) **questioned our _assumptions_**,
 ***re-examined*** and
@@ -49,6 +50,7 @@ We have made a "***Complete Beginner's Guide***" for each element in the stack,
 so that we:
 + ***Document our collective learning***
 `while` we are building projects.
+(_because as humans we **forget fast** unless we **write it**_!)
 + ***Share*** our knowledge with other people so we can
   + Help to train (_potential_) new team members as effectively as possible.
   + "Onboard" the client team (_who may want/need_) to
@@ -58,6 +60,8 @@ so that we:
   interested in _understanding_ the project.
   + Enlighten other teams/organisations/agencies/etc. we aren't in
   _direct_ contact with that there is a "_more fun_" way of building software!
++ Make _everyone's_ life easier/better
+by having a "launch pad" for [_rapid_ learning](https://youtu.be/hOZnP4dZYK0)!
 
 > For an _example_ project where this "Stack" is _implemented_
 see: https://github.com/healthlocker/healthlocker
