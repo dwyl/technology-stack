@@ -42,7 +42,8 @@ we use for dwyl products and services (clients).
 Each element in our stack was _carefully_ selected based
 on it's individual merits. <br />
 When _assembled_ into a seamless "machine",
-the stack _unrivaled_ for developer productivity and world-class quality!
+the stack _unrivaled_ for **developer productivity**
+and ***world-class quality***!
 
 ### Tutorials!
 
@@ -88,10 +89,10 @@ The list of ***benefits*** Phoenix has over
 Please see:
 [github.com/dwyl/learn-phoenix-framework#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
 
-+ **Elixir** is the _functional_ programming language used to
-build using the Phoenix framework. Elixir is a _beautiful_ language
++ **Elixir** is the _functional_ programming language used
+by the Phoenix framework. Elixir is a _beautiful_ language
 written _from scratch_ to be ***friendly, concise and efficient***.
-***Yes***, Elixir not a "_popular_" as JavaScript, Java, C# or PHP,
+***Yes***, Elixir not as "_popular_" as JavaScript, Java, C# or PHP,
 but its' adoption is growing rapidly and most importantly its'
 what many _experienced_ developers are gravitating towards and
 described as their ["most wanted"]()
@@ -102,7 +103,7 @@ i.e.
 [***sunk cost bias***](http://www.investopedia.com/terms/s/sunk-cost-trap.asp).
 see: [github.com/dwyl/learn-elixir#key-advantages](https://github.com/dwyl/learn-elixir#**key-advantages**)
 
-+ **Tachyons** is the most _sane_ way of creating a _beatiful_ web app UI
++ **Tachyons** is the most _sane_ way of creating a _beautiful_ web app UI
 that can _easily_ be extended by a team of people
 without fear of one person's change "_breaking_" another feature.
 Unlike "_traditional_" CSS which - _as it's name implies_ - encourages
@@ -115,7 +116,7 @@ made _reality_ by a community of unbelievably
 brilliant and dedicated developers. <br />
 While Elm is
 [***incredibly fast***](http://elm-lang.org/blog/blazing-fast-html-round-two)
-the _reason_ we love elm is _nothing_ to do
+the _reason_ we love elm has _nothing_ to do
 with "_benchmarks_" and everything to do
 with the _experience_ of writing/reading/maintaining
 an app built with elm; _that experience is like
