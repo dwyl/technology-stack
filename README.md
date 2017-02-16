@@ -3,24 +3,57 @@
 
 ## Why?
 
-It's ~~good~~ _essential_ to be _unambiguous_
-about the technology we use for our work.
+As a ***development team member*** it's ~~good~~ _essential_ to **be _unambiguous_**
+about the **technology/tools** we use for our work. <br />
+**So that _everyone_** is **clear** what we need to learn/use
+to deliver **outstanding results**!
+
+> _If **anything** is **unclear** or you have **any questions** please_
+[***ask***](https://github.com/dwyl/technology-stack/issues).
+
+### Why Switch from What _Already_ Good At...?
+
+Our _reasoning_ for
+_considering_ an alternative approach/stack was fueled by our _curiousity_
+and ["_shoshin_"](https://en.wikipedia.org/wiki/Shoshin).
+In November 2016 we [_surveyed_](https://github.com/dwyl/learn-elm/issues/10) the "landscape" of web app development,
+and were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
+made by the people in the Elixir, Phoenix and Elm comminities!
+These technologies are set to "***take off***" in 2017 and we are _excited_
+to be _sharing_ the technical/competitve advantage with our clients!
 
 ## What?
 
 This document + diagram _describes_ the full "**PETE**" Technology Stack
 we use for dwyl products and services (clients).
 
+Each element in our stack was _carefully_ selected based
+on it's individual merits. <br />
+When _assembled_ into a seamless "machine",
+the stack _unrivaled_ for developer productivity and word-class quality!
 
-For an _example_ project where this "Stack" is implemented
+### Tutorials!
+
+We have made a "***Complete Beginner's Guide***" for each element in the stack,
+so that we:
++ ***Document our collective learning***
+`while` we are building projects.
++ ***Share*** our knowledge with other people so we can
+  + Help to train (_potential_) new team members as effectively as possible.
+  + "Onboard" the client team (_who may want/need_) to
+  support/maintain the codebase/project if/when we _seamlessly_ "hand over".
+  + Inform the wider community of both technical _and_ non-technical
+  people ("stake holders") who are _generally_
+  interested in _understanding_ the project.
+  + Enlighten other teams/organisations/agencies/etc. we aren't in
+  _direct_ contact with that there is a "_more fun_" way of building software!
+
+> For an _example_ project where this "Stack" is _implemented_
 see: https://github.com/healthlocker/healthlocker
-
-_If **anything** is **unclear** or you have **any questions** please_
-[***ask***](https://github.com/dwyl/technology-stack/issues).
 
 ### The "PETE" Stack
 
-![dwyl-pete-stack](https://cloud.githubusercontent.com/assets/194400/23000022/7e7c9c88-f3d6-11e6-952a-6d394c0b53f1.png)
+![dwyl-pete-stack](https://cloud.githubusercontent.com/assets/194400/23000461/8688abcc-f3d8-11e6-86ab-804720619d8e.png)
 
 "PETE" is an acronym<sup>1</sup> for the following elements:
 
@@ -102,8 +135,13 @@ we can easily accommodate that without re-writing _any_ of the Phoenix app!
 ![postgresql logo](https://cloud.githubusercontent.com/assets/194400/22939394/6cc00918-f2d6-11e6-8400-77886d70b520.png)
 
 
-Our "_standard_" (_preference_) @dwyl is for Postgres. <br />
+Our "_standard_" (_preference_) @dwyl is for Postgres.
+see: https://github.com/dwyl/learn-postgresql/
+<br />
 Postgres is the most "_mature_" Open Source Relational Database.
+It's ***100% Free*** (_including all "advanced" features_) <br />
+and has been deployed and ***battle-tested*** in ***every*** environment
+from AWS to "Bare Metal" and Google Cloud to Microsoft Azure!
 
 
 >_**Many** well-known/successful apps rely
@@ -115,8 +153,8 @@ are getting **excellent results** with PostgreSQL!
 <br />
 See:_ [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
 
-
-We have used MySQL, MS SQL Server, Oracle and Aurora; all
+We have used _most_ of the "_popular_" Relation Databases.
+e.g: MySQL, MS SQL Server, Oracle and Aurora; all
 [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)
 have their pros/cons. <br />
 The ***reason*** we like/use Postgres is because the ***community***
@@ -124,18 +162,7 @@ is _superb_. There is a great "_bank_" of _answered_ questions on
 [StackOverflow](http://stackoverflow.com/questions/tagged/postgresql)
 and new questions get answered _fast_.
 
-> If we were to _consider_ an alternative to SQL, we
-would use RethinkDB:
-https://rethinkdb.com <br />
-But we are _relieved_ that the Phoenix team
-is _focussed_ on PostgreSQL because that _eliminates_ <br />
-the "ambiguity" or "discussion" of "_which database_" to use!
-Postgres is a _fantastic_ "_general purpose_" <br />
-store that has a _rich_ ("_structured_") query language
-that lets you JOIN data!! <br />
-Also, now that [Citus DB is Open Source](https://www.citusdata.com/blog/2016/03/24/citus-unforks-goes-open-source)
-we _know_ that Postgres can _easily_ handle billions of writes per day!
-
+<br />
 ## Operating System?
 
 A "_traditional_" "**LAMP**" stack includes the **Linux** Operating System
@@ -146,9 +173,84 @@ and can be deployed to any "_cloud_" infrastructure provider. <br />
 While we have a _strong_ preference for Unix (e.g. FreeBSD) or
 Linux (_e.g. Ubuntu or CentOS_) we know that <br />
 _both_ Phoenix and Postgres run
-on almost _any_ environment _including_ Microsoft Windows (_because Erlang!_)
+on almost _any_ environment _including_ Microsoft Windows Desktop & Server.
+
+<br />
+## Continuous Integration
+
+We use and *recommend* Travis-CI for Continuous Integration (CI).
+If you or anyone on your team are *new* to Travis-CI,
+checkout our beginners guide: https://github.com/dwyl/learn-travis
+
+<br />
+## Deployment
+
+We make a point of deploying our work as _soon_ as
+there is something worth showing to the target audience of "_end users_"
+so that we can get ***feedback*** as early as possible.
+
+### "Development" and Testing
+
+We use Heroku for all our development deployment.
+It's a **by _far_ the most time-effective** way to "_ship_" <br />
+the project and get it _tried & tested_ by _real_ people.
+Using heroku is like having a "Dedicated DevOps" person
+on the team. <br />
+Once the deployment is configured we can automatically deploy
+a _new version_ of app for each feature and test incrementally.<br />
+This alone is worth the _modest_ fee Heroku charges for their service!
+<br >
+
+> For a ***step-by-step guide*** to **deploying** a Phoenix ("PETE")
+application to **Heroku**, <br />
+please see:
+[github.com/dwyl/learn-phoenix-framework/**heroku-deployment**](https://github.com/dwyl/learn-phoenix-framework/blob/master/heroku-deployment.md) <br />
+(_special thanks to [Tony](https://github.com/tonydaly) & [Jimmy](https://github.com/jruts) for doing a superb putting the guide together!_)
+
+"_Under the Hood_" Heroku is using AWS for their infrastructure. <br />
+So when we need to "_graduate_" an app from Heroku to AWS it's easy!
+
+### "Production"
+
+Our _preference_ is to deploy to Amazon Web Services (AWS)
+because we have good experience/knowledge of the platform.
+
+### Microsoft Azure
+
+One of our projects has a _requirement_ to be deployed
+to Microsoft Azure Cloud. We achieve this with the following
+configuration:
+
+#### Application Server
+
+The Phoenix Application Server is hosted on (_a minimum of_)
+Two Linux Servers <br />
+(_often many more which "**message**"
+one another to distribute load as a cluster_). <br />
+The "_cluster_" is managed by Erlang's "Supervisor".
+The Erlang Supervisor is the "_Gold Standard_" in infrastructure management,
+having been used by Telecoms companies for over 20 years in production
+with some Telcos reporting 99.99999% ("_seven nines_") of "_up-time_".
+
+> It's _far_ more likely that the _infrastructure_ provider (_e.g. AWS/Azuer_)
+will have a fault in their network/datacenter than an Erlang server "crashing".
+
+
+#### Database Cluster
+
+Thanks to Esmaeil Sarabadani of Haufe.com there is a "Template"
+for deploying a ***Highly-Available PostgreSQL Cluster on Azure***
+this can be setup with only a few clicks and scaled automatically
+to as little or large as required!
+See: http://dev.haufe.com/PostgreSQL-Cluster-Azure/
+
+#### SSL/TLS Encryption
+
+All communication is over secure/encrypted channel at all times.
+
 
 <br /> <br />
+<hr />
 
 # Node.js Stack
 
@@ -156,9 +258,18 @@ on almost _any_ environment _including_ Microsoft Windows (_because Erlang!_)
 We have deployed our Node.js stack for many clients
 and internal apps and achieved great results! <br />
 It works _really_ well and we have not had any issues with "_performance_"
-or "_scaling_" using AWS, and there's no "_reason_" to "_rewrite_"
-any of our _existing_ projects to _any_ other "_stack_".
-See: "tl;dr" section if you _interested_ in ***why*** we decided to "_evolve_".
+or "_scaling_" deploying to AWS.
+> For an example of an app built using our Node.js Stack see:
+https://github.com/TheScienceMuseum/collectionsonline <br />
+and https://github.com/emfoundation/ce100-app
+
+There's no "_reason_" to "_rewrite_"
+any of our _existing_ projects to _any_ other "_stack_". <br />
+Node.js works perfectly well and will continue to be supported for the lifetime
+of the project(s)
+
+> See: "***tl;dr***" section below if you _interested_
+in ***why*** we decided to "_evolve_" to "***PETE***" for ***new*** projects...
 
 ## Overview
 
@@ -228,12 +339,6 @@ https://github.com/dwyl/learn-istanbul#tracking-coverage-as-a-service
 + **CodeClimate** for tracking code quality:
 https://github.com/dwyl/learn-codeclimate
 
-### Continuous Integration
-
-We use and *recommend* Travis-CI for Continuous Integration (CI).
-If you or anyone on your team are *new* to Travis-CI,
-checkout our beginners guide: https://github.com/dwyl/learn-travis
-
 <br /> <br /> <br /> <br />
 
 
@@ -246,8 +351,18 @@ was "_the **one**_" for us?
 
 ### *Contextualising* Technology Adoption (Mini History Lesson)
 
+In **1996** Nokia introduced the ["***Communicator***"](https://en.wikipedia.org/wiki/Nokia_Communicator)
+and was a **_incredible_ revolutionary innovation**!
+**Internet, Email and _Fax_** in your ***Pocket***!!
+![nokia-communicator](https://cloud.githubusercontent.com/assets/194400/23014351/89c07b64-f426-11e6-8c5a-f93b71a3aa53.jpg) <br />
+Nokia continued to _dominate_ the mobile phone industry/market for the next
+***decade*** producing the _best-selling_
+**5110** and **3310** we all remember!
+But by being "_ahead_" they were unable to see the "_challenger_"
+coming "_out of nowhere_" to challenge their position.
+
 In 2006 _nobody_ was making/buying "smart" mobile phones
-with glass touch screens that ran "apps" ...
+with glass touch screens that ran "apps" ... <br />
 in [January 2007 Steve Jobs introduced the iPhone](https://www.youtube.com/results?search_query=Steve+Jobs+iPhone+Introduction+2007)
 and _litterally_ changed the industry!
 
@@ -256,37 +371,41 @@ and _litterally_ changed the industry!
 The dominant/incumbent mobile phone maker **Nokia** had
 [***49% market share in 2007***](http://www.bbc.co.uk/news/technology-23947212)
 _mocked_ Apple's lack of features, poor battery life and high price. <br />
-By 2013 Nokia had 3% Market Share and was sold off "for parts" to Microsoft
+By 2013 Nokia had 3% Market Share (_for new device sales_) and was sold off "for parts" to Microsoft
 while Apple was the [most valuable company](https://www.statista.com/statistics/263264/top-companies-in-the-world-by-market-value/)
 in history!
 
 > _Many **people still buy** "**feature phones**"
-(the polite name a device that does not have any
+(the polite name a for device that does not have any
   "smart" functionality!) <br />
 but few people can **convincingly** argue that the **reason**
 they **don't have** a smart phone is because they **don't want** one; <br />
-[**over 90% 16-24 year olds own a smart phone**](https://www.ofcom.org.uk/about-ofcom/latest/media/media-releases/2015/cmr-uk-2015) ...
+[**over 90% 16-24 year olds own a smart phone**](https://www.ofcom.org.uk/about-ofcom/latest/media/media-releases/2015/cmr-uk-2015) and that number is expected to reach 100% by 2020 ... <br />
 ask someone in their 20's if they would go "**back**"
-to using a non-smart phone <br />
-and see what they say ... "**No Way**!!" they laugh uncomfortably and
+to using a non-smart phone
+and see what they say ... "**No Way**!!" <br />
+they laugh uncomfortably and
 admit that: "**My Smartphone is my Life**!" <br />
 We feel **exactly** the same about "**old technology**".
 Sure the "**old way still works**",
 but if you can **inexpensively switch** <br />
-to something **demonstrably better** in **every dimension**,
-why would you stick with the "feature phone" of web frameworks...?_
+to something **demonstrably better** in **every aspect**,
+why would you stick with the "feature phone" of web frameworks...?_ <br />
+_It's like taking the Bus to work when there's a perfectly
+good teleporter right next to the bus stop!! Madness._
 
 We are not _suggesting_ that _everyone_
-is going to _suddenly_ flock to the "PETE" stack
+is going to _suddenly_ flock to the "**PETE**" stack
 the way people adopted smart phones.
 This is merely an _illustration_ that when a technology
-has a _specific_ advantage to it's users the adoption _can_ be fast.
+has a _specific/measurable_ advantage to it's users
+the adoption _can_ be _fast_.
 
 In the case of programming languages or application frameworks,
 moving one framework to another is a _much_ more difficult decision.
 
 But one thing is for _sure_ we are going to use the "_smart phone_"
-even if other people insist on using the
+even if other people insist on using the "brick".
 
 <!--
 ### Availabilility Bias
@@ -309,11 +428,6 @@ The [`elm` compiler](https://github.com/elm-lang/elm-compiler)
 is written in Haskell so technically we aren't writing _any_ JS
 in our PETE projects.
 
-<!--
-Our _reasoning_ for
-_considering_ an alternative approach was fueled
-by the _maturity_ of Elixir, Phoenix and Elm!
--->
 
 ### Does it Scale?!?
 
@@ -399,3 +513,18 @@ is a ***compelling proposition***
 _especially_ for people who are just starting out!
 If you are learning programming and want a "_quick start_"
 try Meteor.js!!
+
+
+### Alternative Databases?
+
+If we were to _consider_ an alternative to SQL, we
+would use RethinkDB:
+https://rethinkdb.com <br />
+But we are _relieved_ that the Phoenix team
+is _focussed_ on PostgreSQL because that _eliminates_ <br />
+the "ambiguity" or "discussion" of "_which database_" to use!
+Postgres is a _fantastic_ "_general purpose_" <br />
+store that has a _rich_ ("_structured_") query language
+that lets you JOIN data!! <br />
+Also, now that [Citus DB is Open Source](https://www.citusdata.com/blog/2016/03/24/citus-unforks-goes-open-source)
+we _know_ that Postgres can _easily_ handle billions of writes per day!
