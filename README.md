@@ -42,7 +42,8 @@ we use for dwyl products and services (clients).
 Each element in our stack was _carefully_ selected based
 on it's individual merits. <br />
 When _assembled_ into a seamless "machine",
-the stack _unrivaled_ for developer productivity and word-class quality!
+the stack _unrivaled_ for **developer productivity**
+and ***world-class quality***!
 
 ### Tutorials!
 
@@ -88,13 +89,13 @@ The list of ***benefits*** Phoenix has over
 Please see:
 [github.com/dwyl/learn-phoenix-framework#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
 
-+ **Elixir** is the _functional_ programming language used to
-build using the Phoenix framework. Elixir is a _beautiful_ language
++ **Elixir** is the _functional_ programming language used
+by the Phoenix framework. Elixir is a _beautiful_ language
 written _from scratch_ to be ***friendly, concise and efficient***.
-***Yes***, Elixir not a "_popular_" as JavaScript, Java, C# or PHP,
-but its' adoption is growing rapidly and most importantly its'
-what many _experienced_ developers are gravitating towards and
-described as their ["most wanted"]()
+***Yes***, Elixir not as "_popular_" as JavaScript, Java, C# or PHP,
+but the adoption is _growing rapidly_ and most importantly
+many _experienced_ developers are gravitating towards and
+described as their ["most wanted"](https://github.com/dwyl/the-book#you-will-learn-in-demand-tech-toolsskills)
 Also a language's popularity has more
 to do with the intellectual inertia people/companies have because
 they allow existing (_legacy_) codebases to dictate future development;
@@ -102,7 +103,7 @@ i.e.
 [***sunk cost bias***](http://www.investopedia.com/terms/s/sunk-cost-trap.asp).
 see: [github.com/dwyl/learn-elixir#key-advantages](https://github.com/dwyl/learn-elixir#**key-advantages**)
 
-+ **Tachyons** is the most _sane_ way of creating a _beatiful_ web app UI
++ **Tachyons** is the most _sane_ way of creating a _beautiful_ web app UI
 that can _easily_ be extended by a team of people
 without fear of one person's change "_breaking_" another feature.
 Unlike "_traditional_" CSS which - _as it's name implies_ - encourages
@@ -115,7 +116,7 @@ made _reality_ by a community of unbelievably
 brilliant and dedicated developers. <br />
 While Elm is
 [***incredibly fast***](http://elm-lang.org/blog/blazing-fast-html-round-two)
-the _reason_ we love elm is _nothing_ to do
+the _reason_ we love elm has _nothing_ to do
 with "_benchmarks_" and everything to do
 with the _experience_ of writing/reading/maintaining
 an app built with elm; _that experience is like
@@ -250,7 +251,7 @@ The Erlang Supervisor is the "_Gold Standard_" in infrastructure management,
 having been used by Telecoms companies for over 20 years in production
 with some Telcos reporting 99.99999% ("_seven nines_") of "_up-time_".
 
-> It's _far_ more likely that the _infrastructure_ provider (_e.g. AWS/Azuer_)
+> It's _far_ more likely that the _infrastructure_ provider (_e.g. AWS/Azure_)
 will have a fault in their network/datacenter than an Erlang server "crashing".
 
 
@@ -383,13 +384,13 @@ and was a **_incredible_ revolutionary innovation**!
 Nokia continued to _dominate_ the mobile phone industry/market for the next
 ***decade*** producing the _best-selling_
 **5110** and **3310** we all remember! <br />
-But by being "_ahead_" Nokia were _unable_ to see the "_contender_"
+But by being "_ahead_" Nokia was _unable_ to see the "_contender_"
 coming "_out of nowhere_" to challenge their position.
 
 In 2006 _nobody_ was making/buying "smart" mobile phones
 with glass touch screens that ran "apps" ... <br />
 in [January 2007 Steve Jobs introduced the iPhone](https://www.youtube.com/results?search_query=Steve+Jobs+iPhone+Introduction+2007)
-and _litterally_ changed the industry!
+and _literally_ changed the industry!
 
 ![Steve Jobs introduces iphone](https://cloud.githubusercontent.com/assets/194400/22934275/4bc76090-f2c6-11e6-9b90-91226e39ea09.png)
 
@@ -464,7 +465,7 @@ Stop worrying about "scalability"
 and instead **focus** on building something **useful** <br />
 **focus** on **User Experience** not "backend" **scalability**!
 
-The _good_ news is that Phoenix was _does_ "***scale***" _really well_! <br />
+The _good_ news is that Phoenix "***scales***" _really well_! <br />
 see: http://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections
 
 Forget about "_scaling_" until you have _made_
@@ -498,12 +499,14 @@ be the **_only_ way** to write code?
 The **fact** is: we _only_ use JavaScript because it is the
 ["***Lingua Franca***"](https://en.wikipedia.org/wiki/Lingua_franca)
 that _all_ web browsers "_understand_".<br />
-It's _definately_ not because it's a "_better_" language than Python or Lisp;
+It's _definitely_ not because it's a
+"_better_" language than Python, Julia or Lisp;
 we write JS out of _necessity_ not _choice_. <br />
 
 
-With Elm we no longer _need_ to write our Client-side code in JS,
-we can write in a beautiful/functional language <br />
+With Elm we no longer _need_ to write our Client-side
+(_progressive enhancement_) code in JavaScript!
+We can write in a beautiful/functional language <br />
 and "_compile_" it to JS for running in Browsers.
 The JS that is produced by the Elm compiler
 is almost _always_ more efficient/faster <br />
