@@ -42,7 +42,7 @@ we use for dwyl products and services (clients).
 Each element in our stack was _carefully_ selected based
 on it's individual merits. <br />
 When _assembled_ into a seamless "machine",
-the stack _unrivaled_ for developer productivity and word-class quality!
+the stack _unrivaled_ for developer productivity and world-class quality!
 
 ### Tutorials!
 
