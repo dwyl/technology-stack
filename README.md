@@ -251,7 +251,7 @@ The Erlang Supervisor is the "_Gold Standard_" in infrastructure management,
 having been used by Telecoms companies for over 20 years in production
 with some Telcos reporting 99.99999% ("_seven nines_") of "_up-time_".
 
-> It's _far_ more likely that the _infrastructure_ provider (_e.g. AWS/Azuer_)
+> It's _far_ more likely that the _infrastructure_ provider (_e.g. AWS/Azure_)
 will have a fault in their network/datacenter than an Erlang server "crashing".
 
 
@@ -384,13 +384,13 @@ and was a **_incredible_ revolutionary innovation**!
 Nokia continued to _dominate_ the mobile phone industry/market for the next
 ***decade*** producing the _best-selling_
 **5110** and **3310** we all remember! <br />
-But by being "_ahead_" Nokia were _unable_ to see the "_contender_"
+But by being "_ahead_" Nokia was _unable_ to see the "_contender_"
 coming "_out of nowhere_" to challenge their position.
 
 In 2006 _nobody_ was making/buying "smart" mobile phones
 with glass touch screens that ran "apps" ... <br />
 in [January 2007 Steve Jobs introduced the iPhone](https://www.youtube.com/results?search_query=Steve+Jobs+iPhone+Introduction+2007)
-and _litterally_ changed the industry!
+and _literally_ changed the industry!
 
 ![Steve Jobs introduces iphone](https://cloud.githubusercontent.com/assets/194400/22934275/4bc76090-f2c6-11e6-9b90-91226e39ea09.png)
 
