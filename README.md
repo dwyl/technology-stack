@@ -61,7 +61,8 @@ so that we:
   + Enlighten other teams/organisations/agencies/etc. we aren't in
   _direct_ contact with that there is a "_more fun_" way of building software!
 + Make _everyone's_ life easier/better
-by having a "launch pad" for [_rapid_ learning](https://youtu.be/hOZnP4dZYK0)!
+by having a "launch pad" for
+[_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
 
 > For an _example_ project where this "Stack" is _implemented_
 see: https://github.com/healthlocker/healthlocker
