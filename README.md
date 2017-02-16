@@ -93,9 +93,9 @@ Please see:
 by the Phoenix framework. Elixir is a _beautiful_ language
 written _from scratch_ to be ***friendly, concise and efficient***.
 ***Yes***, Elixir not as "_popular_" as JavaScript, Java, C# or PHP,
-but its' adoption is growing rapidly and most importantly its'
-what many _experienced_ developers are gravitating towards and
-described as their ["most wanted"]()
+but the adoption is _growing rapidly_ and most importantly
+many _experienced_ developers are gravitating towards and
+described as their ["most wanted"](https://github.com/dwyl/the-book#you-will-learn-in-demand-tech-toolsskills)
 Also a language's popularity has more
 to do with the intellectual inertia people/companies have because
 they allow existing (_legacy_) codebases to dictate future development;
