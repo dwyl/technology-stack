@@ -30,7 +30,7 @@ In November 2016 we (_once again_) **questioned our _assumptions_**,
 [***surveyed***](https://github.com/dwyl/learn-elm/issues/10)
 the "landscape" of "_emerging trends_" in web app development.
 We were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
-made by the people in the Elixir, Phoenix and Elm comminities!
+made by the people in the Elixir, Phoenix and Elm communities!
 These technologies are set to "***take off***" in 2017 and we are _excited_
 to be _sharing_ the technical/competitve advantage with our clients!
 
@@ -46,13 +46,15 @@ the stack _unrivaled_ for developer productivity and word-class quality!
 
 ### Tutorials!
 
-We have made a "***Complete Beginner's Guide***" for each element in the stack,
-so that we:
+We have _crafted_ a "***Complete Beginner's Guide***"
+for each element in the stack, so that we:
 + ***Document our collective learning***
 `while` we are building projects.
 (_because as humans we **forget fast** unless we **write it**_!)
 + ***Share*** our knowledge with other people so we can
-  + Help to train (_potential_) new team members as effectively as possible.
+  + Help to train (_potential_) new team members
+  as quickly/effectively as possible.
+  + ***Collectively iterate*** on our knowledge and "_level-up_" as a _team_!
   + "Onboard" the client team (_who may want/need_) to
   support/maintain the codebase/project if/when we _seamlessly_ "hand over".
   + Inform the wider community of both technical _and_ non-technical
@@ -262,11 +264,13 @@ See: http://dev.haufe.com/PostgreSQL-Cluster-Azure/
 
 #### SSL/TLS Encryption
 
-All communication is over secure/encrypted channel at all times.
+All communication is over secure/encrypted channel
+(_by default at all times_) <br />
+to protect the data/privacy
+of people using the applications we make.
 
 
-<br /> <br />
-<hr />
+<br /> <br /> <br /> <br /> <hr />
 
 # Node.js Stack
 
@@ -361,20 +365,25 @@ https://github.com/dwyl/learn-codeclimate
 ## tl;dr
 
 There is _no shortage_ of options available for
-Technology Stack: https://www.google.co.uk/search?q=technology+stack&tbm=isch
+Technology Stack!
+See: https://www.google.com/search?q=technology+stack&tbm=isch <br />
 How did we _arrive_ at the conclusion that "PETE"
-was "_the **one**_" for us?
+was "_the **one**_" for us...?
+
+Please see: https://github.com/dwyl/learn-phoenix-framework#questions
 
 ### *Contextualising* Technology Adoption (Mini History Lesson)
 
 In **1996** Nokia introduced the ["***Communicator***"](https://en.wikipedia.org/wiki/Nokia_Communicator)
 and was a **_incredible_ revolutionary innovation**!
-**Internet, Email and _Fax_** in your ***Pocket***!!
+**Internet, Email and _Fax_** in your ***Pocket***!! <br />
+
 ![nokia-communicator](https://cloud.githubusercontent.com/assets/194400/23014351/89c07b64-f426-11e6-8c5a-f93b71a3aa53.jpg) <br />
+
 Nokia continued to _dominate_ the mobile phone industry/market for the next
 ***decade*** producing the _best-selling_
-**5110** and **3310** we all remember!
-But by being "_ahead_" they were unable to see the "_challenger_"
+**5110** and **3310** we all remember! <br />
+But by being "_ahead_" Nokia were _unable_ to see the "_contender_"
 coming "_out of nowhere_" to challenge their position.
 
 In 2006 _nobody_ was making/buying "smart" mobile phones
