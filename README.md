@@ -21,8 +21,14 @@ was fueled by our
 and
 ["_shoshin_"](https://en.wikipedia.org/wiki/Shoshin). <br />
 
-In November 2016 we [_surveyed_](https://github.com/dwyl/learn-elm/issues/10) the "landscape" of web app development,
-and were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
+> "_The important thing is not to **stop questioning**. **Curiosity** has its own reason for existence._" - "Old Man's Advice to Youth: 'Never Lose a Holy Curiosity.'"
+LIFE Magazine (2 May 1955) p. 64” ~ Albert Einstein
+
+In November 2016 we (_once again_) **questioned our _assumptions_**,
+***re-examined*** and
+[***surveyed***](https://github.com/dwyl/learn-elm/issues/10)
+the "landscape" of "_emerging trends_" in web app development.
+We were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
 made by the people in the Elixir, Phoenix and Elm comminities!
 These technologies are set to "***take off***" in 2017 and we are _excited_
 to be _sharing_ the technical/competitve advantage with our clients!
