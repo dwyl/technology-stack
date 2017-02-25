@@ -365,7 +365,9 @@ We _already_ had a _really_ good
 which worked well for us and our clients. so ...
 
 
-## Why Consider a "New Stack" when we _Already_ Good with the "Old" One...?
+## Why Try a "New Stack"?
+
+#### Why Try Something New When We're _Already_ Good with the "Old"...?
 
 Our _reasoning_ for
 _considering_ an alternative approach/stack for building web apps
@@ -389,7 +391,7 @@ to be _sharing_ the technical/competitve advantage with our clients!
 
 Please see: https://github.com/dwyl/learn-phoenix-framework#questions
 
-## Making Difficult Decisions Focussed on Long-term Benefits
+## Making Difficult Decisions
 
 One of the most "_difficult decisions_" you will make in your "_carreer_" is
 which technologies and tools you will use
@@ -428,13 +430,16 @@ team to build the new magic app. Then attempt to "_up-skill_" the _internal_
 team to _maintain_ the code written by the consultants.
 
 None of these choices is _optimal_, all have different levels of risk/reward.
+The "_hardest_" choice to make is the one where you try something
+_totally_ different
 The _reality_ is that very few people
 have the time/resources/mindset/inclination to take a step back
 and open their minds to the idea that there _might_ be a "_better tool_"
 for the job than the one they are _currently_ using.
 
-#### Toast Kinfe Analogy: Imagine Want to Make Yourself Some Toast
+### Toast Kinfe Analogy
 
+Imagine Want to Make Yourself Some Toast.
 Let's write a quick "_user story_" for this:
 
 > `As a` **peckish person** <br />
@@ -463,8 +468,24 @@ Simply by using the "***New Tool***" - _in this case the
 ["**Toast Knife**"](https://youtu.be/3ttzWuaPGMo?t=1m1s)_ - you can
 simplify the process to a ***single step***! <br />
 This is the power of being _open_ to considering "New" Tools/Technologies!
+Get the ***same result*** in **fewer** than half the "**steps**"!
 
-#### *Contextualising* Technology Adoption (_Mini History Lesson_)
+### Focussing on Long-term Benefits
+
+The _short-term_ cost of learning a new stack
+(_programming language or framework_) is time,
+We contend that the 1-3 week learning time (_depending on the focus of learners_)
+will pay for it's self within 3 months
+(_often sooner if the team is large/distributed because the **structure**
+  offered by Phoenix means everyone working on the project
+  has a disciplined approach to adding new features_)
+
+#### Further Reading on Long-term Thinking
+
++ https://hbr.org/2012/08/thinking-long-term-in-a-short
++ https://hbr.org/2011/03/capitalism-for-the-long-term
+
+### *Contextualising* Technology Adoption (_Mini History Lesson_)
 
 In **1996** Nokia introduced the
 ["***Communicator***"](https://en.wikipedia.org/wiki/Nokia_Communicator)
