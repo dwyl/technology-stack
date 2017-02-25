@@ -387,7 +387,7 @@ the "landscape" of "_emerging trends_" in web app development.
 We were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
 made by the people in the Elixir, Phoenix and Elm communities!
 These technologies are set to "***take off***" in 2017 and we are _excited_
-to be _sharing_ the technical/competitve advantage with our clients!
+to be _sharing_ the technical/competitive advantage with our clients!
 
 Please see: https://github.com/dwyl/learn-phoenix-framework#questions
 
