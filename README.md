@@ -1,38 +1,15 @@
 # Technology Stack
 
-
 ## Why?
 
-As a ***development team***, <br />
-it's ~~good~~ _essential_ to **be _unambiguous_**
-about the **technology/tools** we use for our work. <br />
-**So that _everyone_** is **clear** what we need to learn/use
-to deliver **outstanding results**!
+As a ***team of people*** using technology to **_make_ digital products**, <br />
+it's _essential_ to **be _unambiguous_**
+about the **technology/tools** we use, <br />
+**so that _everyone_** is **clear** what we _all_ need to learn/use <br />
+to make product(s) that are **functional, fast, beautiful, useable and reliable**!
 
 > _If **anything** is **unclear** or you have **any questions** please_
 [***ask***](https://github.com/dwyl/technology-stack/issues).
-
-#### Why Consider a "New Stack" when we _Already_ Good with the "Old" One...?
-
-Our _reasoning_ for
-_considering_ an alternative approach/stack for building web apps
-was fueled by our
-[_curiousity_](https://www.goodreads.com/quotes/tag/curiosity)
-and
-["_shoshin_"](https://en.wikipedia.org/wiki/Shoshin). <br />
-
-> "_The important thing is not to **stop questioning**. **Curiosity** has its own reason for existence._" ~ Albert Einstein <br /> ~
-"Old Man's Advice to Youth: '**Never Lose** a Holy ***Curiosity***.'"
-LIFE Magazine (2 May 1955) p. 64”
-
-In November 2016 we (_once again_) **questioned our _assumptions_**,
-***re-examined*** and
-[***surveyed***](https://github.com/dwyl/learn-elm/issues/10)
-the "landscape" of "_emerging trends_" in web app development.
-We were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
-made by the people in the Elixir, Phoenix and Elm communities!
-These technologies are set to "***take off***" in 2017 and we are _excited_
-to be _sharing_ the technical/competitve advantage with our clients!
 
 ## What?
 
@@ -42,33 +19,8 @@ we use for dwyl products and services (clients).
 Each element in our stack was _carefully_ selected based
 on it's individual merits. <br />
 When _assembled_ into a seamless "machine",
-the stack _unrivaled_ for **developer productivity**
+the stack is _unrivaled_ for **developer productivity**
 and ***world-class quality***!
-
-### Tutorials!
-
-We have _crafted_ a "***Complete Beginner's Guide***"
-for each element in the stack, so that we:
-+ ***Document our collective learning***
-`while` we are building projects.
-(_because as humans we **forget fast** unless we **write it**_!)
-+ ***Share*** our knowledge with other people so we can
-  + Help to train (_potential_) new team members
-  as quickly/effectively as possible.
-  + ***Collectively iterate*** on our knowledge and "_level-up_" as a _team_!
-  + "Onboard" the client team (_who may want/need_) to
-  support/maintain the codebase/project if/when we _seamlessly_ "hand over".
-  + Inform the wider community of both technical _and_ non-technical
-  people ("stake holders") who are _generally_
-  interested in _understanding_ the project.
-  + Enlighten other teams/organisations/agencies/etc. we aren't in
-  _direct_ contact with that there is a "_more fun_" way of building software!
-+ Make _everyone's_ life easier/better
-by having a "launch pad" for
-[_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
-
-> For an _example_ project where this "Stack" is _implemented_
-see: https://github.com/healthlocker/healthlocker
 
 ### The "PETE" Stack
 
@@ -120,14 +72,15 @@ the _reason_ we love elm has _nothing_ to do
 with "_benchmarks_" and everything to do
 with the _experience_ of writing/reading/maintaining
 an app built with elm; _that experience is like
-a **reassuring hug** from a loved one_.
+a **reassuring hug** from a loved one_. <br />
+When you discover elm, things that used
+to be _difficult_ or "_error-prone_" become easy and ***reliable***.
+See: [github.com/dwyl/learn-elm#why](https://github.com/dwyl/learn-elm#**why**)
+<br />
 Elm has [**_considerably_ better performance**](http://elm-lang.org/blog/blazing-fast-html-round-two)
 than similar/alternative front-end frameworks
 e.g: Angular, Ember, React, Vue.js etc.
 so _hopefully_ the "performance" discussion can "_go away_"!
-When you discover elm, things that used
-to be _difficult_ or "_error-prone_" become easy and ***reliable***.
-See: [github.com/dwyl/learn-elm#why](https://github.com/dwyl/learn-elm#**why**)
 
 <br />
 <sup>1</sup><small>Thanks to [**Jimmy Ruts**](https://github.com/dwyl/technology-stack/issues/37#issuecomment-278282619)
@@ -155,7 +108,7 @@ we can easily accommodate that without re-writing _any_ of the Phoenix app!
 
 
 Our "_standard_" (_preference_) @dwyl is for Postgres.
-see: https://github.com/dwyl/learn-postgresql/
+see: [github.com/dwyl/**learn-postgresql**](https://github.com/dwyl/learn-postgresql)
 <br />
 Postgres is the most "_mature_" Open Source Relational Database.
 It's ***100% Free*** (_including all "advanced" features_) <br />
@@ -199,7 +152,8 @@ on almost _any_ environment _including_ Microsoft Windows Desktop & Server.
 
 We use and *recommend* Travis-CI for Continuous Integration (CI).
 If you or anyone on your team are *new* to Travis-CI,
-checkout our beginners guide: https://github.com/dwyl/learn-travis
+please checkout our ***complete beginner's guide***:
+[github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
 
 <br />
 ## Deployment
@@ -220,11 +174,15 @@ a _new version_ of app for each feature and test incrementally.<br />
 This alone is worth the _modest_ fee Heroku charges for their service!
 <br >
 
+> If you are _completely_ `new` to Heroku you can get started
+in 10 minutes with our <br />
+***complete beginner's tutorial***: https://github.com/dwyl/learn-heroku <br />
+
 > For a ***step-by-step guide*** to **deploying** a Phoenix ("PETE")
 application to **Heroku**, <br />
 please see:
 [github.com/dwyl/learn-phoenix-framework/**heroku-deployment**](https://github.com/dwyl/learn-phoenix-framework/blob/master/heroku-deployment.md) <br />
-(_special thanks to [Tony](https://github.com/tonydaly) & [Jimmy](https://github.com/jruts) for doing a superb putting the guide together!_)
+(_special thanks to [Tony](https://github.com/tonydaly) & [Jimmy](https://github.com/jruts) for doing a superb job putting the guide together!_)
 
 "_Under the Hood_" Heroku is using AWS for their infrastructure. <br />
 So when we need to "_graduate_" an app from Heroku to AWS it's easy!
@@ -268,7 +226,38 @@ See: http://dev.haufe.com/PostgreSQL-Cluster-Azure/
 All communication is over secure/encrypted channel
 (_by default at all times_) <br />
 to protect the data/privacy
-of people using the applications we make.
+of people using the applications we make. <br />
+
+We recommend using the "Let's Encrypt" service for SSL Certificates
+it's ***100% Free*** and (_provided by a Non-Profit foundation_) <br />
+to help you get started, we wrote a
+***step-by-step setup guide*** for apps deployed to Heroku:
+[SSL-certificate-step-by-step-setup-instructions.md](https://github.com/dwyl/learn-heroku/blob/master/SSL-certificate-step-by-step-setup-instructions.md)
+
+### Beginner Tutorials?
+
+We have _crafted_ a "***Complete Beginner's Guide***"
+for each element in the stack, so that we:
++ ***Document our collective learning***
+`while` we are building projects.
+(_because as humans we **forget fast** unless we **write it**_!)
++ ***Share*** our knowledge with other people so we can
+  + Help to train (_potential_) new team members
+  as quickly/effectively as possible.
+  + ***Collectively iterate*** on our knowledge and "_level-up_" as a _team_!
+  + "Onboard" the client team (_who may want/need_) to
+  support/maintain the codebase/project if/when we _seamlessly_ "hand over".
+  + Inform the wider community of both technical _and_ non-technical
+  people ("stake holders") who are _generally_
+  interested in _understanding_ the project.
+  + Enlighten other teams/organisations/agencies/etc. we aren't in
+  _direct_ contact with that there is a "_more fun_" way of building software!
++ Make _everyone's_ life easier/better
+by having a "launch pad" for
+[_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
+
+> For an _example_ project where this "Stack" is _implemented_
+see: https://github.com/healthlocker/healthlocker
 
 
 <br /> <br /> <br /> <br /> <hr />
@@ -280,8 +269,8 @@ We have deployed our Node.js stack for many clients
 and internal apps and achieved great results! <br />
 It works _really_ well and we have not had any issues with "_performance_"
 or "_scaling_" deploying to AWS.
-> For an example of an app built using our Node.js Stack see:
-https://github.com/TheScienceMuseum/collectionsonline <br />
+> For examples of apps built using our Node.js Stack <br />
+see: https://github.com/TheScienceMuseum/collectionsonline <br />
 and https://github.com/emfoundation/ce100-app
 
 There's no "_reason_" to "_rewrite_"
@@ -352,7 +341,8 @@ in our development toolchain:
 
 + **Tape** for testing: https://github.com/dwyl/learn-tape
 + **Istanbul** for Code Coverage: https://github.com/dwyl/learn-istanbul
-+ **Pre-commit** for ensuring all commits pass strict quality checks before being pushed to GitHub. see: https://github.com/dwyl/learn-pre-commit
++ **Pre-commit** for ensuring all commits pass strict quality checks
+`before` being pushed to GitHub. see: https://github.com/dwyl/learn-pre-commit
 + **GoodParts** "_linting_" and checking code style is _consistent_:
 https://github.com/dwyl/goodparts
 + **CodeCov** for *detailed* test/code coverage stats
@@ -363,19 +353,142 @@ https://github.com/dwyl/learn-codeclimate
 <br /> <br /> <br /> <br />
 
 
-## tl;dr
+# tl;dr
 
 There is _no shortage_ of options available for
-Technology Stack!
+Technology Stack! <br />
 See: https://www.google.com/search?q=technology+stack&tbm=isch <br />
-How did we _arrive_ at the conclusion that "PETE"
+So, _how_ did we _arrive_ at the conclusion that "PETE"
 was "_the **one**_" for us...?
+We _already_ had a _really_ good
+[Node.js Stack](https://github.com/dwyl/technology-stack#nodejs-stack)
+which worked well for us and our clients. so ...
+
+
+## Why Try a "New Stack"?
+
+#### Why Try Something New When We're _Already_ Good with the "Old"...?
+
+Our _reasoning_ for
+_considering_ an alternative approach/stack for building web apps
+was fueled by our
+[_curiousity_](https://www.goodreads.com/quotes/tag/curiosity)
+and
+["_shoshin_"](https://en.wikipedia.org/wiki/Shoshin). <br />
+
+> "_The important thing is not to **stop questioning**. **Curiosity** has its own reason for existence._" ~ Albert Einstein <br /> ~
+"Old Man's Advice to Youth: '**Never Lose** a Holy ***Curiosity***.'"
+LIFE Magazine (2 May 1955) p. 64”
+
+In November 2016 we (_once again_) **questioned our _assumptions_**,
+***re-examined*** and
+[***surveyed***](https://github.com/dwyl/learn-elm/issues/10)
+the "landscape" of "_emerging trends_" in web app development.
+We were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
+made by the people in the Elixir, Phoenix and Elm communities!
+These technologies are set to "***take off***" in 2017 and we are _excited_
+to be _sharing_ the technical/competitive advantage with our clients!
 
 Please see: https://github.com/dwyl/learn-phoenix-framework#questions
 
-### *Contextualising* Technology Adoption (Mini History Lesson)
+## Making Difficult Decisions
 
-In **1996** Nokia introduced the ["***Communicator***"](https://en.wikipedia.org/wiki/Nokia_Communicator)
+One of the most "_difficult decisions_" you will make in your "_carreer_" is
+which technologies and tools you will use
+to deliver the desired solution/benefit to the "_end users_".
+
+Most people have the Tech/Tools decision made _for_ them
+by the company/organisation/boss they work for
+(_e.g: Java -> Spring, Ruby -> Rails or PHP -> WordPress or Symphony, etc._)
+This is because most companies _already_ have an _existing_ app in "production",
+which you have been hired to extend.
+
+Occasionally you will get the chance to build an app from "_scratch_"  
+however _most_ of the time someone `else` (_the "Architect"_)
+will make the decision for what "_stack_" to use on you behalf,
+so you will _still_ be stuck someone _else's_ choices.
+If you are _incredibly lucky_ the "Architect(s)"
+will have done their homework survey the latest industry
+trends and investigated the "_new and promising_" technologies
+e.g: Stack Overflow
+["Most Wanted" list](https://github.com/dwyl/the-book#most-wanted-programming-languages).
+
+#### _Most_ "_Application Architects_" will pick one of these 3 options:
+
+1.  ***Go with what you (already) know***, use _existing_ stack
+with a minor variation because it's "easy to deploy" with
+the existing infrastructure and will not get questioned by the "Executives",
+DevOps team or "Compliance" department. This is the easy choice
+and nobody ever got "_fired_" for sticking with what they know "_works_".
+
+2.  Buy the whizz-bang all-in-one solution sold to them by the "Consultant"
+from "Big Vendor XYZ" (_outsource the thinking to a sales person who last
+  wrote code in the 90's ... seems like a great idea ... NOT!_)
+
+3. Be "Bold" and try "***Popular Framework XYZ***" and hire an _external_
+team to build the new magic app. Then attempt to "_up-skill_" the _internal_
+team to _maintain_ the code written by the consultants.
+
+None of these choices is _optimal_, all have different levels of risk/reward.
+The "_hardest_" choice to make is the one where you try something
+_totally_ different
+The _reality_ is that very few people
+have the time/resources/mindset/inclination to take a step back
+and open their minds to the idea that there _might_ be a "_better tool_"
+for the job than the one they are _currently_ using.
+
+### Toast Kinfe Analogy
+
+Imagine Want to Make Yourself Some Toast.
+Let's write a quick "_user story_" for this:
+
+> `As a` **peckish person** <br />
+> `I want` a slice of tasty toast <br />
+> `So that` I can have some crunch for my brunch!
+
+> (_let's assume that you bought a loaf of bread from a baker
+to reduce the options for solutions for simplicity
+(i.e. not baking from scratch!_)
+
+The "_traditional_" way to "_solve_" the challenge of making toast: <br />
+
++ Cut bread with bread knife
++ Put sliced bread in toaster
++ Turn on toaster for pre-determined amount of time
++ Wait patiently for toaster to make toast
+
+
+But ... what if instead the "_old_" way we just described,
+someone invented a way to _toast_ the bread `while` slicing it...?!
+
+![b4df5698-914e-4dd2-b271-9c00881b6599-274-0000001c8c73f018_tmp](https://cloud.githubusercontent.com/assets/194400/22363833/07798ad6-e465-11e6-9d92-44898a774148.png)
+![9f9fc56d-b22a-4e77-b60f-f3619254023b-274-0000001ce1dcb22a_tmp](https://cloud.githubusercontent.com/assets/194400/22363837/0d860594-e465-11e6-9dcd-292f441983b0.png)
+
+Simply by using the "***New Tool***" - _in this case the
+["**Toast Knife**"](https://youtu.be/3ttzWuaPGMo?t=1m1s)_ - you can
+simplify the process to a ***single step***! <br />
+This is the power of being _open_ to considering "New" Tools/Technologies!
+Get the ***same result*** in **fewer** than half the "**steps**"!
+
+### Focussing on Long-term Benefits
+
+The _short-term_ cost of learning a new stack
+(_programming language or framework_) is time,
+We contend that the 1-3 week learning time (_depending on the focus of learners_)
+will pay for it's self within 3 months
+(_often sooner if the team is large/distributed because the **structure**
+  offered by Phoenix means everyone working on the project
+  has a disciplined approach to adding new features_)
+
+#### Further Reading on Long-term Thinking
+
++ https://hbr.org/2012/08/thinking-long-term-in-a-short
++ https://hbr.org/2011/03/capitalism-for-the-long-term
+
+### *Contextualising* Technology Adoption (_Mini History Lesson_)
+
+In **1996** Nokia introduced the
+["***Communicator***"](https://en.wikipedia.org/wiki/Nokia_Communicator)
 and was a **_incredible_ revolutionary innovation**!
 **Internet, Email and _Fax_** in your ***Pocket***!! <br />
 
@@ -445,7 +558,7 @@ is written in Haskell so technically we aren't writing _any_ JS
 in our PETE projects.
 
 
-### Does it Scale?!?
+### Does it _Scale_?!?
 
 If you are new to web development,
 _please focus on UX and forget about "**scale**"_! <br />
@@ -531,6 +644,7 @@ is a ***compelling proposition***
 _especially_ for people who are just starting out!
 If you are learning programming and want a "_quick start_"
 try Meteor.js!!
+
 
 
 ### Alternative Databases?
