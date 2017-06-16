@@ -405,10 +405,10 @@ which you have been hired to extend.
 
 Occasionally you will get the chance to build an app from "_scratch_"  
 however _most_ of the time someone `else` (_the "Architect"_)
-will make the decision for what "_stack_" to use on you behalf,
+will make the decision for what "_stack_" to use on your behalf,
 so you will _still_ be stuck someone _else's_ choices.
 If you are _incredibly lucky_ the "Architect(s)"
-will have done their homework survey the latest industry
+will have done their homework: surveyed the latest industry
 trends and investigated the "_new and promising_" technologies
 e.g: Stack Overflow
 ["Most Wanted" list](https://github.com/dwyl/the-book#most-wanted-programming-languages).
