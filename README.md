@@ -76,18 +76,18 @@ a **reassuring hug** from a loved one_. <br />
 When you discover elm, things that used
 to be _difficult_ or "_error-prone_" become easy and ***reliable***.
 See: [github.com/dwyl/learn-elm#why](https://github.com/dwyl/learn-elm#**why**)
-<br />
-Elm has [**_considerably_ better performance**](http://elm-lang.org/blog/blazing-fast-html-round-two)
-than similar/alternative front-end frameworks
-e.g: Angular, Ember, React, Vue.js etc.
-so _hopefully_ the "performance" discussion can "_go away_"!
 
-<br />
-<sup>1</sup><small>Thanks to [**Jimmy Ruts**](https://github.com/dwyl/technology-stack/issues/37#issuecomment-278282619)
+
+Elm has [***considerably*** **better performance**](http://elm-lang.org/blog/blazing-fast-html-round-two)
+than similar/alternative front-end frameworks
+(e.g: Angular, Ember, React, Vue.js etc.)
+so _hopefully_ the "performance" discussion can _"go away"!_
+
+
+¹Thanks to [**Jimmy Ruts**](https://github.com/dwyl/technology-stack/issues/37#issuecomment-278282619)
 for _coining_ the "PETE" acronym. He's the guy we go to for _naming_
-and other
-["***hard things***"!](https://twitter.com/codinghorror/status/506010907021828096)
-;-)</small>
+and other "[**hard things**!](https://twitter.com/codinghorror/status/506010907021828096)"
+;-)
 
 ## Database?
 
@@ -111,19 +111,20 @@ Our "_standard_" (_preference_) @dwyl is for Postgres.
 see: [github.com/dwyl/**learn-postgresql**](https://github.com/dwyl/learn-postgresql)
 <br />
 Postgres is the most "_mature_" Open Source Relational Database.
-It's ***100% Free*** (_including all "advanced" features_) <br />
+It's ***100% Free*** (_including all **"advanced"** features_) <br />
 and has been deployed and ***battle-tested*** in ***every*** environment
 from AWS to "Bare Metal" and Google Cloud to Microsoft Azure!
 
 
->_**Many** well-known/successful apps rely
+> _**Many** well-known/successful apps rely
 on Postgres as their `main` database_. <br />
-_**NOT** that you should adopt a particular technology
-based on who `else` is using it, <br />
-but it's **good to know** that **plenty** of teams
-are getting **excellent results** with PostgreSQL!
+> _**NOT** that you should adopt a particular technology
+based on who `else` is using it,_ <br />
+> _but it's **good to know** that **plenty** of teams
+are getting **excellent results** with PostgreSQL!_
 <br />
-See:_ [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
+
+##### See: [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
 
 We have used _most_ of the "_popular_" Relation Databases.
 e.g: MySQL, MS SQL Server, Oracle and Aurora; all
@@ -134,10 +135,9 @@ is _superb_. There is a great "_bank_" of _answered_ questions on
 [StackOverflow](http://stackoverflow.com/questions/tagged/postgresql)
 and new questions get answered _fast_.
 
-<br />
 ## Operating System?
 
-A "_traditional_" "**LAMP**" stack includes the **Linux** Operating System
+A _"traditional"_ **LAMP** stack includes the **Linux** Operating System
 in the _name_. <br />
 The "**PETE**" stack runs on _any_ (_desktop/server_) Operating System <br />
 and can be deployed to any "_cloud_" infrastructure provider. <br />
@@ -147,7 +147,7 @@ Linux (_e.g. Ubuntu or CentOS_) we know that <br />
 _both_ Phoenix and Postgres run
 on almost _any_ environment _including_ Microsoft Windows Desktop & Server.
 
-<br />
+
 ## Continuous Integration
 
 We use and *recommend* Travis-CI for Continuous Integration (CI).
@@ -155,7 +155,7 @@ If you or anyone on your team are *new* to Travis-CI,
 please checkout our ***complete beginner's guide***:
 [github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
 
-<br />
+
 ## Deployment
 
 We make a point of deploying our work as _soon_ as
@@ -192,7 +192,7 @@ So when we need to "_graduate_" an app from Heroku to AWS it's easy!
 Our _preference_ is to deploy to Amazon Web Services (AWS)
 because we have good experience/knowledge of the platform.
 
-### Microsoft Azure
+### Microsoft Azure
 
 One of our projects has a _requirement_ to be deployed
 to Microsoft Azure Cloud. We achieve this with the following
@@ -362,10 +362,10 @@ So, _how_ did we _arrive_ at the conclusion that "PETE"
 was "_the **one**_" for us...?
 We _already_ had a _really_ good
 [Node.js Stack](https://github.com/dwyl/technology-stack#nodejs-stack)
-which worked well for us and our clients. so ...
+which worked well for us and our clients. so . . .
 
 
-## Why Try a "New Stack"?
+## Why Try a "New Stack"?
 
 #### Why Try Something New When We're _Already_ Good with the "Old"...?
 
