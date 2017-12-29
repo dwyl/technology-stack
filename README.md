@@ -37,7 +37,7 @@ who worked on/with Rails. It _solves_
 all of the speed/socket/scaling/concurrency, issues
 people felt when building/using Rails apps.
 The list of ***benefits*** Phoenix has over
-(_vertually every_) other Web Frameworks is _extensive_.<br />
+(_virtually every_) other Web Frameworks is _extensive_.<br />
 Please see:
 [github.com/dwyl/learn-phoenix-framework#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
 
@@ -126,7 +126,7 @@ are getting **excellent results** with PostgreSQL!_
 
 ##### See: [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
 
-We have used _most_ of the "_popular_" Relation Databases.
+We have used _most_ of the "_popular_" Relational Databases.
 e.g: MySQL, MS SQL Server, Oracle and Aurora; all
 [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)
 have their pros/cons. <br />
