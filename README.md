@@ -47,7 +47,7 @@ written _from scratch_ to be ***friendly, concise and efficient***.
 ***Yes***, Elixir not as "_popular_" as JavaScript, Java, C# or PHP,
 but the adoption is _growing rapidly_ and most importantly
 many _experienced_ developers are gravitating towards and
-described as their ["most wanted"](https://github.com/dwyl/the-book#you-will-learn-in-demand-tech-toolsskills)
+describing it as their ["most wanted"](https://github.com/dwyl/the-book#you-will-learn-in-demand-tech-toolsskills)
 Also a language's popularity has more
 to do with the intellectual inertia people/companies have because
 they allow existing (_legacy_) codebases to dictate future development;
@@ -165,7 +165,7 @@ so that we can get ***feedback*** as early as possible.
 ### "Development" and Testing
 
 We use Heroku for all our development deployment.
-It's a **by _far_ the most time-effective** way to "_ship_" <br />
+It's **by _far_ the most time-effective** way to "_ship_" <br />
 the project and get it _tried & tested_ by _real_ people.
 Using heroku is like having a "Dedicated DevOps" person
 on the team. <br />
@@ -229,7 +229,7 @@ to protect the data/privacy
 of people using the applications we make. <br />
 
 We recommend using the "Let's Encrypt" service for SSL Certificates
-it's ***100% Free*** and (_provided by a Non-Profit foundation_) <br />
+it's ***100% Free*** (and _provided by a Non-Profit foundation_) <br />
 to help you get started, we wrote a
 ***step-by-step setup guide*** for apps deployed to Heroku:
 [SSL-certificate-step-by-step-setup-instructions.md](https://github.com/dwyl/learn-heroku/blob/master/SSL-certificate-step-by-step-setup-instructions.md)
@@ -278,7 +278,7 @@ any of our _existing_ projects to _any_ other "_stack_". <br />
 Node.js works perfectly well and will continue to be supported for the lifetime
 of the project(s)
 
-> See: "***tl;dr***" section below if you _interested_
+> See: "***tl;dr***" section below if you are _interested_
 in ***why*** we decided to "_evolve_" to "***PETE***" for ***new*** projects...
 
 ## Overview
@@ -393,7 +393,7 @@ Please see: https://github.com/dwyl/learn-phoenix-framework#questions
 
 ## Making Difficult Decisions
 
-One of the most "_difficult decisions_" you will make in your "_carreer_" is
+One of the most "_difficult decisions_" you will make in your "_career_" is
 which technologies and tools you will use
 to deliver the desired solution/benefit to the "_end users_".
 
@@ -406,7 +406,7 @@ which you have been hired to extend.
 Occasionally you will get the chance to build an app from "_scratch_"  
 however _most_ of the time someone `else` (_the "Architect"_)
 will make the decision for what "_stack_" to use on your behalf,
-so you will _still_ be stuck someone _else's_ choices.
+so you will _still_ be stuck with someone _else's_ choices.
 If you are _incredibly lucky_ the "Architect(s)"
 will have done their homework: surveyed the latest industry
 trends and investigated the "_new and promising_" technologies
@@ -437,7 +437,7 @@ have the time/resources/mindset/inclination to take a step back
 and open their minds to the idea that there _might_ be a "_better tool_"
 for the job than the one they are _currently_ using.
 
-### Toast Kinfe Analogy
+### Toast Knife Analogy
 
 Imagine Want to Make Yourself Some Toast.
 Let's write a quick "_user story_" for this:
@@ -475,7 +475,7 @@ Get the ***same result*** in **fewer** than half the "**steps**"!
 The _short-term_ cost of learning a new stack
 (_programming language or framework_) is time,
 We contend that the 1-3 week learning time (_depending on the focus of learners_)
-will pay for it's self within 3 months
+will pay for itself within 3 months
 (_often sooner if the team is large/distributed because the **structure**
   offered by Phoenix means everyone working on the project
   has a disciplined approach to adding new features_)
@@ -515,7 +515,7 @@ while Apple was the [most valuable company](https://www.statista.com/statistics/
 in history!
 
 > _Many **people still buy** "**feature phones**"
-(the polite name a for device that does not have any
+(the polite name for a device that does not have any
   "smart" functionality!) <br />
 but few people can **convincingly** argue that the **reason**
 they **don't have** a smart phone is because they **don't want** one; <br />
