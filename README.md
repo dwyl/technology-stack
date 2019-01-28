@@ -17,7 +17,7 @@ This document + diagram _describes_ the full "**PETE**" Technology Stack
 we use for dwyl products and services (clients).
 
 Each element in our stack was _carefully_ selected based
-on it's individual merits. <br />
+on its individual merits. <br />
 When _assembled_ into a seamless "machine",
 the stack is _unrivaled_ for **developer productivity**
 and ***world-class quality***!
