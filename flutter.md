@@ -1,8 +1,14 @@
 # Flutter
 
-One of the _great_ things about working in **creative technology** is that it's **_constantly_ evolving**!
+One of the _great_ things about working in
+**creative technology** is that it's **_constantly_ evolving**!
+There is always
+a **`new` way** of ***solving*** an **old
+problem**.
 
 [![nelsonic-tweet](https://user-images.githubusercontent.com/194400/71715853-b6399880-2e0a-11ea-9529-35fc660c04bc.png "embrace learning!")](https://twitter.com/nelsonic/status/913811339709173760?s=20)
+
+In this case the p
 <!--
 _Some_ people prefer to stick to what they _already_ know and avoid learning new things and that's OK, after all there are still plenty of jobs writing [FORTRAN](
 
@@ -11,21 +17,27 @@ This works in the _short-term_ because
 most _organisations_ take a long time to adopt new tech
 so people can cling onto their ageing knowledge.
 
-
 -->
 
-@dwyl we **_periodically_ ask ourselves** the **question**:
-if I were able to start my learning journey from _scratch_ now -
+# _Why?_
+
+@dwyl we **_periodically_ ask ourselves** the **question**: <br />
+If I were able to start my learning journey from _scratch_ now -
 without any preconceptions
 about which language/framework to use
 but with the wisdom of everything I've learned -
-**what tech** would I learn/use?
+**what tech** would I learn/use? <br />
 (_i.e. without having to "unlearn" anything
 but with the benefit of many years experience
-what would you tell your younger self to learn
-if you had a time machine_?)
+what would you tell your younger self to learn_?)
 
+# _What_?
 
+The question we need to ask/answer
+_before_ diving into any discussion
+of which technology/language/framework
+we should or shouldn't use is:
+**What are _problem_ are we _trying_ to _solve_?**
 
 
 The last time we (_informally_) looked at Flutter in early 2018,
@@ -35,16 +47,25 @@ didn't support Web/PWAs
 and only had partial/beta support for IOs.
 
 In the last two years Flutter has seen _rapid_
-development both from the _army_ of Google Developers
+development both from the _army_ of **Google** Developers
 and the thriving community and it has matured considerably.
 It _excels_  at _all_ of our requirements.
 
-Flutter is _mobile first_, has full support for Web/PWAs
-using the _same_ code base as
+Google is using Flutter
+for several of their cross-platform Native Mobile Apps
+including Google Adds (_their main money maker_)
+and ***Stadia*** their recently launched gaming platform.
+https://flutter.dev/showcase
+
+![google-apps-built-with-flutter](https://user-images.githubusercontent.com/194400/71911727-267a4e00-316c-11ea-9ad9-49755641affb.png)
+
+
+Flutter is _mobile first_, has full/official support for Web/PWAs
+using the _same_ code base as the Native Mobile Apps.
 
 ![image](https://user-images.githubusercontent.com/194400/71738403-6bda0b00-2e4e-11ea-85d1-0d9aefb7c1e4.png)
 
-
+This is a _compelling_
 
 
 @dwyl we have **guiding principals for technology selection** for the Apps we build: https://github.com/dwyl/technology-stack/issues/33
