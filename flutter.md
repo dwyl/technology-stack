@@ -25,19 +25,25 @@ so people can cling onto their ageing knowledge.
 # _Why?_
 
 @dwyl we **_periodically_ ask ourselves** the **question**: <br />
-If I were able to start my learning journey from _scratch_ now -
-without any preconceptions
-about which language/framework to use
-but with the wisdom of everything I've learned -
+If I was starting my journey from _scratch_ now
 **what tech** would I learn/use? <br />
-(_i.e. without having to "unlearn" anything
-but with the benefit of many years experience
-what would you tell your younger self to focus on learning/mastering_?)
+
+If we could _keep_ all the knowledge/wisdom and experience gained
+over 20+ years of programming but avoid any
+preconceptions and biases e.g.
+["sunk cost bias"](https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect).
+Would we still choose the tech we are _currently_ using?
+Or would we pick something else completely different?
 
 
 
-[https://insights.stackoverflow.com/survey/2020#technology-most-loved](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-other-frameworks-libraries-and-tools-loved3)
-<img width="864" alt="StackOverflow-survey-2020-flutter-most-loved" src="https://user-images.githubusercontent.com/194400/83624662-ce187280-a58a-11ea-8ef1-77c190b22cf8.png">
+The people/teams/organisations that can _objectively_
+make decisions about the tools to use
+can take advantage
+of all the advancements being made
+in the wider developer community.
+
+
 
 
 
@@ -142,7 +148,10 @@ https://www.techempower.com/benchmarks
 -->
 
 
+## StackOverflow Dev Survey
 
+[https://insights.stackoverflow.com/survey/2020#technology-most-loved](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-other-frameworks-libraries-and-tools-loved3)
+<img width="864" alt="StackOverflow-survey-2020-flutter-most-loved" src="https://user-images.githubusercontent.com/194400/83624662-ce187280-a58a-11ea-8ef1-77c190b22cf8.png">
 
 
 
