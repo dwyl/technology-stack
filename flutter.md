@@ -1,6 +1,6 @@
 <div align="center">
 
-# Flutter?
+# Is Flutter Right for Us?
 
 One of the _great_ things about working in
 **creative technology** is that it's **_constantly_ evolving**! <br />
@@ -22,7 +22,7 @@ so people can cling onto their ageing knowledge.
 
 -->
 
-# _Why?_
+# _Context?_
 
 @dwyl we **_periodically_ ask ourselves** the **question**: <br />
 If I was starting my journey from _scratch_ now
@@ -59,6 +59,12 @@ of which technology/language/framework
 we should or shouldn't use is:
 **What are _problem_ are we _trying_ to _solve_?**
 
+
+
+
+
+
+<br />
 
 The last time we (_informally_) looked at Flutter in early 2018,
 it did _not_ meet all our needs for a UI framework.
