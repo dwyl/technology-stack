@@ -347,7 +347,8 @@ from "Big Vendor XYZ" (_outsource the thinking to a sales person who last
 team to build the new magic app. Then attempt to "_up-skill_" the _internal_
 team to _maintain_ the code written by the consultants.
 
-None of these choices is _optimal_, all have different levels of risk/reward.
+None of these choices is _optimal_, 
+all have different levels of risk/reward.
 The "_hardest_" choice to make is the one where you try something
 _totally_ different
 The _reality_ is that very few people
@@ -463,17 +464,6 @@ moving one framework to another is a _much_ more difficult decision.
 
 But one thing is for _sure_ we are going to use the "_smart phone_"
 even if other people insist on using the "brick".
-
-
-### But Phoenix Uses Node.js for Static Asset Compilation ...
-
-***Yes***, if you are using the (http://brunch.io/)
-"_static asset compilation_".
-We _aren't_ using it for our project(s) because our only
-"_static assets_" are the Elm files which we compile using `elm-compiler`.
-The [`elm` compiler](https://github.com/elm-lang/elm-compiler)
-is written in Haskell so technically we aren't writing _any_ JS
-in our PETE projects.
 
 
 ### Does it _Scale_?!?
