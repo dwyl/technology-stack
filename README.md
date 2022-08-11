@@ -4,11 +4,17 @@
 
 The software and systems we use to build the **`dwyl`** platform.
 
+![la-rel-easter-KuCGlBXjH_o-unsplash](https://user-images.githubusercontent.com/194400/184067818-56802284-5485-4652-af43-89e70b080e51.png "La-Rel Easter - Child stacking blocks") 
+<!-- Photo Credit: https://unsplash.com/photos/KuCGlBXjH_o -->
+
+
 </div>
 
 ## Why?
 
-As a ***team of people*** using technology to **_make_ digital products**, <br />
+As a ***team of people*** 
+using technology 
+to **_make_ digital products**, <br />
 it's _essential_ to **be _unambiguous_**
 about the **technology/tools** we use, <br />
 **so that _everyone_** is **clear** what we _all_ need to learn/use <br />
