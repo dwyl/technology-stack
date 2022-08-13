@@ -4,29 +4,35 @@
 
 The software and systems we use to build the **`dwyl`** platform.
 
-![la-rel-easter-KuCGlBXjH_o-unsplash](https://user-images.githubusercontent.com/194400/184067818-56802284-5485-4652-af43-89e70b080e51.png "La-Rel Easter - Child stacking blocks") 
+![la-rel-easter-KuCGlBXjH_o-unsplash](https://user-images.githubusercontent.com/194400/184178915-302f5a0e-96ab-46c9-9731-ca82affefc7e.jpg "La-Rel Easter - Child stacking blocks") 
 <!-- Photo Credit: https://unsplash.com/photos/KuCGlBXjH_o -->
 
 
 </div>
 
-## Why?
+# Why?
 
 As a ***team of people*** 
 using technology 
 to **_make_ digital products**, <br />
 it's _essential_ to **be _unambiguous_**
-about the **technology/tools** we use, <br />
-**so that _everyone_** is **clear** what we _all_ need to learn/use <br />
-to make product(s) that are **functional, fast, beautiful, useable and reliable**!
+about the **stack/tools** we use, <br />
+**so that _everyone_** is **clear** 
+what we _all_ need to master.<br />
+
+<!--
+to make product(s) that are 
+**functional, fast, beautiful, useable and reliable**!
+-->
 
 > _If **anything** is **unclear** or you have **any questions** please_
 [***ask***](https://github.com/dwyl/technology-stack/issues).
 
-## What?
+# What?
 
-This document + diagram _describes_ the full "**PETE**" Technology Stack
-we use for dwyl products and services (clients).
+This document + diagrams _describe_ 
+the full "**`PETAL`**" Technology Stack
+we use for **`dwyl`** products/projects.
 
 Each element in our stack was _carefully_ selected based
 on its individual merits. <br />
@@ -34,15 +40,16 @@ When _assembled_ into a seamless "machine",
 the stack is _unrivaled_ for **developer productivity**
 and ***world-class quality***!
 
-### The "PETE" Stack
+## The `PETAL` Stack
 
 ![dwyl-pete-stack](https://cloud.githubusercontent.com/assets/194400/23000461/8688abcc-f3d8-11e6-86ab-804720619d8e.png)
 
 "PETE" is an acronym<sup>1</sup> for the following elements:
 
-+ **Phoenix** is a Web Application Framework that does not compromise
++ **`Phoenix`** is a Web Application Framework 
+that does not compromise
 on speed, reliability or maintainability!
-Phoenix is the "_successor_"
+**`Phoenix`** is the "_successor_"
 to the incredibly popular "Ruby-on-Rails" framework.
 Built _from scratch_ by highly experienced engineers
 who worked on/with Rails. It _solves_
@@ -53,10 +60,13 @@ The list of ***benefits*** Phoenix has over
 Please see:
 [github.com/dwyl/learn-phoenix-framework#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
 
-+ **Elixir** is the _functional_ programming language used
-by the Phoenix framework. Elixir is a _beautiful_ language
-written _from scratch_ to be ***friendly, concise and efficient***.
-***Yes***, Elixir not as "_popular_" as JavaScript, Java, C# or PHP,
++ **`Elixir`** is the _functional_ programming language 
+used by the **`Phoenix`** framework. 
+**`Elixir`** is a _beautiful_ language
+written _from scratch_ to be 
+***friendly, concise and efficient***.
+***Yes***, `Elixir` not as "_popular_" 
+as `JavaScript`, `Java`, `C#` or `PHP`,
 but the adoption is _growing rapidly_ and most importantly
 many _experienced_ developers are gravitating towards and
 describing it as their ["most wanted"](https://github.com/dwyl/the-book#you-will-learn-in-demand-tech-toolsskills)

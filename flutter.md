@@ -3,17 +3,22 @@
 # Is Flutter Right for Us?
 
 One of the _great_ things about working in
-**creative technology** is that it's **_constantly_ evolving**! <br />
+**creative technology** 
+is that it's **_constantly_ evolving**! <br />
 There is always
-a **`new` way** of ***solving*** an **old
-problem** and in some cases significantly simplifying the solution.
+a **`new` way** 
+of ***solving*** an 
+**old problem** 
+and in some cases _significantly_ simplifying the solution.
 
 [![nelsonic-overwhelmed-learning-tweet](https://user-images.githubusercontent.com/194400/71715853-b6399880-2e0a-11ea-9529-35fc660c04bc.png "embrace learning!")](https://twitter.com/nelsonic/status/913811339709173760?s=20)
 
 </div>
 
 <!--
-_Some_ people prefer to stick to what they _already_ know and avoid learning new things and that's OK, after all there are still plenty of jobs writing [FORTRAN](
+_Some_ people prefer to stick to what they _already_ know 
+and avoid learning new things and that's OK, 
+after all there are still plenty of jobs writing [FORTRAN](
 
 🦖
 This works in the _short-term_ because

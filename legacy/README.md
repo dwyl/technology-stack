@@ -75,7 +75,8 @@ it to find things fast. Learn more: https://github.com/dwyl/learn-elasticsearch
 
 ### Development Dependencies
 
-We *carefully* select and only use *well-maintained* "*pure*" JavaScript modules
+We *carefully* select and only use *well-maintained* 
+"*pure*" JavaScript modules
 in our development toolchain:
 
 + **Tape** for testing: https://github.com/dwyl/learn-tape
