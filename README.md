@@ -44,9 +44,12 @@ and ***world-class quality***!
 
 ![dwyl-pete-stack](https://cloud.githubusercontent.com/assets/194400/23000461/8688abcc-f3d8-11e6-86ab-804720619d8e.png)
 
-"PETE" is an acronym<sup>1</sup> for the following elements:
+"PETAL" is an acronym<sup>1</sup> 
+for the following elements:
 
-+ **`Phoenix`** is a Web Application Framework 
+### `Phoenix`
+
+**`Phoenix`** is a Web Application Framework 
 that does not compromise
 on speed, reliability or maintainability!
 **`Phoenix`** is the "_successor_"
@@ -58,9 +61,11 @@ people felt when building/using Rails apps.
 The list of ***benefits*** Phoenix has over
 (_virtually every_) other Web Frameworks is _extensive_.<br />
 Please see:
-[github.com/dwyl/learn-phoenix-framework#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
+[dwyl/**learn-phoenix-framework**#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
 
-+ **`Elixir`** is the _functional_ programming language 
+### **`Elixir`**
+
+**`Elixir`** is the _functional_ programming language 
 used by the **`Phoenix`** framework. 
 **`Elixir`** is a _beautiful_ language
 written _from scratch_ to be 
@@ -75,46 +80,84 @@ to do with the intellectual inertia people/companies have because
 they allow existing (_legacy_) codebases to dictate future development;
 i.e.
 [***sunk cost bias***](http://www.investopedia.com/terms/s/sunk-cost-trap.asp).
-see: [github.com/dwyl/learn-elixir#key-advantages](https://github.com/dwyl/learn-elixir#**key-advantages**)
+see: [dwyl/**learn-elixir#key-advantages**](https://github.com/dwyl/learn-elixir#**key-advantages**)
 
-+ **Tachyons** is the most _sane_ way of creating a _beautiful_ web app UI
+
+### `Tailwind CSS`
+
+**`Tailwind`** is the most _sane_ way 
+of creating a _beautiful_ web app UI
 that can _easily_ be extended by a team of people
 without fear of one person's change "_breaking_" another feature.
 Unlike "_traditional_" CSS which - _as it's name implies_ - encourages
-"_cascading_" of styles, Tachyons makes the style of each component _specific_
+"_cascading_" of styles, `Tailwind` 
+makes the style of each component _specific_
 and _local_ to that component.
-see: https://github.com/dwyl/learn-tachyons
+see: 
+[dwyl/**learn-tailwind**](https://github.com/dwyl/learn-tailwind)
 
-+ **Elm** is a front-end developer's _dream_
-made _reality_ by a community of unbelievably
-brilliant and dedicated developers. <br />
-While Elm is
-[***incredibly fast***](http://elm-lang.org/blog/blazing-fast-html-round-two)
-the _reason_ we love elm has _nothing_ to do
-with "_benchmarks_" and everything to do
-with the _experience_ of writing/reading/maintaining
-an app built with elm; _that experience is like
-a **reassuring hug** from a loved one_. <br />
-When you discover elm, things that used
-to be _difficult_ or "_error-prone_" become easy and ***reliable***.
-See: [github.com/dwyl/learn-elm#why](https://github.com/dwyl/learn-elm#**why**)
+### `Alpine.js`
+
+**`Alpine.js`** is a lightweight library for enhancing interactions
+in a web application. It's declarative, responsive and easy to learn.
+`Alphine.js` plays well with `LiveView` for progressive enhancements.
+see: 
+[dwyl/**learn-alpine.js**](https://github.com/dwyl/learn-alpine.js)
+
+### `LiveView`
+
+**`LiveView`** is a radically simplified way
+of building realtime web apps with significantly less code.
+
+## Beginner Tutorials?
+
+We have _crafted_ a "***Complete Beginner's Guide***"
+for each element in the stack, so that we:
++ ***Document our collective learning***
+`while` we are building projects.
+(_because as humans 
+we **forget fast** 
+unless we **capture** it_!)
++ ***Share*** our knowledge with other people so we can
+  + Help to train (_potential_) new team members
+  as quickly/effectively as possible.
+  + ***Collectively iterate*** on our knowledge and "_level-up_" as a _team_!
+  + "Onboard" the client team (_who may want/need_) to
+  support/maintain the codebase/project if/when we _seamlessly_ "hand over".
+  + Inform the wider community of both technical _and_ non-technical
+  people ("stake holders") who are _generally_
+  interested in _understanding_ the project.
+  + Enlighten other teams/organisations/agencies/etc. we aren't in
+  _direct_ contact with that there is a "_more fun_" way of building software!
++ Make _everyone's_ life easier/better
+by having a "launch pad" for
+[_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
+
+> For an _example_ project where this "Stack" is _implemented_
+see: https://github.com/healthlocker/healthlocker
+
+We have written several **_beginner_ tutorials** 
+for learning `LiveView`:
 
 
-Elm has [***considerably*** **better performance**](http://elm-lang.org/blog/blazing-fast-html-round-two)
-than similar/alternative front-end frameworks
-(e.g: Angular, Ember, React, Vue.js etc.)
-so _hopefully_ the "performance" discussion can _"go away"!_
+1. Counter: 
+[dwyl/phoenix-liveview-**counter**-tutorial](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
+2. Todo List: 
+[dwyl/phoenix-liveview-**todo-list**-tutorial](https://github.com/dwyl/phoenix-liveview-todo-list-tutorial)
+3. Stop watch: 
+[dwyl/phoenix-liveview-**stopwatch**](https://github.com/dwyl/phoenix-liveview-stopwatch)
+4. Chat: 
+[dwyl/phoenix-liveview-**chat**-example](https://github.com/dwyl/phoenix-liveview-chat-example)
 
-
-¹Thanks to [**Jimmy Ruts**](https://github.com/dwyl/technology-stack/issues/37#issuecomment-278282619)
-for _coining_ the "PETE" acronym. He's the guy we go to for _naming_
-and other "[**hard things**!](https://twitter.com/codinghorror/status/506010907021828096)"
-;-)
+And finally, we have built a fully working MVP version of our App:
+[dwyl/**mvp**](https://github.com/dwyl/mvp)
 
 ## Database?
 
-The _reason_ we do not _specify_ our Database in the "PETE" Acronym is
-that Phoenix allows us to use **_any_ Relational Database**.
+The _reason_ we do not _specify_ our Database 
+in the "PETAL" Acronym is
+that **`Phoenix`** allows us 
+to use **_any_ Relational Database**.
 
 By _abstracting_ the data layer using "Ecto" the application is "_decoupled_"
 from the database. <br />
@@ -124,18 +167,18 @@ Microsoft SQL Server <br />
   for maintaining one of these databases_) <br />
 we can easily accommodate that without re-writing _any_ of the Phoenix app!
 
-### We _Prefer_ PostgreSQL (Postgres)
+### We _Prefer_ `PostgreSQL`
 
-![postgresql logo](https://cloud.githubusercontent.com/assets/194400/22939394/6cc00918-f2d6-11e6-8400-77886d70b520.png)
-
+<img width="500" alt="postgres logo" 
+src="https://cloud.githubusercontent.com/assets/194400/22939394/6cc00918-f2d6-11e6-8400-77886d70b520.png"/>
 
 Our "_standard_" (_preference_) @dwyl is for Postgres.
 see: [github.com/dwyl/**learn-postgresql**](https://github.com/dwyl/learn-postgresql)
 <br />
 Postgres is the most "_mature_" Open Source Relational Database.
-It's ***100% Free*** (_including all **"advanced"** features_) <br />
+It's ***100% Free*** (_including all **"advanced"** features_)
 and has been deployed and ***battle-tested*** in ***every*** environment
-from AWS to "Bare Metal" and Google Cloud to Microsoft Azure!
+from `AWS` to "Bare Metal" and `Google Cloud` to `Microsoft Azure`!
 
 
 > _**Many** well-known/successful apps rely
@@ -149,76 +192,55 @@ are getting **excellent results** with PostgreSQL!_
 ##### See: [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
 
 We have used _most_ of the "_popular_" Relational Databases.
-e.g: MySQL, MS SQL Server, Oracle and Aurora; all
+e.g: `MySQL`, `Microsoft SQL Server`, 
+`Oracle` and `Aurora`, etc; 
+all
 [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)
 have their pros/cons. <br />
-The ***reason*** we like/use Postgres is because the ***community***
-is _superb_. There is a great "_bank_" of _answered_ questions on
+The ***reason*** we like/use **`Postgres`** 
+is because the ***community*** is _superb_. 
+There is a great "_bank_" of _answered_ questions on
 [StackOverflow](http://stackoverflow.com/questions/tagged/postgresql)
 and new questions get answered _fast_.
-
 ## Operating System?
 
-A _"traditional"_ **LAMP** stack includes the **Linux** Operating System
+A _"traditional"_ 
+[**LAMP** stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
+includes the **Linux** Operating System
 in the _name_. <br />
-The "**PETE**" stack runs on _any_ (_desktop/server_) Operating System <br />
+The "**PETAL**" stack runs 
+on _any_ (_desktop/server_) Operating System <br />
 and can be deployed to any "_cloud_" infrastructure provider. <br />
 
-While we have a _strong_ preference for Unix (e.g. FreeBSD) or
-Linux (_e.g. Ubuntu or CentOS_) we know that <br />
-_both_ Phoenix and Postgres run
-on almost _any_ environment _including_ Microsoft Windows Desktop & Server.
-
+While we have a _strong_ preference 
+for `Unix` (e.g. `FreeBSD`) or
+`Linux` (_e.g. `Ubuntu` or `CentOS`_) we know that <br />
+_both_ `Phoenix` and `Postgres` run
+on almost _any_ environment including
+Microsoft Windows Desktop & Server.
 
 ## Continuous Integration
 
-We use and *recommend* Travis-CI for Continuous Integration (CI).
-If you or anyone on your team are *new* to Travis-CI,
-please checkout our ***complete beginner's guide***:
-[github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
+We are using `GitHub` actions 
+for Continuous Integration / 
+Continuous Deployment.
 
+For an example of this,
+including automatic deployment to **Fly.io**
+see: 
+[`.github/workflows/ci.yml`](https://github.com/dwyl/mvp/blob/main/.github/workflows/ci.yml)
 
 ## Deployment
 
 We make a point of deploying our work as _soon_ as
-there is something worth showing to the target audience of "_end users_"
+there is _something_ worth showing 
+to the target audience of "_end users_"
 so that we can get ***feedback*** as early as possible.
 
-### "Development" and Testing
-
-We use Heroku for all our development deployment.
-It's **by _far_ the most time-effective** way to "_ship_" <br />
-the project and get it _tried & tested_ by _real_ people.
-Using heroku is like having a "Dedicated DevOps" person
-on the team. <br />
-Once the deployment is configured we can automatically deploy
-a _new version_ of app for each feature and test incrementally.<br />
-This alone is worth the _modest_ fee Heroku charges for their service!
-<br >
-
-> If you are _completely_ `new` to Heroku you can get started
-in 10 minutes with our <br />
-***complete beginner's tutorial***: https://github.com/dwyl/learn-heroku <br />
-
-> For a ***step-by-step guide*** to **deploying** a Phoenix ("PETE")
-application to **Heroku**, <br />
-please see:
-[github.com/dwyl/learn-phoenix-framework/**heroku-deployment**](https://github.com/dwyl/learn-phoenix-framework/blob/master/heroku-deployment.md) <br />
-(_special thanks to [Tony](https://github.com/tonydaly) & [Jimmy](https://github.com/jruts) for doing a superb job putting the guide together!_)
-
-"_Under the Hood_" Heroku is using AWS for their infrastructure. <br />
-So when we need to "_graduate_" an app from Heroku to AWS it's easy!
-
-### "Production"
-
-Our _preference_ is to deploy to Amazon Web Services (AWS)
-because we have good experience/knowledge of the platform.
-
-### Microsoft Azure
-
-One of our projects has a _requirement_ to be deployed
-to Microsoft Azure Cloud. We achieve this with the following
-configuration:
+Lately we have been using 
+[**Fly.io**](https://github.com/dwyl/learn-devops/issues/72#issuecomment-917442712)
+for deploying our Apps.
+The experience is superb. ❤️
 
 #### Application Server
 
@@ -256,30 +278,6 @@ to help you get started, we wrote a
 ***step-by-step setup guide*** for apps deployed to Heroku:
 [SSL-certificate-step-by-step-setup-instructions.md](https://github.com/dwyl/learn-heroku/blob/master/SSL-certificate-step-by-step-setup-instructions.md)
 
-### Beginner Tutorials?
-
-We have _crafted_ a "***Complete Beginner's Guide***"
-for each element in the stack, so that we:
-+ ***Document our collective learning***
-`while` we are building projects.
-(_because as humans we **forget fast** unless we **write it**_!)
-+ ***Share*** our knowledge with other people so we can
-  + Help to train (_potential_) new team members
-  as quickly/effectively as possible.
-  + ***Collectively iterate*** on our knowledge and "_level-up_" as a _team_!
-  + "Onboard" the client team (_who may want/need_) to
-  support/maintain the codebase/project if/when we _seamlessly_ "hand over".
-  + Inform the wider community of both technical _and_ non-technical
-  people ("stake holders") who are _generally_
-  interested in _understanding_ the project.
-  + Enlighten other teams/organisations/agencies/etc. we aren't in
-  _direct_ contact with that there is a "_more fun_" way of building software!
-+ Make _everyone's_ life easier/better
-by having a "launch pad" for
-[_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
-
-> For an _example_ project where this "Stack" is _implemented_
-see: https://github.com/healthlocker/healthlocker
 
 
 <br /> <br /> <br /> <br /> <hr />
