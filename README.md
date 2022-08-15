@@ -109,7 +109,7 @@ see:
 **`LiveView`** is a radically simplified way
 of building realtime web apps with significantly less code.
 
-## Beginner Tutorials?
+## _Beginner_ Tutorials?
 
 We have _crafted_ a "***Complete Beginner's Guide***"
 for each element in the stack, so that we:
@@ -121,10 +121,13 @@ unless we **capture** it_!)
 + ***Share*** our knowledge with other people so we can
   + Help to train (_potential_) new team members
   as quickly/effectively as possible.
-  + ***Collectively iterate*** on our knowledge and "_level-up_" as a _team_!
+  + ***Collectively iterate*** on our knowledge 
+  and "_level-up_" as a _team_!
   + "Onboard" the client team (_who may want/need_) to
-  support/maintain the codebase/project if/when we _seamlessly_ "hand over".
-  + Inform the wider community of both technical _and_ non-technical
+  support/maintain the codebase/project 
+  if/when we _seamlessly_ "hand over".
+  + Inform the wider community 
+  of both technical _and_ non-technical
   people ("stake holders") who are _generally_
   interested in _understanding_ the project.
   + Enlighten other teams/organisations/agencies/etc. we aren't in
@@ -133,12 +136,8 @@ unless we **capture** it_!)
 by having a "launch pad" for
 [_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
 
-> For an _example_ project where this "Stack" is _implemented_
-see: https://github.com/healthlocker/healthlocker
-
 We have written several **_beginner_ tutorials** 
-for learning `LiveView`:
-
+for learning **`Phoenix LiveView`**:
 
 1. Counter: 
 [dwyl/phoenix-liveview-**counter**-tutorial](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
@@ -165,15 +164,17 @@ This means that if a client _asks_ us to deploy to MySQL or
 Microsoft SQL Server <br />
 (_e.g. because they already have in-house capability
   for maintaining one of these databases_) <br />
-we can easily accommodate that without re-writing _any_ of the Phoenix app!
+we can easily accommodate that 
+without re-writing _any_ of the `Phoenix` app!
 
 ### We _Prefer_ `PostgreSQL`
 
 <img width="500" alt="postgres logo" 
 src="https://cloud.githubusercontent.com/assets/194400/22939394/6cc00918-f2d6-11e6-8400-77886d70b520.png"/>
 
-Our "_standard_" (_preference_) @dwyl is for Postgres.
-see: [github.com/dwyl/**learn-postgresql**](https://github.com/dwyl/learn-postgresql)
+Our "_standard_" (_preference_) @dwyl is for `Postgres`.
+see: 
+[dwyl/**learn-postgresql**](https://github.com/dwyl/learn-postgresql)
 <br />
 Postgres is the most "_mature_" Open Source Relational Database.
 It's ***100% Free*** (_including all **"advanced"** features_)
@@ -182,11 +183,11 @@ from `AWS` to "Bare Metal" and `Google Cloud` to `Microsoft Azure`!
 
 
 > _**Many** well-known/successful apps rely
-on Postgres as their `main` database_. <br />
+on `Postgres` as their `main` database_. <br />
 > _**NOT** that you should adopt a particular technology
 based on who `else` is using it,_ <br />
 > _but it's **good to know** that **plenty** of teams
-are getting **excellent results** with PostgreSQL!_
+are getting **excellent results** with `Postgres`!_
 <br />
 
 ##### See: [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
@@ -246,24 +247,18 @@ The experience is superb. ❤️
 
 The Phoenix Application Server is hosted on (_a minimum of_)
 Two Linux Servers. <br />
-(_often many more which **message**
+(_often many more which send **messages**
 one another to distribute load as a cluster_). <br />
 The "_cluster_" is managed by Erlang's "Supervisor".
-The Erlang Supervisor is the "_Gold Standard_" in infrastructure management,
-having been used by Telecoms companies for over 20 years in production
-with some Telcos reporting 99.99999% ("_seven nines_") of "_up-time_".
+The Erlang Supervisor 
+is the "_Gold Standard_" in infrastructure management,
+having been used by Telecoms companies 
+for over 20 years in production
+with some Telcos reporting 99.9999999% 
+("_nine nines_") of "_up-time_".
 
 > It's _far_ more likely that the _infrastructure_ provider (_e.g. AWS/Azure_)
 will have a fault in their network/datacenter than an Erlang server "crashing".
-
-
-#### Database Cluster
-
-Thanks to Esmaeil Sarabadani of Haufe.com there is a "Template"
-for deploying a ***Highly-Available PostgreSQL Cluster on Azure***
-this can be setup with only a few clicks and scaled automatically
-to as little or large as required!
-See: http://dev.haufe.com/PostgreSQL-Cluster-Azure/
 
 #### SSL/TLS Encryption
 
@@ -290,8 +285,8 @@ to help you get started, we wrote a
 There is _no shortage_ of options available for
 Technology Stack! <br />
 See: https://www.google.com/search?q=technology+stack&tbm=isch <br />
-So, _how_ did we _arrive_ at the conclusion that "PETE"
-was "_the **one**_" for us...?
+So, _how_ did we _arrive_ at the conclusion that `PETAL`
+was "_the **one**_" for us...? <br />
 We _already_ had a _really_ good
 [Node.js Stack](https://github.com/dwyl/technology-stack#nodejs-stack)
 which worked well for us and our clients. so . . .
@@ -308,20 +303,23 @@ was fueled by our
 and
 ["_shoshin_"](https://en.wikipedia.org/wiki/Shoshin). <br />
 
-> "_The important thing is not to **stop questioning**. **Curiosity** has its own reason for existence._" ~ Albert Einstein <br /> ~
-"Old Man's Advice to Youth: '**Never Lose** a Holy ***Curiosity***.'"
-LIFE Magazine (2 May 1955) p. 64”
+> "_The important thing is not to **stop questioning**. <br />
+> **Curiosity** has its own reason for existence._" <br />
+> ~ Albert Einstein <br /> 
+<!--
+> ~ "Old Man's Advice to Youth: 
+> '**Never Lose** a Holy ***Curiosity***.'" <br />
+> LIFE Magazine (2 May 1955) p. 64”
+-->
 
 In November 2016 we (_once again_) **questioned our _assumptions_**,
 ***re-examined*** and
 [***surveyed***](https://github.com/dwyl/learn-elm/issues/10)
 the "landscape" of "_emerging trends_" in web app development.
 We were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
-made by the people in the Elixir, Phoenix and Elm communities!
-These technologies are set to "***take off***" in 2017 and we are _excited_
-to be _sharing_ the technical/competitive advantage with our clients!
-
-Please see: https://github.com/dwyl/learn-phoenix-framework#questions
+made by the people in the `Elixir` / `Phoenix` community!
+Please see: 
+[dwyl/learn-phoenix-framework#**questions**](https://github.com/dwyl/learn-phoenix-framework#questions)
 
 ## Making Difficult Decisions
 
@@ -331,11 +329,15 @@ to deliver the desired solution/benefit to the "_end users_".
 
 Most people have the Tech/Tools decision made _for_ them
 by the company/organisation/boss they work for
-(_e.g: Java -> Spring, Ruby -> Rails or PHP -> WordPress or Symphony, etc._)
-This is because most companies _already_ have an _existing_ app in "production",
+(_e.g: `Java` -> `Spring`, 
+`Ruby` -> `Rails` 
+or `PHP` -> `WordPress` or `Laravel`, etc._)
+This is because most companies 
+_already_ have an _existing_ app in "production",
 which you have been hired to extend.
 
-Occasionally you will get the chance to build an app from "_scratch_"  
+Occasionally you will get the chance 
+to build an app from "_scratch_"  
 however _most_ of the time someone `else` (_the "Architect"_)
 will make the decision for what "_stack_" to use on your behalf,
 so you will _still_ be stuck with someone _else's_ choices.
@@ -357,18 +359,23 @@ and nobody ever got "_fired_" for sticking with what they know "_works_".
 from "Big Vendor XYZ" (_outsource the thinking to a sales person who last
   wrote code in the 90's ... seems like a great idea ... NOT!_)
 
-3. Be "Bold" and try "***Popular Framework XYZ***" and hire an _external_
-team to build the new magic app. Then attempt to "_up-skill_" the _internal_
+3. Be "Bold" and try "***Popular Framework XYZ***" 
+and hire an _external_
+team to build the new magic app. 
+Then attempt to "_up-skill_" the _internal_
 team to _maintain_ the code written by the consultants.
 
 None of these choices is _optimal_, 
 all have different levels of risk/reward.
-The "_hardest_" choice to make is the one where you try something
-_totally_ different
+The "_hardest_" choice to make 
+is the one where you try something _totally_ different.
 The _reality_ is that very few people
-have the time/resources/mindset/inclination to take a step back
-and open their minds to the idea that there _might_ be a "_better tool_"
-for the job than the one they are _currently_ using.
+have the time/resources/mindset/inclination 
+to take a step back
+and open their minds 
+to the idea that there _might_ 
+be a "_better tool_" for the job 
+than the one they are _currently_ using.
 
 ### Toast Knife Analogy
 
@@ -429,13 +436,17 @@ and was a **_incredible_ revolutionary innovation**!
 
 Nokia continued to _dominate_ the mobile phone industry/market for the next
 ***decade*** producing the _best-selling_
-**5110** and **3310** we all remember! <br />
+[**5110**](https://en.wikipedia.org/wiki/Nokia_5110)
+and 
+[**3310**](https://en.wikipedia.org/wiki/Nokia_3310)
+some of us are old enough to remember! <br />
 But by being "_ahead_" Nokia was _unable_ to see the "_contender_"
 coming "_out of nowhere_" to challenge their position.
 
 In 2006 _nobody_ was making/buying "smart" mobile phones
 with glass touch screens that ran "apps" ... <br />
-in [January 2007 Steve Jobs introduced the iPhone](https://www.youtube.com/results?search_query=Steve+Jobs+iPhone+Introduction+2007)
+in 
+[January 2007 Steve Jobs introduced the iPhone](https://www.youtube.com/results?search_query=Steve+Jobs+iPhone+Introduction+2007)
 and _literally_ changed the industry!
 
 ![Steve Jobs introduces iphone](https://cloud.githubusercontent.com/assets/194400/22934275/4bc76090-f2c6-11e6-9b90-91226e39ea09.png)
@@ -452,7 +463,7 @@ in history!
   "smart" functionality!) <br />
 but few people can **convincingly** argue that the **reason**
 they **don't have** a smart phone is because they **don't want** one; <br />
-[**over 90% 16-24 year olds own a smart phone**](https://www.ofcom.org.uk/about-ofcom/latest/media/media-releases/2015/cmr-uk-2015) and that number is expected to reach 100% by 2020 ... <br />
+[**over 90% 16-24 year olds own a smart phone**](https://www.ofcom.org.uk/about-ofcom/latest/media/media-releases/2015/cmr-uk-2015) and that number is expected to reach 100% by 2025 ... <br />
 ask someone in their 20's if they would go "**back**"
 to using a non-smart phone
 and see what they say ... "**No Way**!!" <br />
@@ -467,7 +478,7 @@ _It's like taking the Bus to work when there's a perfectly
 good teleporter right next to the bus stop!! Madness._
 
 We are not _suggesting_ that _everyone_
-is going to _suddenly_ flock to the "**PETE**" stack
+is going to _suddenly_ flock to the "**PETAL**" stack
 the way people adopted smart phones.
 This is merely an _illustration_ that when a technology
 has a _specific/measurable_ advantage to it's users
