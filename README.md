@@ -7,8 +7,41 @@ The software and systems we use to build the **`dwyl`** platform.
 ![la-rel-easter-KuCGlBXjH_o-unsplash](https://user-images.githubusercontent.com/194400/184178915-302f5a0e-96ab-46c9-9731-ca82affefc7e.jpg "La-Rel Easter - Child stacking blocks") 
 <!-- Photo Credit: https://unsplash.com/photos/KuCGlBXjH_o -->
 
-
 </div>
+- [Technology Stack](#technology-stack)
+- [Why?](#why)
+- [What?](#what)
+  - [The `PETAL` Stack](#the-petal-stack)
+    - [`Phoenix`](#phoenix)
+      - [`Phoenix` the "Most Loved" Framework in 2022](#phoenix-the-most-loved-framework-in-2022)
+    - [**`Elixir`**](#elixir)
+      - [`Elixir` is `#2` in 2022](#elixir-is-2-in-2022)
+    - [`Tailwind CSS`](#tailwind-css)
+    - [`Alpine.js`](#alpinejs)
+    - [`LiveView`](#liveview)
+  - [_Beginner_ Tutorials?](#beginner-tutorials)
+  - [Database?](#database)
+    - [We _Prefer_ `PostgreSQL`](#we-prefer-postgresql)
+        - [See: List of Organizations Using PostgreSQL](#see-list-of-organizations-using-postgresql)
+  - [Operating System?](#operating-system)
+  - [Continuous Integration](#continuous-integration)
+  - [Deployment](#deployment)
+      - [Application Server](#application-server)
+      - [SSL/TLS Encryption](#ssltls-encryption)
+- [tl;dr](#tldr)
+  - [Why Try a "New Stack"?](#why-try-a-new-stack)
+      - [Why Try Something New When We're _Already_ Good with the "Old"...?](#why-try-something-new-when-were-already-good-with-the-old)
+  - [Making Difficult Decisions](#making-difficult-decisions)
+      - [_Most_ "_Application Architects_" will pick one of these 3 options:](#most-application-architects-will-pick-one-of-these-3-options)
+    - [Toast Knife Analogy](#toast-knife-analogy)
+    - [Focussing on Long-term Benefits](#focussing-on-long-term-benefits)
+      - [Further Reading on Long-term Thinking](#further-reading-on-long-term-thinking)
+    - [*Contextualising* Technology Adoption (_Mini History Lesson_)](#contextualising-technology-adoption-mini-history-lesson)
+    - [Does it _Scale_?!?](#does-it-scale)
+    - [What About _Full Stack `JavaScript`_?](#what-about-full-stack-javascript)
+    - [Alternative Databases?](#alternative-databases)
+    - [Other Tech/Tools?](#other-techtools)
+      - [How to propose new tech/tools?](#how-to-propose-new-techtools)
 
 # Why?
 
@@ -42,7 +75,7 @@ and ***world-class quality***!
 
 ## The `PETAL` Stack
 
-![dwyl-pete-stack](https://cloud.githubusercontent.com/assets/194400/23000461/8688abcc-f3d8-11e6-86ab-804720619d8e.png)
+![dwyl-technology-stack-diagram-PETAL](https://user-images.githubusercontent.com/194400/184719877-a6112c04-7cd9-441f-a293-e6b133d4b67c.png)
 
 "PETAL" is an acronym<sup>1</sup> 
 for the following elements:
@@ -63,6 +96,16 @@ The list of ***benefits*** Phoenix has over
 Please see:
 [dwyl/**learn-phoenix-framework**#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
 
+#### `Phoenix` the "Most Loved" Framework in 2022
+
+`Phoenix` tops the list of "Most Loved" Frameworks 
+on the 2022 StackOverflow Community Survey ❤️ 
+
+https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies
+
+![stackoverflow-most-loved-framework-phoenix](https://user-images.githubusercontent.com/194400/184833098-0e9cd055-9e4f-4c93-96ed-4411e1a8154c.png)
+
+
 ### **`Elixir`**
 
 **`Elixir`** is the _functional_ programming language 
@@ -82,7 +125,19 @@ i.e.
 [***sunk cost bias***](http://www.investopedia.com/terms/s/sunk-cost-trap.asp).
 see: [dwyl/**learn-elixir#key-advantages**](https://github.com/dwyl/learn-elixir#**key-advantages**)
 
+#### `Elixir` is `#2` in 2022
 
+`Elixir` is the 2<sup>nd</sup> 
+"Most Loved" programming language:
+
+https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages
+
+![stackoverflow-survey-elixir](https://user-images.githubusercontent.com/194400/184831055-7f22484b-4c2b-472a-bf09-9165ef5fc7f9.png)
+
+This is a good measure of how much people _enjoy_ working
+in the language. 
+And as we all know people who _enjoy_ their work 
+are _better_ at doing it! 
 ### `Tailwind CSS`
 
 **`Tailwind`** is the most _sane_ way 
@@ -275,9 +330,7 @@ to help you get started, we wrote a
 
 
 
-<br /> <br /> <br /> <br /> <hr />
-
-
+<br /> <br /> <hr />
 
 
 # tl;dr
@@ -288,7 +341,7 @@ See: https://www.google.com/search?q=technology+stack&tbm=isch <br />
 So, _how_ did we _arrive_ at the conclusion that `PETAL`
 was "_the **one**_" for us...? <br />
 We _already_ had a _really_ good
-[Node.js Stack](https://github.com/dwyl/technology-stack#nodejs-stack)
+[Node.js Stack](https://github.com/dwyl/technology-stack/tree/flutter-2020/legacy)
 which worked well for us and our clients. so . . .
 
 
@@ -312,7 +365,8 @@ and
 > LIFE Magazine (2 May 1955) p. 64”
 -->
 
-In November 2016 we (_once again_) **questioned our _assumptions_**,
+In November 2016 we (_once again_) 
+**questioned our _assumptions_**,
 ***re-examined*** and
 [***surveyed***](https://github.com/dwyl/learn-elm/issues/10)
 the "landscape" of "_emerging trends_" in web app development.
@@ -347,6 +401,7 @@ trends and investigated the "_new and promising_" technologies
 e.g: Stack Overflow
 ["Most Wanted" list](https://github.com/dwyl/the-book#most-wanted-programming-languages).
 
+
 #### _Most_ "_Application Architects_" will pick one of these 3 options:
 
 1.  ***Go with what you (already) know***, use _existing_ stack
@@ -379,43 +434,48 @@ than the one they are _currently_ using.
 
 ### Toast Knife Analogy
 
-Imagine Want to Make Yourself Some Toast.
-Let's write a quick "_user story_" for this:
+Imagine Want to Make Yourself Some **Toast**. <br />
+The "_user story_" for this would be:
 
 > `As a` **peckish person** <br />
 > `I want` a slice of tasty toast <br />
 > `So that` I can have some crunch for my brunch!
 
-> (_let's assume that you bought a loaf of bread from a baker
-to reduce the options for solutions for simplicity
-(i.e. not baking from scratch!_)
+> ( _let's assume that you bought a loaf of bread from a baker <br />
+to reduce the options for solutions for simplicity <br />
+i.e. not baking from scratch!_ )
 
-The "_traditional_" way to "_solve_" the challenge of making toast: <br />
+The "_traditional_" way to "_solve_" 
+the challenge of making toast: <br />
 
-+ Cut bread with bread knife
-+ Put sliced bread in toaster
-+ Turn on toaster for pre-determined amount of time
-+ Wait patiently for toaster to make toast
+1. Cut bread with bread knife
+2. Put sliced bread in toaster
+3. Turn on toaster for pre-determined amount of time
+4. Wait patiently for toaster to make toast
 
 
 But ... what if instead the "_old_" way we just described,
-someone invented a way to _toast_ the bread `while` slicing it...?!
+someone invented a way 
+to _toast_ the bread `while` slicing it...?!
 
 ![b4df5698-914e-4dd2-b271-9c00881b6599-274-0000001c8c73f018_tmp](https://cloud.githubusercontent.com/assets/194400/22363833/07798ad6-e465-11e6-9d92-44898a774148.png)
 ![9f9fc56d-b22a-4e77-b60f-f3619254023b-274-0000001ce1dcb22a_tmp](https://cloud.githubusercontent.com/assets/194400/22363837/0d860594-e465-11e6-9dcd-292f441983b0.png)
 
-Simply by using the "***New Tool***" - _in this case the
-["**Toast Knife**"](https://youtu.be/3ttzWuaPGMo?t=1m1s)_ - you can
+Simply by using the "***New Tool***" for the job - 
+_in this case the
+["**Toast Knife**"](https://youtu.be/3ttzWuaPGMo?t=1m1s)_ - 
+you can
 simplify the process to a ***single step***! <br />
-This is the power of being _open_ to considering "New" Tools/Technologies!
+This is the power of being _open_ to considering "New" Tools/Technologies! <br />
 Get the ***same result*** in **fewer** than half the "**steps**"!
 
 ### Focussing on Long-term Benefits
 
 The _short-term_ cost of learning a new stack
 (_programming language or framework_) is time,
-We contend that the 1-3 week learning time (_depending on the focus of learners_)
-will pay for itself within 3 months
+We contend that the 1 week learning time 
+(_depending on the focus of learners_)
+will pay for itself within 1 month
 (_often sooner if the team is large/distributed because the **structure**
   offered by Phoenix means everyone working on the project
   has a disciplined approach to adding new features_)
@@ -494,25 +554,29 @@ even if other people insist on using the "brick".
 ### Does it _Scale_?!?
 
 If you are new to web development,
-_please focus on UX and forget about "**scale**"_! <br />
+_please focus on **`UX`** 
+and forget about "**scale**"_! <br />
 
 > _Unless you work somewhere that
   **already** has "**millions of users**" and <br />
 your team **cannot consider** anything that
 does not support a million concurrent connections...!_ <br />
 
-> _But let's face it, **most** people have [**imaginary scaling
-issues**](https://twitter.com/ThePracticalDev/status/800752571497545729)
+> _But let's face it, **most** people have 
+[**imaginary scaling issues**](https://twitter.com/ThePracticalDev/status/800752571497545729)
 not **real** ones. <br />
-discussing "scalability" before you have 10,000 paying customers is
-a waste of time!!_ <br />
+discussing "scalability" **`before`** 
+you have **10,000 paying customers** 
+is a waste of time!!_ <br />
 
 Stop worrying about "scalability"
 and instead **focus** on building something **useful** <br />
-**focus** on **User Experience** not "backend" **scalability**!
+**focus** on **User Experience** not ("backend") **scalability**!
 
-The _good_ news is that Phoenix "***scales***" _really well_! <br />
-see: http://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections
+The _good_ news is that 
+**`Phoenix`** "***scales***" _really well_! <br />
+see: 
+[phoenixframework.org/blog/the-road-to-2-million-websocket-connections](https://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections)
 
 Forget about "_scaling_" until you have _made_
 [***something people want***](http://paulgraham.com/good.html)
@@ -522,6 +586,7 @@ to hire "_engineers_" to make it _available_ to more people!!
 
 <br /> <br />
 
+<!--
 ### _No JavaScript_ in "PETAL"...?
 
 ![no-javascript](https://cloud.githubusercontent.com/assets/194400/22939705/88d3e524-f2d7-11e6-91c6-47513f6b4fa7.jpg)
@@ -549,7 +614,6 @@ It's _definitely_ not because it's a
 "_better_" language than Python, Julia or Lisp;
 we write JS out of _necessity_ not _choice_. <br />
 
-
 With Elm we no longer _need_ to write our Client-side
 (_progressive enhancement_) code in JavaScript!
 We can write in a beautiful/functional language <br />
@@ -570,25 +634,73 @@ If you're in any doubt, ***Just Do it***._
 
 ![just-do-it-nike-log](https://cloud.githubusercontent.com/assets/194400/22940322/63db1308-f2d9-11e6-8d84-e024b00e37a4.png)
 
-### What About _Full Stack JavaScript_?
+-->
 
-We still think that "***Full Stack JavaScript***"
+### What About _Full Stack `JavaScript`_?
+
+We still think that 
+"***Full Stack `JavaScript`***"
 is a ***compelling proposition***
 _especially_ for people who are just starting out!
+It allows you to write _one_ programming language
+on both the client and server; we get it!
 However we have learned from years of experience
-
-
+that it requires **a _lot_ more code and _maintenance_**
+than **`PETAL`** for an **_inferior_ result**
+in terms of UX/performance and developer productivity.
 
 ### Alternative Databases?
 
-If we were to _consider_ an alternative to SQL, we
-would use RethinkDB:
+If we were to _consider_ an alternative to `SQL`, we
+would use `RethinkDB`:
 https://rethinkdb.com <br />
-But we are _relieved_ that the Phoenix team
+But we are _relieved_ that the `Phoenix` team
 is _focussed_ on PostgreSQL because that _eliminates_ <br />
 the "ambiguity" or "discussion" of "_which database_" to use!
 Postgres is a _fantastic_ "_general purpose_" <br />
 store that has a _rich_ ("_structured_") query language
 that lets you JOIN data!! <br />
-Also, now that [Citus DB is Open Source](https://www.citusdata.com/blog/2016/03/24/citus-unforks-goes-open-source)
-we _know_ that Postgres can _easily_ handle billions of writes per day!
+Also, now that [`Citus DB` is Open Source](https://www.citusdata.com/blog/2016/03/24/citus-unforks-goes-open-source)
+we _know_ that `Postgres` 
+can _easily_ handle ***billions*** of writes per day!
+
+### Other Tech/Tools?
+
+We have written about 
+our choice of programming language _extensively_ in:
+[learn-elixir/issues/102](https://github.com/dwyl/learn-elixir/issues/102).
+
+Our use of **`Elixir`** is for a very specific reason:
+we are building fault-tolerant realtime systems.
+For the type of App we are building, 
+`Erlang/OTP` is the _undisputed_ king
+on the server side.
+We _could_ use almost any other language/framework,
+but it would be a _lot_ more work for an inferior result.
+
+If we need to build a **_specific_ feature** 
+requested by a person _using_ our product,
+then we will **100%** consider a technology 
+that enables us to deliver it.
+
+#### How to propose new tech/tools?
+
+The way to _propose_ a specific tech/tool
+is simple:
+[open an issue](https://github.com/dwyl/technology-stack/issues)
+describe how the tech/tool
+will help us build a _specific_ feature
+that has been requested by a person using our product.
+
+_Proactively_ create a **`new` repo**
+in the dwyl org
+to capture your own learning 
+of the tech/tool you are proposing.
+e.g: 
+[dwyl?q=learn](https://github.com/dwyl?q=learn&type=all&language=&sort=)
+
+Once you have invested the time 
+to learn the tech/tool beyond **`"hello world"`**
+and are confident that it will help us
+achieve a specific end-goal,
+then _please_ make the case for it. 
