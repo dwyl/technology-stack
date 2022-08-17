@@ -79,9 +79,10 @@ See:
 
 ![google-apps-built-with-flutter](https://user-images.githubusercontent.com/194400/71911727-267a4e00-316c-11ea-9ad9-49755641affb.png)
 
+## Cross-platform Single Codebase Native App
 
 Flutter is _mobile first_, has full/official support for Web/PWAs
-using the _same_ code base as the Native Mobile Apps.
+using the _same_ code base as the Native Mobile and Desktop Apps.
 
 ![image](https://user-images.githubusercontent.com/194400/71738403-6bda0b00-2e4e-11ea-85d1-0d9aefb7c1e4.png)
 
@@ -92,6 +93,8 @@ and it's only getting better! <br />
 See: 
 [medium.com/flutter/whats-new-in-flutter-3-8c74a5bc32d0](https://medium.com/flutter/whats-new-in-flutter-3-8c74a5bc32d0)
 
+Google is investing _heavily_ in Flutter,
+it's used for the Google Assistant, Google Ads and Stadia!
 
 ## Guiding Principals 
 
@@ -118,9 +121,6 @@ https://flutter.dev/docs/cookbook/persistence/sqlite
 [youtube.com/watch?v=NfNdXgJZfFo](https://www.youtube.com/watch?v=NfNdXgJZfFo&list=PLjxrf2q8roU0o0wKRJTjyN0pSUA6TI8lg)
 
 
-Google is investing _heavily_ in Flutter,
-it's used for the Google Assistant, Google Ads and Stadia!
-
 <!--
 ### What about `Elm`?
 
@@ -143,7 +143,7 @@ By using `LiveView`, `Tailwind` and `Alpine.js`
 (AKA the `PETAL` stack)
 to build features as a Web App _first_
 we iterate _fast_ 
-and maintain full control over the 
+and maintain full control over 
 [**`SEO`**](https://github.com/dwyl/technology-stack/issues/81#issuecomment-1146670657).
 
 Once the feature is _built_ for the Web
@@ -175,6 +175,15 @@ We need to update it and add a section on Benchmarks:
 https://www.techempower.com/benchmarks
 -->
 
+## `Flutter`
+
+We are recording our learning of `Flutter` in:
+[dwyl/learn-flutter](https://github.com/dwyl/learn-flutter)
+
+All the _practical_ detail is there.
+
+
+<br />
 
 # Background
 

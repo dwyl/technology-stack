@@ -12,17 +12,17 @@ The software and systems we use to build the **`dwyl`** platform.
 - [Why?](#why)
 - [What?](#what)
   - [The `PETAL` Stack](#the-petal-stack)
-    - [`Phoenix`](#phoenix)
+    - [**`Phoenix`**](#phoenix)
       - [`Phoenix` the "Most Loved" Framework in 2022](#phoenix-the-most-loved-framework-in-2022)
     - [**`Elixir`**](#elixir)
       - [`Elixir` is `#2` in 2022](#elixir-is-2-in-2022)
-    - [`Tailwind CSS`](#tailwind-css)
-    - [`Alpine.js`](#alpinejs)
-    - [`LiveView`](#liveview)
+    - [**`Tailwind CSS`**](#tailwind-css)
+    - [**`Alpine.js`**](#alpinejs)
+    - [**`LiveView`**](#liveview)
   - [_Beginner_ Tutorials?](#beginner-tutorials)
   - [Database?](#database)
     - [We _Prefer_ `PostgreSQL`](#we-prefer-postgresql)
-        - [See: List of Organizations Using PostgreSQL](#see-list-of-organizations-using-postgresql)
+        - [List of Organizations Using PostgreSQL](#list-of-organizations-using-postgresql)
   - [Operating System?](#operating-system)
   - [Continuous Integration](#continuous-integration)
   - [Deployment](#deployment)
@@ -42,7 +42,7 @@ The software and systems we use to build the **`dwyl`** platform.
     - [Alternative Databases?](#alternative-databases)
   - [Radical Simplicity](#radical-simplicity)
   - [Other Tech/Tools?](#other-techtools)
-  - [How to propose new tech/tools?](#how-to-propose-new-techtools)
+  - [How to Propose `NEW` Tech/Tools?](#how-to-propose-new-techtools)
 
 # Why?
 
@@ -81,7 +81,7 @@ and ***world-class quality***!
 "PETAL" is an acronym<sup>1</sup> 
 for the following elements:
 
-### `Phoenix`
+### **`Phoenix`**
 
 **`Phoenix`** is a Web Application Framework 
 that does not compromise
@@ -114,7 +114,8 @@ used by the **`Phoenix`** framework.
 **`Elixir`** is a _beautiful_ language
 written _from scratch_ to be 
 ***friendly, concise and efficient***.
-***Yes***, `Elixir` not as "_popular_" 
+***Yes***, `Elixir` not as 
+["_mainstream_"](https://github.com/dwyl/learn-elixir/issues/102#issuecomment-1105416646)
 as `JavaScript`, `Java`, `C#` or `PHP`,
 but the adoption is _growing rapidly_ and most importantly
 many _experienced_ developers are gravitating towards and
@@ -139,7 +140,7 @@ This is a good measure of how much people _enjoy_ working
 in the language. 
 And as we all know people who _enjoy_ their work 
 are _better_ at doing it! 
-### `Tailwind CSS`
+### **`Tailwind CSS`**
 
 **`Tailwind`** is the most _sane_ way 
 of creating a _beautiful_ web app UI
@@ -152,7 +153,7 @@ and _local_ to that component.
 see: 
 [dwyl/**learn-tailwind**](https://github.com/dwyl/learn-tailwind)
 
-### `Alpine.js`
+### **`Alpine.js`**
 
 **`Alpine.js`** is a lightweight library for enhancing interactions
 in a web application. It's declarative, responsive and easy to learn.
@@ -160,20 +161,22 @@ in a web application. It's declarative, responsive and easy to learn.
 see: 
 [dwyl/**learn-alpine.js**](https://github.com/dwyl/learn-alpine.js)
 
-### `LiveView`
+### **`LiveView`**
 
 **`LiveView`** is a radically simplified way
 of building realtime web apps with significantly less code.
+
+<br />
 
 ## _Beginner_ Tutorials?
 
 We have _crafted_ a "***Complete Beginner's Guide***"
 for each element in the stack, so that we:
 + ***Document our collective learning***
-`while` we are building projects.
+`while` we are building projects. <br />
 (_because as humans 
 we **forget fast** 
-unless we **capture** it_!)
+unless we **capture** it **immediately**_!)
 + ***Share*** our knowledge with other people so we can
   + Help to train (_potential_) new team members
   as quickly/effectively as possible.
@@ -204,8 +207,9 @@ for learning **`Phoenix LiveView`**:
 4. Chat: 
 [dwyl/phoenix-liveview-**chat**-example](https://github.com/dwyl/phoenix-liveview-chat-example)
 
-And finally, we have built a fully working MVP version of our App:
+And we have built a fully working MVP version of our App:
 [dwyl/**mvp**](https://github.com/dwyl/mvp)
+
 
 ## Database?
 
@@ -244,9 +248,8 @@ on `Postgres` as their `main` database_. <br />
 based on who `else` is using it,_ <br />
 > _but it's **good to know** that **plenty** of teams
 are getting **excellent results** with `Postgres`!_
-<br />
 
-##### See: [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
+##### [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
 
 We have used _most_ of the "_popular_" Relational Databases.
 e.g: `MySQL`, `Microsoft SQL Server`, 
@@ -691,6 +694,17 @@ complex tech that is only relevant to 0.1% of mega scale companies:
 ![image](https://user-images.githubusercontent.com/194400/185088279-241c2d23-3986-4820-9b59-7acb6f9b8235.png)
 
 We agree. 
+
+<br />
+
+If by some luck our product reaches the point where
+we _need_ mega scale 
+(_millions of `people` creating billions of `items`_)
+we know that our chosen stack will scale just fine.
+
+Before then the complexity will only slow us down
+and reduce the chances of success.
+
 ## Other Tech/Tools?
 
 We have written about 
@@ -710,7 +724,7 @@ requested by a person _using_ our product,
 then we will **100%** consider a technology 
 that enables us to deliver it.
 
-## How to propose new tech/tools?
+## How to Propose `NEW` Tech/Tools?
 
 The way to _propose_ a specific tech/tool
 is simple:
