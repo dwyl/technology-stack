@@ -6,8 +6,8 @@ The software and systems we use to build the **`dwyl`** platform.
 
 ![la-rel-easter-KuCGlBXjH_o-unsplash](https://user-images.githubusercontent.com/194400/184178915-302f5a0e-96ab-46c9-9731-ca82affefc7e.jpg "La-Rel Easter - Child stacking blocks") 
 <!-- Photo Credit: https://unsplash.com/photos/KuCGlBXjH_o -->
-
 </div>
+
 - [Technology Stack](#technology-stack)
 - [Why?](#why)
 - [What?](#what)
@@ -41,6 +41,7 @@ The software and systems we use to build the **`dwyl`** platform.
     - [What About _Full Stack `JavaScript`_?](#what-about-full-stack-javascript)
     - [Alternative Databases?](#alternative-databases)
     - [Other Tech/Tools?](#other-techtools)
+  - [Radical Simplicity](#radical-simplicity)
       - [How to propose new tech/tools?](#how-to-propose-new-techtools)
 
 # Why?
@@ -341,7 +342,7 @@ See: https://www.google.com/search?q=technology+stack&tbm=isch <br />
 So, _how_ did we _arrive_ at the conclusion that `PETAL`
 was "_the **one**_" for us...? <br />
 We _already_ had a _really_ good
-[Node.js Stack](https://github.com/dwyl/technology-stack/tree/flutter-2020/legacy)
+[Node.js Stack](https://github.com/dwyl/technology-stack/blob/main/legacy)
 which worked well for us and our clients. so . . .
 
 
@@ -683,6 +684,32 @@ requested by a person _using_ our product,
 then we will **100%** consider a technology 
 that enables us to deliver it.
 
+## Radical Simplicity
+
+> “_If it takes an hour to figure out what’s going on, well,<br />
+> that’s an hour that wasn’t spent 
+> doing something else more useful and interesting_." <br />
+> ~ 
+> [Rachel Kroll](https://rachelbythebay.com/w/2021/09/05/clever/)
+
+Please read:
+https://www.radicalsimpli.city <br />
+In the site/manifesto
+[Stephan](https://www.linkedin.com/in/stephanjschmidt/)
+makes the case that Apps in 2021 
+have gotten far too complex:
+
+![radical-simplicity-complexity](https://user-images.githubusercontent.com/194400/185086864-1e1dd075-18a8-45ff-9b51-84f9e17fe116.png)
+
+He advocates for a return to basics:
+
+![image](https://user-images.githubusercontent.com/194400/185088113-b40f169f-71c7-4139-b984-cf518e4bc0f4.png)
+
+No need for microservices message queues or other 
+complex tech that is only relevant to 0.1% of mega scale companies:
+![image](https://user-images.githubusercontent.com/194400/185088279-241c2d23-3986-4820-9b59-7acb6f9b8235.png)
+
+We agree. 
 #### How to propose new tech/tools?
 
 The way to _propose_ a specific tech/tool
@@ -704,3 +731,5 @@ to learn the tech/tool beyond **`"hello world"`**
 and are confident that it will help us
 achieve a specific end-goal,
 then _please_ make the case for it. 
+
+  [![HitCount](https://hits.dwyl.com/dwyl/technology-stack.svg?style=flat-square)](http://hits.dwyl.com/dwyl/technology-stack)
