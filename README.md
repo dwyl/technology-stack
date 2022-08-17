@@ -40,9 +40,9 @@ The software and systems we use to build the **`dwyl`** platform.
     - [Does it _Scale_?!?](#does-it-scale)
     - [What About _Full Stack `JavaScript`_?](#what-about-full-stack-javascript)
     - [Alternative Databases?](#alternative-databases)
-    - [Other Tech/Tools?](#other-techtools)
   - [Radical Simplicity](#radical-simplicity)
-      - [How to propose new tech/tools?](#how-to-propose-new-techtools)
+  - [Other Tech/Tools?](#other-techtools)
+  - [How to propose new tech/tools?](#how-to-propose-new-techtools)
 
 # Why?
 
@@ -665,25 +665,6 @@ Also, now that [`Citus DB` is Open Source](https://www.citusdata.com/blog/2016/0
 we _know_ that `Postgres` 
 can _easily_ handle ***billions*** of writes per day!
 
-### Other Tech/Tools?
-
-We have written about 
-our choice of programming language _extensively_ in:
-[learn-elixir/issues/102](https://github.com/dwyl/learn-elixir/issues/102).
-
-Our use of **`Elixir`** is for a very specific reason:
-we are building fault-tolerant realtime systems.
-For the type of App we are building, 
-`Erlang/OTP` is the _undisputed_ king
-on the server side.
-We _could_ use almost any other language/framework,
-but it would be a _lot_ more work for an inferior result.
-
-If we need to build a **_specific_ feature** 
-requested by a person _using_ our product,
-then we will **100%** consider a technology 
-that enables us to deliver it.
-
 ## Radical Simplicity
 
 > “_If it takes an hour to figure out what’s going on, well,<br />
@@ -710,7 +691,26 @@ complex tech that is only relevant to 0.1% of mega scale companies:
 ![image](https://user-images.githubusercontent.com/194400/185088279-241c2d23-3986-4820-9b59-7acb6f9b8235.png)
 
 We agree. 
-#### How to propose new tech/tools?
+## Other Tech/Tools?
+
+We have written about 
+our choice of programming language _extensively_ in:
+[learn-elixir/issues/102](https://github.com/dwyl/learn-elixir/issues/102).
+
+Our use of **`Elixir`** is for a very specific reason:
+we are building fault-tolerant realtime systems.
+For the type of App we are building, 
+`Erlang/OTP` is the _undisputed_ king
+on the server side.
+We _could_ use almost any other language/framework,
+but it would be a _lot_ more work for an inferior result.
+
+If we need to build a **_specific_ feature** 
+requested by a person _using_ our product,
+then we will **100%** consider a technology 
+that enables us to deliver it.
+
+## How to propose new tech/tools?
 
 The way to _propose_ a specific tech/tool
 is simple:
