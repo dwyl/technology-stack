@@ -90,3 +90,5 @@ https://github.com/dwyl/learn-istanbul#tracking-coverage-as-a-service
 + **CodeClimate** for tracking code quality:
 https://github.com/dwyl/learn-codeclimate
 
+
+  [![HitCount](https://hits.dwyl.com/dwyl/technology-stack-node.svg?style=flat-square)](http://hits.dwyl.com/dwyl/technology-stack)
