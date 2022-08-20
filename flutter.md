@@ -271,4 +271,4 @@ has overtaken `React Native`
 in popularity: 
 https://survey.stackoverflow.co/2022/#section-most-popular-technologies-other-frameworks-and-libraries
 
-[![HitCount](https://hits.dwyl.com/dwyl/technology-stack-flutter.svg?style=flat-square)](http://hits.dwyl.com/dwyl/technology-stack)
+[![HitCount](https://hits.dwyl.com/dwyl/technology-stack-flutter.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)

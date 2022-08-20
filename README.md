@@ -124,7 +124,7 @@ Also a language's popularity has more
 to do with the intellectual inertia people/companies have because
 they allow existing (_legacy_) codebases to dictate future development;
 i.e.
-[***sunk cost bias***](http://www.investopedia.com/terms/s/sunk-cost-trap.asp).
+[***sunk cost bias***](https://www.investopedia.com/terms/s/sunk-cost-trap.asp).
 see: [dwyl/**learn-elixir#key-advantages**](https://github.com/dwyl/learn-elixir#**key-advantages**)
 
 #### `Elixir` is `#2` in 2022
@@ -260,7 +260,7 @@ have their pros/cons. <br />
 The ***reason*** we like/use **`Postgres`** 
 is because the ***community*** is _superb_. 
 There is a great "_bank_" of _answered_ questions on
-[StackOverflow](http://stackoverflow.com/questions/tagged/postgresql)
+[StackOverflow](https://stackoverflow.com/questions/tagged/postgresql)
 and new questions get answered _fast_.
 ## Operating System?
 
@@ -516,7 +516,7 @@ and _literally_ changed the industry!
 ![Steve Jobs introduces iphone](https://cloud.githubusercontent.com/assets/194400/22934275/4bc76090-f2c6-11e6-9b90-91226e39ea09.png)
 
 The dominant/incumbent mobile phone maker **Nokia** had
-[***49% market share in 2007***](http://www.bbc.co.uk/news/technology-23947212)
+[***49% market share in 2007***](https://www.bbc.co.uk/news/technology-23947212)
 _mocked_ Apple's lack of features, poor battery life and high price. <br />
 By 2013 Nokia had 3% Market Share (_for new device sales_) and was sold off "for parts" to Microsoft
 while Apple was the [most valuable company](https://www.statista.com/statistics/263264/top-companies-in-the-world-by-market-value/)
@@ -746,4 +746,4 @@ and are confident that it will help us
 achieve a specific end-goal,
 then _please_ make the case for it. 
 
-  [![HitCount](https://hits.dwyl.com/dwyl/technology-stack.svg?style=flat-square)](http://hits.dwyl.com/dwyl/technology-stack)
+  [![HitCount](https://hits.dwyl.com/dwyl/technology-stack.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)

@@ -55,13 +55,13 @@ We ***craft code*** to [***scratch our own itch***](https://github.com/dwyl/star
 
 + **Node.js** - the most popular JavaScript runtime for easily building fast,
 ~~scalable~~ simple network applications. Lightweight and efficient, perfect for
-data-intensive real-time apps. http://nodejs.org/
+data-intensive real-time apps. https://nodejs.org/
 + **Hapi.js** - A rich web framework for building applications and services.
 https://github.com/dwyl/learn-hapi
 + **Socket.io** - a JavaScript library for realtime web applications.
 It enables realtime, bi-directional communication between web clients and
 server. Socket.io lets us send data to/from everyone connected to our app(s)
-without having to refresh the web page. http://socket.io/
+without having to refresh the web page. https://socket.io/
 + **Riot.js** - is the most ***light-weight*** user-interface (UI) framework
 available which is compatible with IE 8/9 and has good
 server-side rendering (*which means pages load faster for slow devices like budget smart phones*).
@@ -91,4 +91,4 @@ https://github.com/dwyl/learn-istanbul#tracking-coverage-as-a-service
 https://github.com/dwyl/learn-codeclimate
 
 
-  [![HitCount](https://hits.dwyl.com/dwyl/technology-stack-node.svg?style=flat-square)](http://hits.dwyl.com/dwyl/technology-stack)
+  [![HitCount](https://hits.dwyl.com/dwyl/technology-stack-node.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)
