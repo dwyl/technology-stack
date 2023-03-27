@@ -235,7 +235,7 @@ pertaining to `Phoenix` and `Phoenix Liveview`.
 #### Small projects that use `Phoenix`
 
 Here's a brief list of a few of our projects
-that use `Phoenix` as the main framework
+that use `Phoenix` as the main framework.
 
 1. Labels: 
 [dwyl/**labels**](https://github.com/dwyl/labels)
