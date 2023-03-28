@@ -21,7 +21,8 @@ The software and systems we use to build the **`dwyl`** platform.
     - [**`LiveView`**](#liveview)
   - [_Beginner_ Tutorials?](#beginner-tutorials)
     - [**`Phoenix`/`Elixir`**:](#phoenixelixir)
-      - [Small projects that use `Phoenix`](#small-projects-that-use-phoenix)
+      - [Small Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
+      - [`Elixir` Utilities](#elixir-utilities)
     - [**`Flutter`**](#flutter)
     - [Miscellaneous](#miscellaneous)
     - [Our `MVP`](#our-mvp)
@@ -209,7 +210,6 @@ and tools we actively use in development.
 Here are a few of our learning repositories
 pertaining to `Phoenix` and `Phoenix Liveview`.
 
-
 1. Learn `Elixir`:
 [dwyl/learn-elixir](https://github.com/dwyl/learn-elixir)
 2. Learn `Phoenix`:
@@ -232,19 +232,23 @@ pertaining to `Phoenix` and `Phoenix Liveview`.
 [dwyl/**flutter-phoenix**-channels-demo](https://github.com/dwyl/flutter-phoenix-channels-demo)
 
 
-#### Small projects that use `Phoenix`
+#### Small Projects That Showcase `Phoenix`
 
-Here's a brief list of a few of our projects
-that use `Phoenix` as the main framework.
+We have a couple of "internal" (but Open Source) projects
+that use `Phoenix` 
+and serve as a good showcase for the stack:
 
 1. Labels: 
 [dwyl/**labels**](https://github.com/dwyl/labels)
 2. Hits: 
 [dwyl/**hits**](https://github.com/dwyl/hits)
-3. Useful:
-[dwyl/**useful**](https://github.com/dwyl/useful)
-4. Content:
-[dwyl/**content**](https://github.com/dwyl/content)
+
+#### `Elixir` Utilities
+
+1. Useful:
+[dwyl/**useful**](https://github.com/dwyl/useful) - utility library.
+2. Content:
+[dwyl/**content**](https://github.com/dwyl/content) - content negotiation.
 
 ### **`Flutter`**
 
@@ -275,19 +279,16 @@ we will list a few repos that explain
 concepts and tools that we are actively using
 while developing our [`app`](https://github.com/dwyl/app).
 
-1. `Labels` project: 
-[dwyl/**labels**](https://github.com/dwyl/labels)
-2. `Hits` project: 
-[dwyl/**hits**](https://github.com/dwyl/hits)
-3. Payment processing:
+
+1. Payment processing:
 [dwyl/learn-**payment-processing**](https://github.com/dwyl/learn-payment-processing)
-4. API design:
+1. API design:
 [dwyl/learn-**api-design**](https://github.com/dwyl/learn-api-design)
-5. Test-driven development
+1. Test-driven development
 [dwyl/learn-**tdd**](https://github.com/dwyl/learn-tdd)
-6. `Insomnia` API client:
+1. `Insomnia` API client:
 [dwyl/learn-**insomnia**](https://github.com/dwyl/learn-insomnia)
-7. `Github Pages` deployment:
+1. `Github Pages` deployment:
 [dwyl/learn-**github-pages**](https://github.com/dwyl/learn-github-pages)
 
 
