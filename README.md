@@ -20,6 +20,12 @@ The software and systems we use to build the **`dwyl`** platform.
     - [**`Alpine.js`**](#alpinejs)
     - [**`LiveView`**](#liveview)
   - [_Beginner_ Tutorials?](#beginner-tutorials)
+    - [**`Phoenix`/`Elixir`**:](#phoenixelixir)
+      - [Small Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
+      - [`Elixir` Utilities](#elixir-utilities)
+    - [**`Flutter`**](#flutter)
+    - [Miscellaneous](#miscellaneous)
+    - [Our `MVP`](#our-mvp)
   - [Database?](#database)
     - [We _Prefer_ `PostgreSQL`](#we-prefer-postgresql)
         - [List of Organizations Using PostgreSQL](#list-of-organizations-using-postgresql)
@@ -196,19 +202,101 @@ by having a "launch pad" for
 [_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
 
 We have written several **_beginner_ tutorials** 
-for learning **`Phoenix LiveView`**:
+that span our technology stack
+and tools we actively use in development.
 
-1. Counter: 
+### **`Phoenix`/`Elixir`**:
+
+Here are a few of our learning repositories
+pertaining to `Phoenix` and `Phoenix Liveview`.
+
+1. Learn `Elixir`:
+[dwyl/learn-elixir](https://github.com/dwyl/learn-elixir)
+2. Learn `Phoenix`:
+[dwyl/learn-**phoenix**-framework](https://github.com/dwyl/learn-phoenix-framework)
+3. Counter (Liveview): 
 [dwyl/phoenix-liveview-**counter**-tutorial](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
-2. Todo List: 
+4. Todo List (Liveview): 
 [dwyl/phoenix-liveview-**todo-list**-tutorial](https://github.com/dwyl/phoenix-liveview-todo-list-tutorial)
-3. Stop watch: 
+5. Stopwatch (Liveview): 
 [dwyl/phoenix-liveview-**stopwatch**](https://github.com/dwyl/phoenix-liveview-stopwatch)
-4. Chat: 
-[dwyl/phoenix-liveview-**chat**-example](https://github.com/dwyl/phoenix-liveview-chat-example)
+6. Chat:
+[dwyl/phoenix-**chat**-example](https://github.com/dwyl/phoenix-chat-example)
+7. Chat (Liveview): 
+[dwyl/phoenix-**liveview-chat**-example](https://github.com/dwyl/phoenix-liveview-chat-example)
+8. Realtime cursor tracking (Liveview):
+[dwyl/phoenix-liveview-realtime-**cursor**-tracking-tutorial](dwyl/phoenix-liveview-realtime-cursor-tracking-tutorial)
+9. `Papertrail` and `Phoenix`:
+[dwyl/phoenix-**papertrail**-demo](https://github.com/dwyl/phoenix-papertrail-demo)
+10. `Flutter` and `Phoenix`:
+[dwyl/**flutter-phoenix**-channels-demo](https://github.com/dwyl/flutter-phoenix-channels-demo)
 
-And we have built a fully working MVP version of our App:
-[dwyl/**mvp**](https://github.com/dwyl/mvp)
+
+#### Small Projects That Showcase `Phoenix`
+
+We have a couple of "internal" (but Open Source) projects
+that use `Phoenix` 
+and serve as a good showcase for the stack:
+
+1. Labels: 
+[dwyl/**labels**](https://github.com/dwyl/labels)
+2. Hits: 
+[dwyl/**hits**](https://github.com/dwyl/hits)
+
+#### `Elixir` Utilities
+
+1. Useful:
+[dwyl/**useful**](https://github.com/dwyl/useful) - utility library.
+2. Content:
+[dwyl/**content**](https://github.com/dwyl/content) - content negotiation.
+
+### **`Flutter`**
+
+In this section you will find learning repositories
+where you can learn `Flutter`
+*and* how to use it with other technologies.
+
+1. Learn `Flutter`:
+[dwyl/learn-**flutter**](https://github.com/dwyl/learn-flutter)
+2. Learn `Dart`:
+[dwyl/learn-**dart**](https://github.com/dwyl/learn-dart)
+3. `Supabase` and `Flutter`:
+[dwyl/**supabase**-flutter-demo](https://github.com/dwyl/supabase-flutter-demo)
+4. Counter:
+[dwyl/flutter-**counter**-example](https://github.com/dwyl/flutter-counter-example)
+5. Stopwatch:
+[dwyl/flutter-**stopwatch**-tutorial](https://github.com/dwyl/flutter-stopwatch-tutorial)
+6. Todo list:
+[dwyl/flutter-**todo-list**-tutorial](https://github.com/dwyl/flutter-todo-list-tutorial)
+7. `Bloc`:
+[dwyl/flutter-**bloc**-tutorial](https://github.com/dwyl/flutter-bloc-tutorial)
+
+
+### Miscellaneous  
+
+In this section,
+we will list a few repos that explain
+concepts and tools that we are actively using
+while developing our [`app`](https://github.com/dwyl/app).
+
+
+1. Payment processing:
+[dwyl/learn-**payment-processing**](https://github.com/dwyl/learn-payment-processing)
+1. API design:
+[dwyl/learn-**api-design**](https://github.com/dwyl/learn-api-design)
+1. Test-driven development
+[dwyl/learn-**tdd**](https://github.com/dwyl/learn-tdd)
+1. `Insomnia` API client:
+[dwyl/learn-**insomnia**](https://github.com/dwyl/learn-insomnia)
+1. `Github Pages` deployment:
+[dwyl/learn-**github-pages**](https://github.com/dwyl/learn-github-pages)
+
+
+### Our `MVP`
+
+We have built a fully working MVP version of our App!
+Check it out at
+[dwyl/**mvp**](https://github.com/dwyl/mvp)!
 
 
 ## Database?
