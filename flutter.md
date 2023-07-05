@@ -77,7 +77,7 @@ and **Google _Pay_** their popular global payments platform.
 See: 
 [flutter.dev/showcase](https://flutter.dev/showcase)
 
-![google-apps-built-with-flutter](https://user-images.githubusercontent.com/194400/195553065-74416c1b-2306-4d8a-9a5b-82ba716cf370.png)
+[![google-apps-built-with-flutter](https://user-images.githubusercontent.com/194400/195553065-74416c1b-2306-4d8a-9a5b-82ba716cf370.png)](https://flutter.dev/showcase)
 
 There are _thousands_ more examples and more each day!
 
