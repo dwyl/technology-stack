@@ -72,12 +72,23 @@ It _excels_  at _all_ of our requirements.
 
 Google is using `Flutter`
 for several of their cross-platform Native Mobile Apps
-including Google Adds (_their main money maker_)
-and ***Stadia*** their recently launched gaming platform.
+including **Google Adds** (_their main money maker_)
+and **Google _Pay_** their popular global payments platform.  
 See: 
 [flutter.dev/showcase](https://flutter.dev/showcase)
 
-![google-apps-built-with-flutter](https://user-images.githubusercontent.com/194400/71911727-267a4e00-316c-11ea-9ad9-49755641affb.png)
+[![google-apps-built-with-flutter](https://user-images.githubusercontent.com/194400/195553065-74416c1b-2306-4d8a-9a5b-82ba716cf370.png)](https://flutter.dev/showcase)
+
+There are _thousands_ more examples and more each day!
+
+<img width="1704" alt="logos of companies using flutter" src="https://github.com/dwyl/start-here/assets/194400/5d11b7c9-3f87-4a05-b6e6-37c6ee3b5651">
+
+It's almost certain that you are _already_ using an App on your Smart Phone 
+that was built with `Flutter` whether you know it or not.  
+
+For a community list of Apps built with `Flutter`
+including many Open Source ones, see:
+[itsallwidgets.com](https://itsallwidgets.com/)
 
 ## Cross-platform Single Codebase Native App
 
