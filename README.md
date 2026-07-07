@@ -2,11 +2,14 @@
 
 # Technology Stack
 
-The software and systems we use to build the **`dwyl`** platform.
+The software and systems we use to build **`@dwyl`**.
 
-![la-rel-easter-KuCGlBXjH_o-unsplash](https://user-images.githubusercontent.com/194400/184178915-302f5a0e-96ab-46c9-9731-ca82affefc7e.jpg "La-Rel Easter - Child stacking blocks") 
+![la-rel-easter-KuCGlBXjH_o-unsplash](https://user-images.githubusercontent.com/194400/184178915-302f5a0e-96ab-46c9-9731-ca82affefc7e.jpg "La-Rel Easter - Child stacking blocks")
 <!-- Photo Credit: https://unsplash.com/photos/KuCGlBXjH_o -->
 </div>
+
+<details>
+  <summary>Contents [click to expand]</summary>
 
 - [Technology Stack](#technology-stack)
 - [Why?](#why)
@@ -50,10 +53,13 @@ The software and systems we use to build the **`dwyl`** platform.
   - [Other Tech/Tools?](#other-techtools)
   - [How to Propose `NEW` Tech/Tools?](#how-to-propose-new-techtools)
 
+<br />
+</details>
+
 # Why?
 
-As a ***team of people*** 
-using technology 
+As a ***team of people***
+using technology
 to **_make_ digital products**, <br />
 it's _essential_ to **be _unambiguous_**
 about the **stack/tools** we use, <br />
@@ -66,7 +72,9 @@ to make product(s) that are
 -->
 
 > _If **anything** is **unclear** or you have **any questions** please_
-[***ask***](https://github.com/dwyl/technology-stack/issues).
+[***ask***](https://github.com/dwyl/technology-stack/issues). <br />
+We are always happy to answer tech stack related questions. <br />
+But please make sure you read the whole doc including the FAQ first.
 
 # What?
 
@@ -795,26 +803,27 @@ and reduce the chances of success.
 
 ## Other Tech/Tools?
 
-We have written about 
-our choice of programming language _extensively_ in:
-[learn-elixir/issues/102](https://github.com/dwyl/learn-elixir/issues/102).
+We have written _extensively_ about
+our choice of programming language in:
+[learn-elixir#102](https://github.com/dwyl/learn-elixir/issues/102).
 
-Our use of **`Elixir`** is for a very specific reason:
-we are building fault-tolerant realtime systems.
-For the type of App we are building, 
-`Erlang/OTP` is the _undisputed_ king
-on the server side.
+Our use of **`Elixir`** is for a **_very_ specific reason**:
+we are building **fault-tolerant realtime systems**.
+For the type of App we are building,
+**`Erlang/OTP`** is the **_undisputed_ king**
+on the **server side**.
+
 We _could_ use almost any other language/framework,
 but it would be a _lot_ more work for an inferior result.
 
-If we need to build a **_specific_ feature** 
-requested by a person _using_ our product,
-then we will **100%** consider a technology 
+If we need to build a **_specific_ feature**
+requested by a person _using_ our product/service,
+then we will **100%** consider a technology
 that enables us to deliver it.
 
 ## How to Propose `NEW` Tech/Tools?
 
-The way to _propose_ a specific tech/tool
+The way to _propose_ a **specific tech/tool**
 is simple:
 [open an issue](https://github.com/dwyl/technology-stack/issues)
 describe how the tech/tool
