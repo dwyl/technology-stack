@@ -16,7 +16,7 @@ The software and systems we use to build **`@dwyl`**.
 - [What?](#what)
   - [The `PETAL` Stack](#the-petal-stack)
     - [**`Phoenix`**](#phoenix)
-      - [`Phoenix` the "Most Loved" Framework in 2022](#phoenix-the-most-loved-framework-in-2022)
+      - [`Phoenix` the "Most Loved" Framework](#phoenix-the-most-loved-framework)
     - [**`Elixir`**](#elixir)
       - [`Elixir` is `#2` in 2022](#elixir-is-2-in-2022)
     - [**`Tailwind CSS`**](#tailwind-css)
@@ -79,7 +79,7 @@ But please make sure you read the whole doc first.
 
 # What?
 
-This document + diagrams _describe_ 
+This document + diagrams _describe_
 the full "**`PETAL`**" Technology Stack
 we use for **`dwyl`** products/projects.
 
@@ -93,12 +93,12 @@ and ***world-class quality***!
 
 ![dwyl-technology-stack-diagram-PETAL](https://user-images.githubusercontent.com/194400/184719877-a6112c04-7cd9-441f-a293-e6b133d4b67c.png)
 
-"PETAL" is an acronym<sup>1</sup> 
+"PETAL" is an acronym<sup>1</sup>
 for the following elements:
 
 ### **`Phoenix`**
 
-**`Phoenix`** is a Web Application Framework 
+**`Phoenix`** is a Web Application Framework
 that does not compromise
 on speed, reliability or maintainability!
 **`Phoenix`** is the "_successor_"
@@ -112,14 +112,19 @@ The list of ***benefits*** Phoenix has over
 Please see:
 [dwyl/**learn-phoenix-framework**#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
 
-#### `Phoenix` the "Most Loved" Framework in 2022
+#### `Phoenix` the "Most Loved" Framework
 
-`Phoenix` tops the list of "Most Loved" Frameworks 
-on the 2022 StackOverflow Community Survey ❤️ 
+`Phoenix` tops the list of "**Most Loved**" Frameworks
+on the 
+[2025 StackOverflow Community Survey](https://survey.stackoverflow.co/2025/technology#2-web-frameworks-and-technologies). ❤️
+This is the **3<sup>rd</sup> year in a row**.
 
 https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies
 
+
 ![stackoverflow-most-loved-framework-phoenix](https://user-images.githubusercontent.com/194400/184833098-0e9cd055-9e4f-4c93-96ed-4411e1a8154c.png)
+
+
 
 
 ### **`Elixir`**
