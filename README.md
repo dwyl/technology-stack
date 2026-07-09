@@ -63,8 +63,9 @@ using technology
 to **_make_ digital products**, <br />
 it's _essential_ to **be _unambiguous_**
 about the **stack/tools** we use, <br />
-**so that _everyone_** is **clear** 
-what we _all_ need to master.<br />
+**so that _everyone_** is **clear**
+what we _all_ need to
+[**master**](https://www.google.com/search?q=definition+of+mastery).<br />
 
 <!--
 to make product(s) that are 
@@ -74,7 +75,7 @@ to make product(s) that are
 > _If **anything** is **unclear** or you have **any questions** please_
 [***ask***](https://github.com/dwyl/technology-stack/issues). <br />
 We are always happy to answer tech stack related questions. <br />
-But please make sure you read the whole doc including the FAQ first.
+But please make sure you read the whole doc first.
 
 # What?
 
@@ -299,29 +300,39 @@ while developing our [`app`](https://github.com/dwyl/app).
 1. `Github Pages` deployment:
 [dwyl/learn-**github-pages**](https://github.com/dwyl/learn-github-pages)
 
-
 ### Our `MVP`
 
 We have built a fully working MVP version of our App!
 Check it out at
 [dwyl/**mvp**](https://github.com/dwyl/mvp)!
 
-
 ## Database?
 
-The _reason_ we do not _specify_ our Database 
-in the "PETAL" Acronym is
-that **`Phoenix`** allows us 
-to use **_any_ Relational Database**.
+The _reason_ we do not _specify_ our Database
+in the "PETAL" Acronym is <br />
+that **`Phoenix`** abstracts its'
+database access via
+[`Ecto`](https://phoenix.hexdocs.pm/ecto.html)
+to provide built-in support 
+to the following **databases**:
 
-By _abstracting_ the data layer using "Ecto" the application is "_decoupled_"
+* `PostgreSQL` (via [`postgrex`](https://github.com/elixir-ecto/postgrex))
+* `MySQL` (via [`myxql`](https://github.com/elixir-ecto/myxql))
+* `MSSQL` (via [`tds`](https://github.com/livehelpnow/tds))
+* `ETS` (via [`etso`](https://github.com/evadne/etso))
+* `SQLite3` (via [`ecto_sqlite3`](https://github.com/elixir-sqlite/ecto_sqlite3))
+
+By _abstracting_ the data layer
+using "Ecto" the application is "_decoupled_"
 from the database. <br />
-This means that if a client _asks_ us to deploy to MySQL or
-Microsoft SQL Server <br />
+This means that if a client _asks_ us to deploy to `MySQL` or
+`Microsoft SQL Server` <br />
 (_e.g. because they already have in-house capability
   for maintaining one of these databases_) <br />
-we can easily accommodate that 
+we can easily accommodate that
 without re-writing _any_ of the `Phoenix` app!
+Changing a couple of lines of configuration
+is all that is needed.
 
 ### We _Prefer_ `PostgreSQL`
 
@@ -358,9 +369,16 @@ is because the ***community*** is _superb_.
 There is a great "_bank_" of _answered_ questions on
 [StackOverflow](https://stackoverflow.com/questions/tagged/postgresql)
 and new questions get answered _fast_.
+
+From 2023 to 2025 `Postgres` has remained
+the **most used** and **most desired** Database:
+[survey.stackoverflow.co/2025/technology#2-databases](https://survey.stackoverflow.co/2025/technology#2-databases)
+46.5% of respondants use `Postgres`
+more than double `MySQL` (20.5%).
+
 ## Operating System?
 
-A _"traditional"_ 
+A _"traditional"_
 [**LAMP** stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
 includes the **Linux** Operating System
 in the _name_. <br />
