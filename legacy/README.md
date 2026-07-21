@@ -5,19 +5,22 @@ We have deployed our **`Node.js`** stack for _many_ clients
 and internal apps and achieved good results! <br />
 It works well and we have not had any issues with "_performance_"
 or "_scaling_" deploying to AWS.
-> For an example of app built using our Node.js Stack <br />
-see: https://github.com/TheScienceMuseum/collectionsonline <br />
+
+> For an example of app built using our Node.js Stack,
+see: [TheScienceMuseum/collectionsonline](https://github.com/TheScienceMuseum/collectionsonline) <br />
+Still runs smoothly and has been maintained and extended over 10 years!
+[collection.sciencemuseumgroup.org.uk](https://collection.sciencemuseumgroup.org.uk)
 
 There's no "_reason_" to "_rewrite_"
 any of our _existing_ projects to _any_ other "_stack_". <br />
-**`Node.js`** works perfectly well 
-and will continue to be supported 
-for the lifetime 
-of the project(s)
+**`Node.js`** works perfectly well
+and will continue to be supported
+for the lifetime
+of the project(s).
 
-> See: "***tl;dr***" section below if you are _interested_
-in ***why*** we decided to "_evolve_" 
-to "***PETAL***" for ***new*** projects...
+> See: "**TL;DR**" section below if you are _interested_
+in **_why_** we decided to "_evolve_"
+to "**_PETAL_**" for **_new_** projects...
 
 ## Overview
 
@@ -25,16 +28,19 @@ The following diagram is an overview of our **`Node.js`** stack:
 
 ![dwyl-stack-with-postgres](https://cloud.githubusercontent.com/assets/194400/18927934/e5a9d0a4-85b5-11e6-9c59-4d5052d09053.png)
 
-> <small>Note: To edit/improve this diagram: https://github.com/dwyl/technology-stack/issues/1 </small>
+> <small>Note: To edit/improve this diagram:
+> [dwyl/technology-stack#1](https://github.com/dwyl/technology-stack/issues/1) </small>
 
-We have produced a ***complete beginners guide*** 
-for *each* of the components in our stack. (see below)
+We have produced a **_complete beginners guide_**
+for _each_ of the components in our stack. (see below)
 
 ## Open Source Projects We Use
 
-### For Us *By* Us
+### For Us _By_ Us
 
-We ***craft code*** to [***scratch our own itch***](https://github.com/dwyl/start-here#our-approach-scratching-your-own-itch) and ***everything*** we do is ***always Open Source***
+We **_craft code_** to
+[**_scratch our own itch_**](https://github.com/dwyl/start-here#our-approach-scratching-your-own-itch)
+and **_everything_** we do is **_always Open Source_**.
 
 | Project | Used For | Build Status | Test Coverage | Dependency Status | Tutorial |
 | --------|----------|:-----:|:--------:|:------------:|-------|
@@ -62,21 +68,21 @@ https://github.com/dwyl/learn-hapi
 It enables realtime, bi-directional communication between web clients and
 server. Socket.io lets us send data to/from everyone connected to our app(s)
 without having to refresh the web page. https://socket.io/
-+ **Riot.js** - is the most ***light-weight*** user-interface (UI) framework
++ **Riot.js** - is the most **_light-weight_** user-interface (UI) framework
 available which is compatible with IE 8/9 and has good
-server-side rendering (*which means pages load faster for slow devices like budget smart phones*).
+server-side rendering
+(_which means pages load faster for slow devices like budget smart phones_).
 see: https://github.com/dwyl/learn-riot
-+ **Redis** - the most popular *in-memory* data store which is *essential*  
-for building the ***fastest possible*** apps.
++ **Redis** - the most popular _in-memory_ data store which is _essential_
+for building the **_fastest possible_** apps.
 read more: https://github.com/dwyl/learn-redis
 + **ElasticSearch** - the most feature-rich search engine. we use
 it to find things fast. Learn more: https://github.com/dwyl/learn-elasticsearch
 
-
 ### Development Dependencies
 
-We *carefully* select and only use *well-maintained* 
-"*pure*" JavaScript modules
+We _carefully_ select and only use _well-maintained_
+"_pure_" JavaScript modules
 in our development toolchain:
 
 + **Tape** for testing: https://github.com/dwyl/learn-tape
@@ -90,5 +96,4 @@ https://github.com/dwyl/learn-istanbul#tracking-coverage-as-a-service
 + **CodeClimate** for tracking code quality:
 https://github.com/dwyl/learn-codeclimate
 
-
-  [![HitCount](https://hits.dwyl.com/dwyl/technology-stack-node.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)
+[![HitCount](https://hits.dwyl.com/dwyl/technology-stack-node.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)
