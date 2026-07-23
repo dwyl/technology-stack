@@ -18,10 +18,10 @@ The software and systems we use to build **`@dwyl`**.
     - [**`Phoenix`**](#phoenix)
       - [`Phoenix` the "Most Loved" Framework](#phoenix-the-most-loved-framework)
     - [**`Elixir`**](#elixir)
-      - [`Elixir` is `#2` in 2022](#elixir-is-2-in-2022)
-    - [**`Tailwind CSS`**](#tailwind-css)
-    - [**`Alpine.js`**](#alpinejs)
-    - [**`LiveView`**](#liveview)
+      - [`Elixir` Remains Most Loved Language](#elixir-remains-most-loved-language)
+    - [`Tailwind CSS`](#tailwind-css)
+    - [`Alpine.js` (Optional)](#alpinejs-optional)
+    - [`LiveView`](#liveview)
   - [_Beginner_ Tutorials?](#beginner-tutorials)
     - [**`Phoenix`/`Elixir`**:](#phoenixelixir)
       - [Small Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
@@ -52,6 +52,7 @@ The software and systems we use to build **`@dwyl`**.
   - [Radical Simplicity](#radical-simplicity)
   - [Other Tech/Tools?](#other-techtools)
   - [How to Propose `NEW` Tech/Tools?](#how-to-propose-new-techtools)
+- [Recommended Reading](#recommended-reading)
 
 <br />
 </details>
@@ -86,8 +87,8 @@ we use for **`dwyl`** products/projects.
 Each element in our stack was _carefully_ selected based
 on its individual merits. <br />
 When _assembled_ into a seamless "machine",
-the stack is _unrivaled_ for **developer productivity**
-and ***world-class quality***!
+the stack is _unrivaled_ for **developer effectiveness**
+and _**world-class quality**_!
 
 ## The `PETAL` Stack
 
@@ -107,7 +108,7 @@ Built _from scratch_ by highly experienced engineers
 who worked on/with Rails. It _solves_
 all of the speed/socket/scaling/concurrency, issues
 people felt when building/using Rails apps.
-The list of ***benefits*** Phoenix has over
+The list of _**benefits**_ Phoenix has over
 (_virtually every_) other Web Frameworks is _extensive_.<br />
 Please see:
 [dwyl/**learn-phoenix-framework**#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
@@ -115,16 +116,14 @@ Please see:
 #### `Phoenix` the "Most Loved" Framework
 
 `Phoenix` tops the list of "**Most Loved**" Frameworks
-on the 
+on the
 [2025 StackOverflow Community Survey](https://survey.stackoverflow.co/2025/technology#2-web-frameworks-and-technologies). ❤️
-This is the **3<sup>rd</sup> year in a row**.
+for the **3<sup>rd</sup> year in a row**.
 
 https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies
 
 
 ![stackoverflow-most-loved-framework-phoenix](https://user-images.githubusercontent.com/194400/184833098-0e9cd055-9e4f-4c93-96ed-4411e1a8154c.png)
-
-
 
 
 ### **`Elixir`**
@@ -144,47 +143,66 @@ Also a language's popularity has more
 to do with the intellectual inertia people/companies have because
 they allow existing (_legacy_) codebases to dictate future development;
 i.e.
-[***sunk cost bias***](https://www.investopedia.com/terms/s/sunk-cost-trap.asp).
-see: [dwyl/**learn-elixir#key-advantages**](https://github.com/dwyl/learn-elixir#**key-advantages**)
+[_**sunk cost bias**_](https://www.investopedia.com/terms/s/sunk-cost-trap.asp).
+see: 
+[dwyl/**learn-elixir#key-advantages**](https://github.com/dwyl/learn-elixir#key-advantages-)
 
-#### `Elixir` is `#2` in 2022
+#### `Elixir` Remains Most Loved Language
 
-`Elixir` is the 2<sup>nd</sup> 
+`Elixir` is the 2<sup>nd</sup>
 "Most Loved" programming language:
 
 https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages
 
 ![stackoverflow-survey-elixir](https://user-images.githubusercontent.com/194400/184831055-7f22484b-4c2b-472a-bf09-9165ef5fc7f9.png)
 
-This is a good measure of how much people _enjoy_ working
-in the language. 
-And as we all know people who _enjoy_ their work 
-are _better_ at doing it! 
-### **`Tailwind CSS`**
+This is a good measure
+of how much people _enjoy_ working
+in the language.
+And as we all know people who _enjoy_ their work
+are _better_ at doing it!
 
-**`Tailwind`** is the most _sane_ way 
+### `Tailwind CSS`
+
+**`Tailwind`** is the most _sane_ way
 of creating a _beautiful_ web app UI
 that can _easily_ be extended by a team of people
 without fear of one person's change "_breaking_" another feature.
 Unlike "_traditional_" CSS which - _as it's name implies_ - encourages
-"_cascading_" of styles, `Tailwind` 
+"_cascading_" of styles, `Tailwind`
 makes the style of each component _specific_
 and _local_ to that component.
-see: 
+see:
 [dwyl/**learn-tailwind**](https://github.com/dwyl/learn-tailwind)
 
-### **`Alpine.js`**
+We paid for a license for
+**Tailwind Plus**:
+[tailwindcss.com/plus](https://tailwindcss.com/plus)
+It has hundreds of carefully crafted UI templates
+that can easily be customized.
 
-**`Alpine.js`** is a lightweight library for enhancing interactions
-in a web application. It's declarative, responsive and easy to learn.
-`Alphine.js` plays well with `LiveView` for progressive enhancements.
-see: 
+### `Alpine.js` (Optional)
+
+**`Alpine.js`** is a **lightweight** library
+for enhancing interactions in a web application.
+It's **declarative**, responsive and easy to learn.
+`Alphine.js` plays well with `LiveView` for
+[progressive enhancements](https://en.wikipedia.org/wiki/Progressive_enhancement).
+see:
 [dwyl/**learn-alpine.js**](https://github.com/dwyl/learn-alpine.js)
 
-### **`LiveView`**
+`alpine.min.js @ 3.13.8` is `41 Kb` _uncompressed_.
+When delivered over a network (minified + gzipped),
+the size footprint drops down to roughly `14 KB`.
+
+This means it loads in under 
+
+
+### `LiveView`
 
 **`LiveView`** is a radically simplified way
-of building realtime web apps with significantly less code.
+of building **realtime web apps** with significantly less code.
+
 
 <br />
 
@@ -855,15 +873,29 @@ that has been requested by a person using our product.
 
 _Proactively_ create a **`new` repo**
 in the dwyl org
-to capture your own learning 
+to capture your own learning
 of the tech/tool you are proposing.
-e.g: 
+e.g:
 [dwyl?q=learn](https://github.com/dwyl?q=learn&type=all&language=&sort=)
 
-Once you have invested the time 
+Once you have invested the time
 to learn the tech/tool beyond **`"hello world"`**
 and are confident that it will help us
 achieve a specific end-goal,
-then _please_ make the case for it. 
+then _please_ make the case for it.
 
   [![HitCount](https://hits.dwyl.com/dwyl/technology-stack.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)
+
+# Recommended Reading
+
+This thread on **Hacker News**
+with 723 comments
+converges on the "**PETAL**" stack:
+"Ask HN: **What** would be your **stack** if you are **building an MVP** today?"
+https://news.ycombinator.com/item?id=34530052
+It's from 2023 but is still 100% relevant.
+If anything the JS ecosystem is even _more_ fragmented
+and the non-Elixir frameworks haven't caught-up to Phoenix
+which just keeps getting better with each new release.
+
+[![HitCount](https://hits.dwyl.com/dwyl/technology-stack.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)
