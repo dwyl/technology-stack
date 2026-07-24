@@ -27,3 +27,6 @@ build/Release
 node_modules
 npm-debug.log
 .eslintrc.js
+
+# https://en.wikipedia.org/wiki/.DS_Store
+.DS_Store
