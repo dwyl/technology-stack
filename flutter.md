@@ -6,13 +6,15 @@
 is **_constantly_ evolving**. <br />
 There is always
 a **`new` way**
-of ***solving*** an
+of **_solving_** an
 **old problem** <br />
 and in some cases
 **_significantly_ simplifying**
 the solution.
 
+<!--
 [![nelsonic-overwhelmed-learning-tweet](https://user-images.githubusercontent.com/194400/71715853-b6399880-2e0a-11ea-9529-35fc660c04bc.png "embrace learning!")](https://twitter.com/nelsonic/status/913811339709173760?s=20)
+-->
 
 </div>
 
@@ -25,7 +27,6 @@ after all there are still plenty of jobs writing [FORTRAN](
 This works in the _short-term_ because
 most _organisations_ take a long time to adopt new tech
 so people can cling onto their ageing knowledge.
-
 -->
 
 # _Why_? 🤷‍♀️
@@ -34,17 +35,16 @@ so people can cling onto their ageing knowledge.
 If I was **starting** my journey **from _scratch_** now
 **what tech** would I learn/use? <br />
 
-If we could keep all 
+If we could keep all
 the knowledge/wisdom and experience gained
-over 20+ years of programming 
-but avoid any preconceptions and biases 
+over 20+ years of programming
+but avoid any preconceptions and biases
 i.e.
 ["sunk cost bias"](https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect).
 Would we still choose the tech/tools we are _currently_ using?
 Or would we pick something else completely different?
 
-
-The people/teams/organisations that can _objectively_
+The people/teams/organizations that can _objectively_
 question why they use particular tech/tools
 can take advantage
 of all the advancements being made
@@ -56,7 +56,14 @@ The question we need to ask/answer
 _before_ diving into any discussion
 of which technology/language/framework
 we should or shouldn't use is:
-**What are _problem_ are we _trying_ to _solve_?**
+
+## What _Problem_ Are _Solving_?**
+
+We are trying to deploy a **`Native` Mobile App**
+that **launches fast** and **performs well** (with a low memory footprint)
+on both `Android` and `IOs`.
+
+`Flutter` solves this for us and allows maximum cross-platform code-reuse. 
 
 When we (_initially_) looked at `Flutter` in early 2018,
 it did _not_ meet all our needs for a UI framework.
@@ -68,6 +75,8 @@ In the last couple of years `Flutter` has seen _rapid_
 development both from the _army_ of **Google** Developers
 and the thriving community and it has matured considerably.
 It _excels_  at _all_ of our requirements.
+
+# Who?
 
 Google is using `Flutter`
 for several of their cross-platform Native Mobile Apps

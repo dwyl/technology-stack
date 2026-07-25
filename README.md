@@ -15,31 +15,6 @@ The software and systems we use to build **`@dwyl`**.
 - [Why?](#why)
 - [What?](#what)
   - [The `PETAL` Stack](#the-petal-stack)
-    - [**`Phoenix`**](#phoenix)
-      - [`Phoenix` the "Most Loved" Framework](#phoenix-the-most-loved-framework)
-    - [**`Elixir`**](#elixir)
-      - [`Elixir` Remains Most Loved Language](#elixir-remains-most-loved-language)
-    - [`Tailwind CSS`](#tailwind-css)
-    - [`Alpine.js` (Optional)](#alpinejs-optional)
-    - [`LiveView`](#liveview)
-  - [_Beginner_ Tutorials?](#beginner-tutorials)
-    - [**`Phoenix`/`Elixir`**:](#phoenixelixir)
-      - [Small Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
-      - [`Elixir` Utilities](#elixir-utilities)
-    - [**`Flutter`**](#flutter)
-    - [Miscellaneous](#miscellaneous)
-    - [Our `MVP`](#our-mvp)
-  - [Database?](#database)
-    - [We _Prefer_ `PostgreSQL`](#we-prefer-postgresql)
-        - [List of Organizations Using PostgreSQL](#list-of-organizations-using-postgresql)
-  - [Operating System?](#operating-system)
-  - [Continuous Integration](#continuous-integration)
-  - [Deployment](#deployment)
-      - [Application Server](#application-server)
-      - [SSL/TLS Encryption](#ssltls-encryption)
-- [tl;dr](#tldr)
-  - [Why Try a "New Stack"?](#why-try-a-new-stack)
-      - [Why Try Something New When We're _Already_ Good with the "Old"...?](#why-try-something-new-when-were-already-good-with-the-old)
   - [Making Difficult Decisions](#making-difficult-decisions)
       - [_Most_ "_Application Architects_" will pick one of these 3 options:](#most-application-architects-will-pick-one-of-these-3-options)
     - [Toast Knife Analogy](#toast-knife-analogy)
@@ -93,20 +68,44 @@ and _**world-class quality**_!
 ## The `PETAL` Stack
 
 ![dwyl-technology-stack-diagram-PETAL](https://user-images.githubusercontent.com/194400/184719877-a6112c04-7cd9-441f-a293-e6b133d4b67c.png)
+<!--
+
+>
 
 "PETAL" is an acronym<sup>1</sup>
 for the following elements:
++ **P**hoenix - the Web Application Framework.
++ **E**lixir - the functional fault-tolerant programming language.
++ **T**ailwind - the **interface** library
+used for building beautiful mobile-first & responsive web apps that feel fast.
++ **A**lpine.js - the tiny effects & enhancements JavaScript library
+that loads fast and progressively enhances the user experience. 
+This is 100% optional, apps work fine without it.
++ **L**iveView - the system that significantly simplifies creating interfaces
+that update in real-time whenever a change is made by anyone else.
+
+Let's go through each of these in a bit more detail.
+
 
 ### **`Phoenix`**
 
-**`Phoenix`** is a Web Application Framework
-that does not compromise
-on speed, reliability or maintainability!
-**`Phoenix`** is the "_successor_"
-to the incredibly popular "Ruby-on-Rails" framework.
-Built _from scratch_ by highly experienced engineers
-who worked on/with Rails. It _solves_
-all of the speed/socket/scaling/concurrency, issues
+**`Phoenix`** is the Web Application Framework
+that **does not compromise**
+on **speed** (both to build apps/features and serve requests),
+**reliability** or **maintainability**!
+**`Phoenix`** is the _successor_
+to the incredibly popular
+[Ruby-on-Rails](https://rubyonrails.org/)
+framework
+(commonly referred to as just `Rails`)
+that was used by many startups and successful companies
+e.g: `AirBnB`, `GitHub`, `Shopify` and `Twitter`
+(most of which have migrated away from `Rails` for scalability reasons).
+`Phoenix` was built _from scratch_
+by highly experienced engineers
+who worked on/with `Rails`.
+It _solves_
+all of the speed/socket/scaling/concurrency issues
 people felt when building/using Rails apps.
 The list of _**benefits**_ Phoenix has over
 (_virtually every_) other Web Frameworks is _extensive_.<br />
@@ -115,10 +114,10 @@ Please see:
 
 #### `Phoenix` the "Most Loved" Framework
 
-`Phoenix` tops the list of "**Most Loved**" Frameworks
-on the
-[2025 StackOverflow Community Survey](https://survey.stackoverflow.co/2025/technology#2-web-frameworks-and-technologies). ❤️
-for the **3<sup>rd</sup> year in a row**.
+**`Phoenix`** tops the list of "**Most Loved**" Frameworks
+on the for the **3<sup>rd</sup> year in a row** on the
+[2025 StackOverflow Developer Survey](https://survey.stackoverflow.co/2025/technology#2-web-frameworks-and-technologies). ❤️
+.
 
 https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies
 
@@ -195,8 +194,8 @@ see:
 When delivered over a network (minified + gzipped),
 the size footprint drops down to roughly `14 KB`.
 
-This means it loads in under 
-
+This means it loads in under **`200ms`** (1/5 second)
+even on a slower **`3G`** connection.
 
 ### `LiveView`
 
@@ -884,12 +883,10 @@ and are confident that it will help us
 achieve a specific end-goal,
 then _please_ make the case for it.
 
-  [![HitCount](https://hits.dwyl.com/dwyl/technology-stack.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)
-
 # Recommended Reading
 
 This thread on **Hacker News**
-with 723 comments
+(with 723 comments)
 converges on the "**PETAL**" stack:
 "Ask HN: **What** would be your **stack** if you are **building an MVP** today?"
 https://news.ycombinator.com/item?id=34530052
