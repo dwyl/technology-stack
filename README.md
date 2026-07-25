@@ -15,13 +15,39 @@ The software and systems we use to build **`@dwyl`**.
 - [Why?](#why)
 - [What?](#what)
   - [The `PETAL` Stack](#the-petal-stack)
+    - [**`Phoenix`**](#phoenix)
+      - [`Phoenix` the "Most Loved" Framework](#phoenix-the-most-loved-framework)
+    - [**`Elixir`**](#elixir)
+      - [`Elixir` Remains Most Loved Language](#elixir-remains-most-loved-language)
+    - [`Tailwind CSS`](#tailwind-css)
+    - [`Alpine.js` (Optional)](#alpinejs-optional)
+    - [`LiveView`](#liveview)
+  - [_Beginner_ Tutorials?](#beginner-tutorials)
+    - [**`Phoenix`/`Elixir`**:](#phoenixelixir)
+      - [Small Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
+      - [`Elixir` Utilities](#elixir-utilities)
+    - [**`Flutter`**](#flutter)
+    - [Miscellaneous](#miscellaneous)
+    - [Our `MVP`](#our-mvp)
+  - [Database?](#database)
+    - [We _Prefer_ `PostgreSQL`](#we-prefer-postgresql)
+        - [List of Organizations Using PostgreSQL](#list-of-organizations-using-postgresql)
+  - [Operating System?](#operating-system)
+  - [Continuous Integration](#continuous-integration)
+  - [Deployment](#deployment)
+      - [Application Server](#application-server)
+      - [SSL/TLS Encryption](#ssltls-encryption)
+- [tl;dr](#tldr)
+  - [Why Try a "New Stack"?](#why-try-a-new-stack)
+      - [Why Try Something New When We're _Already_ Good with the "Old"...?](#why-try-something-new-when-were-already-good-with-the-old)
   - [Making Difficult Decisions](#making-difficult-decisions)
       - [_Most_ "_Application Architects_" will pick one of these 3 options:](#most-application-architects-will-pick-one-of-these-3-options)
     - [Toast Knife Analogy](#toast-knife-analogy)
     - [Focussing on Long-term Benefits](#focussing-on-long-term-benefits)
       - [Further Reading on Long-term Thinking](#further-reading-on-long-term-thinking)
     - [*Contextualising* Technology Adoption (_Mini History Lesson_)](#contextualising-technology-adoption-mini-history-lesson)
-    - [Does it _Scale_?!?](#does-it-scale)
+    - [Does it _Scale_?](#does-it-scale)
+      - [TL;DR](#tldr-1)
     - [What About _Full Stack `JavaScript`_?](#what-about-full-stack-javascript)
     - [Alternative Databases?](#alternative-databases)
   - [Radical Simplicity](#radical-simplicity)
@@ -69,8 +95,9 @@ and _**world-class quality**_!
 
 ![dwyl-technology-stack-diagram-PETAL](https://user-images.githubusercontent.com/194400/184719877-a6112c04-7cd9-441f-a293-e6b133d4b67c.png)
 <!--
-
->
+To update this diagram see: 
+https://github.com/dwyl/technology-stack/issues/1
+-->
 
 "PETAL" is an acronym<sup>1</sup>
 for the following elements:
@@ -207,26 +234,26 @@ of building **realtime web apps** with significantly less code.
 
 ## _Beginner_ Tutorials?
 
-We have _crafted_ a "***Complete Beginner's Guide***"
+We have _crafted_ a "**_Complete Beginner's_ Guide**"
 for each element in the stack, so that we:
 + ***Document our collective learning***
 `while` we are building projects. <br />
-(_because as humans 
-we **forget fast** 
+(_because as humans
+we **forget fast**
 unless we **capture** it **immediately**_!)
-+ ***Share*** our knowledge with other people so we can
++ **_Share_** our knowledge with other people so we can
   + Help to train (_potential_) new team members
   as quickly/effectively as possible.
-  + ***Collectively iterate*** on our knowledge 
+  + **_Collectively iterate_** on our knowledge
   and "_level-up_" as a _team_!
   + "Onboard" the client team (_who may want/need_) to
-  support/maintain the codebase/project 
+  support/maintain the codebase/project
   if/when we _seamlessly_ "hand over".
-  + Inform the wider community 
+  + Inform the wider community
   of both technical _and_ non-technical
   people ("stake holders") who are _generally_
   interested in _understanding_ the project.
-  + Enlighten other teams/organisations/agencies/etc. we aren't in
+  + Enlighten other teams/organizations/agencies/etc. we aren't in
   _direct_ contact with that there is a "_more fun_" way of building software!
 + Make _everyone's_ life easier/better
 by having a "launch pad" for
@@ -302,14 +329,12 @@ where you can learn `Flutter`
 7. `Bloc`:
 [dwyl/flutter-**bloc**-tutorial](https://github.com/dwyl/flutter-bloc-tutorial)
 
-
 ### Miscellaneous  
 
 In this section,
 we will list a few repos that explain
 concepts and tools that we are actively using
 while developing our [`app`](https://github.com/dwyl/app).
-
 
 1. Payment processing:
 [dwyl/learn-**payment-processing**](https://github.com/dwyl/learn-payment-processing)
@@ -690,41 +715,65 @@ moving one framework to another is a _much_ more difficult decision.
 But one thing is for _sure_ we are going to use the "_smart phone_"
 even if other people insist on using the "brick".
 
+### Does it _Scale_?
 
-### Does it _Scale_?!?
-
-If you are new to web development,
-_please focus on **`UX`** 
-and forget about "**scale**"_! <br />
-
-> _Unless you work somewhere that
-  **already** has "**millions of users**" and <br />
-your team **cannot consider** anything that
-does not support a million concurrent connections...!_ <br />
-
-> _But let's face it, **most** people have 
-[**imaginary scaling issues**](https://twitter.com/ThePracticalDev/status/800752571497545729)
-not **real** ones. <br />
-discussing "scalability" **`before`** 
-you have **10,000 paying customers** 
-is a waste of time!!_ <br />
-
-Stop worrying about "scalability"
-and instead **focus** on building something **useful** <br />
-**focus** on **User Experience** not ("backend") **scalability**!
-
-The _good_ news is that 
-**`Phoenix`** "***scales***" _really well_! <br />
-see: 
+The _good_ news is that
+**`Phoenix`** "**_scales_**" **_really well_**! <br />
+see:
 [phoenixframework.org/blog/the-road-to-2-million-websocket-connections](https://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections)
 
-Forget about "_scaling_" until you have _made_
-[***something people want***](http://paulgraham.com/good.html)
-and are _paying_ for! <br />
-Then _use_ the pile of cash you got from your product
-to hire "_engineers_" to make it _available_ to more people!!
+#### TL;DR
 
-<br /> <br />
+Yes, scalability and especially **fault tolerance** is **important**.
+And **`Phoenix`** has your back with all of the above.
+It lets you **focus** on **User Experience**
+and rest assured that **scalability** is **baked-in**.
+
+If you are new to building web apps,
+_please focus on **`UX`**
+and **forget** about "**scale**"_! <br />
+
+Focus **all** of your energy on crafting
+beautifully functional UI/UX
+that gives the person _using_ your App
+their desired outcome
+in as few steps as possible.
+
+The sad reality is that
+[most startups fail](https://briskfab.com/why-most-startups-fail-before-product-market-fit-and-how-to-avoid-it)
+before they achieve
+[product-market fit](https://en.wikipedia.org/wiki/Product-market_fit).
+Of those that "make it",
+most will end up re-building their App(s)
+as they refine the UX over time.
+
+So **focus on moving _fast_** and **building well-tested features**.
+
+> Unless you work somewhere that
+  **already** has **millions of users**
+  (e.g. [Big Tech](https://en.wikipedia.org/wiki/Big_Tech))
+  and your team **cannot _consider_** anything that
+  does not support a million concurrent connections ... <br />
+> **_Most_** people have
+  [**_imaginary_ scaling issues**](https://x.com/ThePracticalDev/status/800752571497545729)
+  not **real** ones. <br />
+discussing "scalability" **`before`**
+you have **100K paying customers**
+is a waste of time!! <br />
+
+Stop wasting your time worrying about "scalability"
+and instead **focus** on building the **useful** features
+that people are requesting.<br />
+
+Forget about "_scaling_" until you have
+[**_made_ something people want**](https://paulgraham.com/good.html)
+and are _paying_ for to solve their immediate pain! <br />
+Once you have a few thousand paying "users",
+_use_ the pile of cash you got from your product
+to hire _experienced engineers_
+to make it _available_ to more people!
+
+<br />
 
 <!--
 ### _No JavaScript_ in "PETAL"...?
@@ -772,7 +821,7 @@ in `case` anyone is
 ["**on the fence**"](https://en.wikipedia.org/wiki/Sitting_on_the_fence)!
 If you're in any doubt, ***Just Do it***._
 
-![just-do-it-nike-log](https://cloud.githubusercontent.com/assets/194400/22940322/63db1308-f2d9-11e6-8d84-e024b00e37a4.png)
+![just-do-it-nike-logo](https://cloud.githubusercontent.com/assets/194400/22940322/63db1308-f2d9-11e6-8d84-e024b00e37a4.png)
 
 -->
 
