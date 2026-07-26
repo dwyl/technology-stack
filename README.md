@@ -23,9 +23,9 @@ The software and systems we use to build **`@dwyl`**.
     - [`Alpine.js` (Optional)](#alpinejs-optional)
     - [`LiveView`](#liveview)
   - [_Beginner_ Tutorials?](#beginner-tutorials)
-    - [**`Phoenix`/`Elixir`**:](#phoenixelixir)
-      - [Small Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
-      - [`Elixir` Utilities](#elixir-utilities)
+    - [`Phoenix` / `Elixir`](#phoenix--elixir)
+    - [Small Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
+    - [`Elixir` Utilities](#elixir-utilities)
     - [**`Flutter`**](#flutter)
     - [Miscellaneous](#miscellaneous)
     - [Our `MVP`](#our-mvp)
@@ -113,13 +113,13 @@ that update in real-time whenever a change is made by anyone else.
 
 Let's go through each of these in a bit more detail.
 
-
 ### **`Phoenix`**
 
 **`Phoenix`** is the Web Application Framework
 that **does not compromise**
-on **speed** (both to build apps/features and serve requests),
-**reliability** or **maintainability**!
+on **speed**<br />
+(both when building apps/features and serving requests),
+**reliability** or **maintainability**!<br />
 **`Phoenix`** is the _successor_
 to the incredibly popular
 [Ruby-on-Rails](https://rubyonrails.org/)
@@ -134,7 +134,7 @@ who worked on/with `Rails`.
 It _solves_
 all of the speed/socket/scaling/concurrency issues
 people felt when building/using Rails apps.
-The list of _**benefits**_ Phoenix has over
+The list of _**benefits**_ `Phoenix` has over
 (_virtually every_) other Web Frameworks is _extensive_.<br />
 Please see:
 [dwyl/**learn-phoenix-framework**#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
@@ -144,12 +144,16 @@ Please see:
 **`Phoenix`** tops the list of "**Most Loved**" Frameworks
 on the for the **3<sup>rd</sup> year in a row** on the
 [2025 StackOverflow Developer Survey](https://survey.stackoverflow.co/2025/technology#2-web-frameworks-and-technologies). ❤️
-.
+
+![stackoverflow-most-loved-framework-phoenix](https://user-images.githubusercontent.com/194400/184833098-0e9cd055-9e4f-4c93-96ed-4411e1a8154c.png)
 
 https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies
 
-
-![stackoverflow-most-loved-framework-phoenix](https://user-images.githubusercontent.com/194400/184833098-0e9cd055-9e4f-4c93-96ed-4411e1a8154c.png)
+This is not a
+[popularity contest](https://en.wikipedia.org/wiki/Popularity_contest),
+the votes are private/confidential.
+When software engineering community collectively
+votes that a framework is their "most loved",
 
 
 ### **`Elixir`**
@@ -236,34 +240,34 @@ of building **realtime web apps** with significantly less code.
 
 We have _crafted_ a "**_Complete Beginner's_ Guide**"
 for each element in the stack, so that we:
-+ ***Document our collective learning***
+- **Document our collective learning**
 `while` we are building projects. <br />
 (_because as humans
 we **forget fast**
 unless we **capture** it **immediately**_!)
-+ **_Share_** our knowledge with other people so we can
-  + Help to train (_potential_) new team members
+- **_Share_** our knowledge with other people so we can
+  - Help to train (_potential_) new team members
   as quickly/effectively as possible.
-  + **_Collectively iterate_** on our knowledge
+  - **_Collectively iterate_** on our knowledge
   and "_level-up_" as a _team_!
-  + "Onboard" the client team (_who may want/need_) to
+  - "Onboard" the client team (_who may want/need_) to
   support/maintain the codebase/project
   if/when we _seamlessly_ "hand over".
-  + Inform the wider community
+  - Inform the wider community
   of both technical _and_ non-technical
   people ("stake holders") who are _generally_
   interested in _understanding_ the project.
-  + Enlighten other teams/organizations/agencies/etc. we aren't in
+  - Enlighten other teams/organizations/agencies/etc. we aren't in
   _direct_ contact with that there is a "_more fun_" way of building software!
-+ Make _everyone's_ life easier/better
+- Make _everyone's_ life easier/better
 by having a "launch pad" for
 [_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
 
-We have written several **_beginner_ tutorials** 
+We have written several **_beginner_ tutorials**
 that span our technology stack
 and tools we actively use in development.
 
-### **`Phoenix`/`Elixir`**:
+### `Phoenix` / `Elixir`
 
 Here are a few of our learning repositories
 pertaining to `Phoenix` and `Phoenix Liveview`.
@@ -272,41 +276,61 @@ pertaining to `Phoenix` and `Phoenix Liveview`.
 [dwyl/learn-elixir](https://github.com/dwyl/learn-elixir)
 2. Learn `Phoenix`:
 [dwyl/learn-**phoenix**-framework](https://github.com/dwyl/learn-phoenix-framework)
-3. Counter (Liveview): 
+3. Counter (`LiveView`):
 [dwyl/phoenix-liveview-**counter**-tutorial](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
-4. Todo List (Liveview): 
+4. Todo List (`LiveView`):
 [dwyl/phoenix-liveview-**todo-list**-tutorial](https://github.com/dwyl/phoenix-liveview-todo-list-tutorial)
-5. Stopwatch (Liveview): 
+5. Stopwatch (`LiveView`):
 [dwyl/phoenix-liveview-**stopwatch**](https://github.com/dwyl/phoenix-liveview-stopwatch)
 6. Chat:
 [dwyl/phoenix-**chat**-example](https://github.com/dwyl/phoenix-chat-example)
-7. Chat (Liveview): 
+7. Chat (`LiveView`):
 [dwyl/phoenix-**liveview-chat**-example](https://github.com/dwyl/phoenix-liveview-chat-example)
-8. Realtime cursor tracking (Liveview):
-[dwyl/phoenix-liveview-realtime-**cursor**-tracking-tutorial](dwyl/phoenix-liveview-realtime-cursor-tracking-tutorial)
+8. Realtime cursor tracking (`LiveView`):
+[dwyl/phoenix-liveview-realtime-**cursor**-tracking-tutorial](https://github.com/dwyl/phoenix-liveview-realtime-cursor-tracking-tutorial)
 9. `Papertrail` and `Phoenix`:
 [dwyl/phoenix-**papertrail**-demo](https://github.com/dwyl/phoenix-papertrail-demo)
 10. `Flutter` and `Phoenix`:
 [dwyl/**flutter-phoenix**-channels-demo](https://github.com/dwyl/flutter-phoenix-channels-demo)
 
-
-#### Small Projects That Showcase `Phoenix`
+### Small Projects That Showcase `Phoenix`
 
 We have a couple of "internal" (but Open Source) projects
-that use `Phoenix` 
+that use `Phoenix`
 and serve as a good showcase for the stack:
 
-1. Labels: 
+1. Labels:
 [dwyl/**labels**](https://github.com/dwyl/labels)
-2. Hits: 
+2. Hits:
 [dwyl/**hits**](https://github.com/dwyl/hits)
 
-#### `Elixir` Utilities
+### `Elixir` Utilities
 
-1. Useful:
-[dwyl/**useful**](https://github.com/dwyl/useful) - utility library.
-2. Content:
-[dwyl/**content**](https://github.com/dwyl/content) - content negotiation.
+Along our journey building apps for clients and ourselves,
+we've created a few reusable packages:
+
+1. `fields`:
+  [dwyl/**fields**](https://github.com/dwyl/useful) -
+  field definitions
+  with validation and transparent encryption/decryption.
+2. `useful`:
+  [dwyl/**useful**](https://github.com/dwyl/useful) -
+  utility library.
+3. `content`:
+  [dwyl/**content**](https://github.com/dwyl/content) -
+  content negotiation.
+4. `link`:
+  [dwyl/**link**](https://github.com/dwyl/link) -
+  parse, shorten and format links.
+5. `auth_plug`:
+  [dwyl/**auth_plug**](https://github.com/dwyl/auth_plug) -
+  seamlessly add authentication to any Phoenix App.
+
+All the code we write is extensively documented,
+comprehensively tested and regularly maintained (where required).
+One of the many beauties of `Elixir` code
+is that it requires _very_ low maintenance;
+it just keeps working year after year.
 
 ### **`Flutter`**
 
@@ -442,26 +466,51 @@ Microsoft Windows Desktop & Server.
 
 ## Continuous Integration
 
-We are using `GitHub` actions 
-for Continuous Integration / 
-Continuous Deployment.
+We are using
+[`GitHub` actions](https://docs.github.com/en/actions/get-started/continuous-integration)
+for
+[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) 
+&
+[Deployment/Delivery](https://en.wikipedia.org/wiki/Continuous_deployment).
+It's **free**/included with `GitHub`
+and easily meets our needs.
 
 For an example of this,
 including automatic deployment to **Fly.io**
-see: 
+see:
 [`.github/workflows/ci.yml`](https://github.com/dwyl/mvp/blob/main/.github/workflows/ci.yml)
+
+We have used other continuous integration platforms in the past
+and at the request of clients,
+e.g:
+[`GitLab`](https://docs.gitlab.com/ci/),
+[`Travis-CI`](https://www.travis-ci.com/),
+[`Circle-CI`](https://circleci.com/)
+or self-hosted `Jenkins`.
+We can easily adapt to the needs of the project.
 
 ## Deployment
 
 We make a point of deploying our work as _soon_ as
-there is _something_ worth showing 
+there is _something_ worth showing
 to the target audience of "_end users_"
-so that we can get ***feedback*** as early as possible.
+so that we can get **_feedback_** as early as possible.
 
-Lately we have been using 
+Lately we have been using
 [**Fly.io**](https://github.com/dwyl/learn-devops/issues/72#issuecomment-917442712)
 for deploying our Apps.
 The experience is superb. ❤️
+
+We have used every major Cloud infrastructure provider
+over the last nearly 2 decades
+starting with `AWS` in 2009.
+Over the years we have captured much of our knowledge
+`public` repos e.g:
+[dwyl/**learn-devops**](https://github.com/dwyl/learn-devops)
+and
+[dwyl/**learn-aws-lambda**](https://github.com/dwyl/learn-aws-lambda)
+
+Many people have found our notes helpful.
 
 #### Application Server
 
@@ -722,6 +771,22 @@ The _good_ news is that
 see:
 [phoenixframework.org/blog/the-road-to-2-million-websocket-connections](https://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections)
 
+This post was published in **`2015`**
+and was one of the catlysts
+that made us pay attention to `Elixir` and `Phoenix`.
+We had been building apps with `Node.js`
+(what we refer to as our "[legacy stack](/legacy)")
+since `2009` and deployment/scalability was always a chore.
+Seeing that a **single `Phoenix` server**
+could handle **2 Million Concurrent Connections**
+was an eye-opener that made us immediately **try** `Elixir`.
+
+Highly recommend watching Joe Armstrong's talk
+for a balanced primer on scalability:
+"Systems that run forever self-heal and scale":
+[youtu.be/cNICGEwmXLU](https://youtu.be/cNICGEwmXLU)
+
+
 #### TL;DR
 
 Yes, scalability and especially **fault tolerance** is **important**.
@@ -943,5 +1008,9 @@ It's from 2023 but is still 100% relevant.
 If anything the JS ecosystem is even _more_ fragmented
 and the non-Elixir frameworks haven't caught-up to Phoenix
 which just keeps getting better with each new release.
+
+For a good primer on **Faults, Scaling, and Erlang Concurrency**
+watch Joe Armstrong's Stanford Seminar:
+[youtu.be/YaUPdgtUYko](https://youtu.be/YaUPdgtUYko)
 
 [![HitCount](https://hits.dwyl.com/dwyl/technology-stack.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)
