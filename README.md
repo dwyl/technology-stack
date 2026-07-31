@@ -16,7 +16,7 @@ The software and systems we use to build **`@dwyl`**.
 - [What?](#what)
   - [The `PETAL` Stack](#the-petal-stack)
     - [**`Phoenix`** 🐦‍🔥](#phoenix-)
-      - [`Phoenix` the "Most Loved" Framework](#phoenix-the-most-loved-framework)
+      - [`Phoenix` the "Most Loved" Framework ❤️](#phoenix-the-most-loved-framework-️)
     - [**`Elixir`** 💧](#elixir-)
       - [`Elixir` Remains Most Loved Language](#elixir-remains-most-loved-language)
     - [`Tailwind CSS` 😍](#tailwind-css-)
@@ -26,7 +26,7 @@ The software and systems we use to build **`@dwyl`**.
     - [`Phoenix` / `Elixir`](#phoenix--elixir)
     - [_Small_ Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
     - [`Elixir` Utilities](#elixir-utilities)
-    - [**`Flutter`**](#flutter)
+    - [`Flutter` 📱](#flutter-)
     - [Miscellaneous](#miscellaneous)
     - [Our `MVP`](#our-mvp)
   - [Database?](#database)
@@ -119,10 +119,7 @@ Let's go through each of these in a bit more detail.
 ### **`Phoenix`** 🐦‍🔥
 
 **`Phoenix`** is the Web Application Framework
-that **does not compromise**
-on **speed**<br />
-(both when building apps/features and serving requests),
-**reliability** or **maintainability**!<br />
+that **does not compromise**.
 
 **`Phoenix`** is the _successor_
 to the incredibly popular
@@ -144,7 +141,7 @@ The list of _**benefits**_ `Phoenix` has over
 See:
 [dwyl/**learn-phoenix-framework**#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
 
-#### `Phoenix` the "Most Loved" Framework
+#### `Phoenix` the "Most Loved" Framework ❤️
 
 **`Phoenix`** tops the list of "**Most Loved**" Frameworks
 for the **3<sup>rd</sup> year in a row**<br />
@@ -164,14 +161,14 @@ you know that they _love_ using it.
 
 ### **`Elixir`** 💧
 
-**`Elixir`** is the _functional_ programming language 
-used by the **`Phoenix`** framework. 
+**`Elixir`** is the _functional_ programming language
+used by the **`Phoenix`** framework.
 **`Elixir`** is a _beautiful_ language
-written _from scratch_ to be 
+written _from scratch_ to be
 ***friendly, concise and efficient***.
-***Yes***, `Elixir` not as 
+**_Yes_**, `Elixir` not as
 ["_mainstream_"](https://github.com/dwyl/learn-elixir/issues/102#issuecomment-1105416646)
-as `JavaScript`, `Java`, `C#` or `PHP`,
+as `JavaScript`, `Java`, `C#` or `Python`,
 but the adoption is _growing rapidly_ and most importantly
 many _experienced_ developers are gravitating towards and
 describing it as their ["most wanted"](https://github.com/dwyl/the-book#you-will-learn-in-demand-tech-toolsskills)
@@ -185,12 +182,16 @@ see:
 
 #### `Elixir` Remains Most Loved Language
 
+For the 3<sup>rd</sup> year running,
 `Elixir` is the 2<sup>nd</sup>
 "Most Loved" programming language:
+[survey.stackoverflow.co/2025/technology/#2-programming-scripting](https://survey.stackoverflow.co/2025/technology/#2-programming-scripting-and-markup-languages)
 
-https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages
 
 ![stackoverflow-survey-elixir](https://user-images.githubusercontent.com/194400/184831055-7f22484b-4c2b-472a-bf09-9165ef5fc7f9.png)
+
+First appeared on: 
+https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages
 
 This is a good measure
 of how much people _enjoy_ working
@@ -342,7 +343,6 @@ and serve as a good showcase for the stack:
 3. Labels:
   [dwyl/**labels**](https://github.com/dwyl/labels)
 
-
 ### `Elixir` Utilities
 
 Along our journey building apps for clients and ourselves,
@@ -371,25 +371,28 @@ One of the many beauties of `Elixir` code
 is that it requires _very_ low maintenance;
 it just keeps working year after year.
 
-### **`Flutter`** 
+### `Flutter` 📱
 
-In this section you will find learning repositories
-where you can learn `Flutter`
-_and_ how to use it with other technologies.
+We are using `Flutter` for our **Native Mobile App**.
+See: [`/flutter.md`](https://github.com/dwyl/technology-stack/blob/main/flutter.md)
+
+Along the way
+we've created several learning resources for `Flutter`
+and how to use it with other technologies:
 
 1. Learn `Flutter`:
 [dwyl/learn-**flutter**](https://github.com/dwyl/learn-flutter)
-2. Learn `Dart`:
+1. Learn `Dart`:
 [dwyl/learn-**dart**](https://github.com/dwyl/learn-dart)
-3. Counter:
+1. Counter:
 [dwyl/flutter-**counter**-example](https://github.com/dwyl/flutter-counter-example)
-4. Stopwatch:
+1. Stopwatch:
 [dwyl/flutter-**stopwatch**-tutorial](https://github.com/dwyl/flutter-stopwatch-tutorial)
-5. Todo list:
+1. Todo list:
 [dwyl/flutter-**todo-list**-tutorial](https://github.com/dwyl/flutter-todo-list-tutorial)
-6. `Bloc`:
+1. `Bloc`:
 [dwyl/flutter-**bloc**-tutorial](https://github.com/dwyl/flutter-bloc-tutorial)
-7. `Supabase` and `Flutter`:
+1. `Supabase` and `Flutter`:
 [dwyl/**supabase**-flutter-demo](https://github.com/dwyl/supabase-flutter-demo)
 
 ### Miscellaneous  

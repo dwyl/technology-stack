@@ -37,12 +37,13 @@ If I was **starting** my journey **from _scratch_** now
 
 If we could keep all
 the knowledge/wisdom and experience gained
-over 20+ years of programming
+over 20+ years building Apps,
 but avoid any preconceptions and biases
-i.e.
-["sunk cost bias"](https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect).
-Would we still choose the tech/tools we are _currently_ using?
-Or would we pick something else completely different?
+(e.g:
+[**sunk cost bias**](https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect)
+).
+Would we **still choose** the **tech/tools** we are **_currently_ using**?
+Or would we pick something else **completely different**?
 
 The people/teams/organizations that can _objectively_
 question why they use particular tech/tools
@@ -57,16 +58,17 @@ _before_ diving into any discussion
 of which technology/language/framework
 we should or shouldn't use is:
 
-## What _Problem_ Are _Solving_?**
+## What _Problem_ Are _Solving_?
 
 We are trying to deploy a **`Native` Mobile App**
 that **launches fast** and **performs well** (with a low memory footprint)
 on both `Android` and `IOs`.
 
-`Flutter` solves this for us and allows maximum cross-platform code-reuse. 
+`Flutter` solves this for us
+and allows maximum cross-platform code-reuse.
 
 When we (_initially_) looked at `Flutter` in early 2018,
-it did _not_ meet all our needs for a UI framework.
+it did _not_ meet all our needs for a UI framework.<br />
 At the time, it was focussed on `Android`,
 didn't support Web/PWAs
 and only had partial/beta support for `IOs`.
