@@ -46,7 +46,6 @@ The software and systems we use to build **`@dwyl`**.
       - [Further Reading on Long-term Thinking](#further-reading-on-long-term-thinking)
     - [_Contextualising_ Technology Adoption (_Mini History Lesson_)](#contextualising-technology-adoption-mini-history-lesson)
     - [Does it _Scale_?](#does-it-scale)
-      - [TL;DR](#tldr-1)
     - [What About _Full Stack `JavaScript`_?](#what-about-full-stack-javascript)
     - [Alternative Databases?](#alternative-databases)
   - [Radical Simplicity](#radical-simplicity)
@@ -828,8 +827,6 @@ for a balanced primer on scalability:
 "Systems that run forever self-heal and scale":
 [youtu.be/cNICGEwmXLU](https://youtu.be/cNICGEwmXLU)
 
-
-#### TL;DR
 
 Yes, scalability and especially **fault tolerance** is **important**.
 And **`Phoenix`** has your back with all of the above.
