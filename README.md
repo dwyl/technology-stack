@@ -21,8 +21,8 @@ The software and systems we use to build **`@dwyl`**.
       - [`Elixir` Remains Most Loved Language](#elixir-remains-most-loved-language)
     - [`Tailwind CSS` 😍](#tailwind-css-)
     - [`Alpine.js` (Optional) ✨](#alpinejs-optional-)
-    - [`LiveView`](#liveview)
-  - [_Beginner_ Tutorials?](#beginner-tutorials)
+    - [`LiveView` 🚀](#liveview-)
+  - [_Beginner_ Tutorials? 🔰](#beginner-tutorials-)
     - [`Phoenix` / `Elixir`](#phoenix--elixir)
     - [_Small_ Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
     - [`Elixir` Utilities](#elixir-utilities)
@@ -240,7 +240,7 @@ read:
 [`app.js`](https://github.com/dwyl/mvp/blob/main/assets/js/app.js)
 it handles the drag-and-drop and effects in the `MVP`.
 
-### `LiveView`
+### `LiveView` 🚀
 
 **`LiveView`** is a radically simplified way
 of building **realtime web apps**
@@ -270,7 +270,7 @@ please see:
 
 <br />
 
-## _Beginner_ Tutorials?
+## _Beginner_ Tutorials? 🔰
 
 We have _crafted_ a "**_Complete Beginner's_ Guide**"
 for each element in the stack, so that we:
@@ -281,22 +281,23 @@ for each element in the stack, so that we:
 we **forget fast**
 unless we **capture** it **immediately**_!)
 
-2. **_Share_** our knowledge with other people so we can
-  - Help to train (_potential_) new team members
-  as quickly/effectively as possible.
-  - **_Collectively iterate_** on our knowledge
-  and "_level-up_" as a _team_!
-  - "Onboard" the client team (_who may want/need_) to
-  support/maintain the codebase/project
-  if/when we _seamlessly_ "hand over".
-  - Inform the wider community
-  of both technical _and_ non-technical
-  people ("stake holders") who are _generally_
-  interested in _understanding_ the project.
-  - Enlighten other teams/organizations/agencies/etc. we aren't in
-  _direct_ contact with that there is a "_more fun_" way of building software!
+2. **_Share_** our knowledge with other people so we can:
 
-3. Make _everyone's_ life easier/better
+- Help to train (_potential_) new team members
+as quickly/effectively as possible.
+- **_Collectively iterate_** on our knowledge
+and "_level-up_" as a _team_!
+- "Onboard" the client team (_who may want/need_) to
+support/maintain the codebase/project
+if/when we _seamlessly_ "hand over".
+- Inform the wider community
+of both technical _and_ non-technical
+people ("stake holders") who are _generally_
+interested in _understanding_ the project.
+- Enlighten other teams/organizations/agencies/etc. we aren't in
+_direct_ contact with that there is a "_more fun_" way of building software!
+
+1. Make _everyone's_ life easier/better
 by having a "launch pad" for
 [_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
 
@@ -415,7 +416,7 @@ while developing our [`app`](https://github.com/dwyl/app).
 
 ### Our `MVP`
 
-We have built a fully working MVP version of our App!
+We have built a working MVP version of our App!
 Check it out at
 [dwyl/**mvp**](https://github.com/dwyl/mvp)!
 
@@ -623,8 +624,8 @@ and
 
 In November 2016 we (_once again_) 
 **questioned our _assumptions_**,
-***re-examined*** and
-[***surveyed***](https://github.com/dwyl/learn-elm/issues/10)
+**_re-examined_** and
+[**_surveyed_**](https://github.com/dwyl/learn-elm/issues/10)
 the "landscape" of "_emerging trends_" in web app development.
 We were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
 made by the people in the `Elixir` / `Phoenix` community!
@@ -638,15 +639,15 @@ which technologies and tools you will use
 to deliver the desired solution/benefit to the "_end users_".
 
 Most people have the Tech/Tools decision made _for_ them
-by the company/organisation/boss they work for
-(_e.g: `Java` -> `Spring`, 
-`Ruby` -> `Rails` 
+by the company/organization/boss they work for
+(_e.g: `Java` -> `Spring`,
+`Ruby` -> `Rails`
 or `PHP` -> `WordPress` or `Laravel`, etc._)
-This is because most companies 
+This is because most companies
 _already_ have an _existing_ app in "production",
 which you have been hired to extend.
 
-Occasionally you will get the chance 
+Occasionally you will get the chance
 to build an app from "_scratch_"  
 however _most_ of the time someone `else` (_the "Architect"_)
 will make the decision for what "_stack_" to use on your behalf,
