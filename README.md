@@ -23,29 +23,28 @@ The software and systems we use to build **`@dwyl`**.
     - [`Alpine.js` (Optional) ✨](#alpinejs-optional-)
     - [`LiveView` 🚀](#liveview-)
   - [_Beginner_ Tutorials? 🔰](#beginner-tutorials-)
-    - [`Phoenix` / `Elixir`](#phoenix--elixir)
-    - [_Small_ Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
-    - [`Elixir` Utilities](#elixir-utilities)
+    - [`Phoenix` / `Elixir` 📝](#phoenix--elixir-)
+    - [_Small_ Apps That Showcase `Phoenix` 💡](#small-apps-that-showcase-phoenix-)
+    - [`Elixir` Utilities 🔪](#elixir-utilities-)
     - [`Flutter` 📱](#flutter-)
     - [Miscellaneous](#miscellaneous)
     - [Our `MVP`](#our-mvp)
   - [Database?](#database)
     - [We _Prefer_ `PostgreSQL`](#we-prefer-postgresql)
-      - [List of Organizations Using PostgreSQL](#list-of-organizations-using-postgresql)
-  - [Operating System?](#operating-system)
-  - [Continuous Integration](#continuous-integration)
-  - [Deployment](#deployment)
+  - [Operating System? 🧠](#operating-system-)
+  - [Continuous Integration ✅](#continuous-integration-)
+  - [Deployment 🚀](#deployment-)
   - [Application Server](#application-server)
   - [SSL/TLS Encryption](#ssltls-encryption)
 - [tl;dr](#tldr)
   - [Why Try a "New Stack"?](#why-try-a-new-stack)
-      - [Why Try Something New When We're _Already_ Good with the "Old"...?](#why-try-something-new-when-were-already-good-with-the-old)
+    - [Why Try Something New When We're _Already_ Good with the "Old"...?](#why-try-something-new-when-were-already-good-with-the-old)
   - [Making Difficult Decisions](#making-difficult-decisions)
-      - [_Most_ "_Application Architects_" will pick one of these 3 options:](#most-application-architects-will-pick-one-of-these-3-options)
-    - [Toast Knife Analogy](#toast-knife-analogy)
+    - [_Most_ "_Application Architects_" Pick One Of These 3 Options:](#most-application-architects-pick-one-of-these-3-options)
+    - [Toast Knife Analogy 🔪](#toast-knife-analogy-)
     - [Focussing on Long-term Benefits](#focussing-on-long-term-benefits)
       - [Further Reading on Long-term Thinking](#further-reading-on-long-term-thinking)
-    - [*Contextualising* Technology Adoption (_Mini History Lesson_)](#contextualising-technology-adoption-mini-history-lesson)
+    - [_Contextualising_ Technology Adoption (_Mini History Lesson_)](#contextualising-technology-adoption-mini-history-lesson)
     - [Does it _Scale_?](#does-it-scale)
       - [TL;DR](#tldr-1)
     - [What About _Full Stack `JavaScript`_?](#what-about-full-stack-javascript)
@@ -305,10 +304,10 @@ We have written several **_beginner_ tutorials**
 that span our technology stack
 and tools we actively use in development.
 
-### `Phoenix` / `Elixir`
+### `Phoenix` / `Elixir` 📝
 
-Here are a few of our learning repositories
-pertaining to `Phoenix` and `Phoenix Liveview`.
+A few of our learning repositories
+specific to `Phoenix` and `Phoenix Liveview`.
 
 1. Learn `Elixir`:
 [dwyl/learn-elixir](https://github.com/dwyl/learn-elixir)
@@ -331,20 +330,20 @@ pertaining to `Phoenix` and `Phoenix Liveview`.
 10. `Flutter` and `Phoenix`:
 [dwyl/**flutter-phoenix**-channels-demo](https://github.com/dwyl/flutter-phoenix-channels-demo)
 
-### _Small_ Projects That Showcase `Phoenix`
+### _Small_ Apps That Showcase `Phoenix` 💡
 
 We have a couple of "internal" (but Open Source) projects
 that use `Phoenix`
 and serve as a good showcase for the stack:
 
 1. Hits:
-  [dwyl/**hits**](https://github.com/dwyl/hits)
+  [dwyl/**hits**](https://github.com/dwyl/hits) 📈 
 2. Image Uploads:
-  [dwyl/**imgup**](https://github.com/dwyl/imgup)
+  [dwyl/**imgup**](https://github.com/dwyl/imgup) 🖼️ 
 3. Labels:
-  [dwyl/**labels**](https://github.com/dwyl/labels)
+  [dwyl/**labels**](https://github.com/dwyl/labels) 🏷️ 
 
-### `Elixir` Utilities
+### `Elixir` Utilities 🔪
 
 Along our journey building apps for clients and ourselves,
 we've created a few reusable packages:
@@ -396,7 +395,7 @@ and how to use it with other technologies:
 1. `Supabase` and `Flutter`:
 [dwyl/**supabase**-flutter-demo](https://github.com/dwyl/supabase-flutter-demo)
 
-### Miscellaneous  
+### Miscellaneous 
 
 In this section,
 we will list a few repos that explain
@@ -443,7 +442,7 @@ This means that if a client _asks_ us to deploy to `MySQL` or
 `Microsoft SQL Server` <br />
 (_e.g. because they already have in-house capability
   for maintaining one of these databases_) <br />
-we can easily accommodate that
+we can _easily_ accommodate that
 without re-writing _any_ of the `Phoenix` app!
 Changing a couple of lines of configuration
 is all that is needed.
@@ -451,14 +450,13 @@ is all that is needed.
 ### We _Prefer_ `PostgreSQL`
 
 Our "_standard_" (_preferred_) DB @dwyl is `Postgres`.
-see: 
-[dwyl/**learn-postgresql**](https://github.com/dwyl/learn-postgresql)
+see:
+[dwyl/**learn-postgresql**](https://github.com/dwyl/learn-postgresql) 🐘
 <br />
 `Postgres` is the most "_mature_" Open Source Relational Database.
-It's ***100% Free*** (_including all **"advanced"** features_)
-and has been deployed and ***battle-tested*** in ***every*** environment
+It's **_100% Free_** (_including all "**advanced**" features_)
+and has been deployed and **_battle-tested_** in **_every_** environment
 from `AWS` to "Bare Metal" and `Google Cloud` to `Microsoft Azure`!
-
 
 > _**Many** well-known/successful apps rely
 on `Postgres` as their `main` database_. <br />
@@ -467,11 +465,12 @@ based on who `else` is using it,_ <br />
 > _but it's **good to know** that **plenty** of teams
 are getting **excellent results** with `Postgres`!_
 
-#### [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
+See:
+[List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
 
 We have used _most_ of the "_popular_" Relational Databases.
-e.g: `MySQL`, `Microsoft SQL Server`, 
-`Oracle` and `Aurora`, etc; 
+e.g: `MySQL`, `Microsoft SQL Server`,
+`Oracle` and `Aurora`, etc;
 all
 [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)
 have their pros/cons. <br />
@@ -480,9 +479,6 @@ is because the **_community_** is _superb_.<br />
 There is a great "_bank_" of _answered_ questions on
 [StackOverflow](https://stackoverflow.com/questions/tagged/postgresql?tab=Votes)
 and new questions get answered _fast_.
-This means you don't _need_ 
-to have an _expert/full-time_ DBA on your team/staff,
-if you get stuck ask the internet!
 
 From 2023 to 2025 `Postgres` has remained
 the **most used** and **most desired** Database:
@@ -490,24 +486,25 @@ the **most used** and **most desired** Database:
 46.5% of respondants use `Postgres`
 more than double `MySQL` (20.5%).
 
-## Operating System?
+## Operating System? 🧠
 
 A _"traditional"_
 [**LAMP** stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
 includes the **Linux** Operating System
 in the _name_. <br />
-The "**PETAL**" stack runs 
+The "**PETAL**" stack runs
 on _any_ (_desktop/server_) Operating System <br />
 and can be deployed to any "_cloud_" infrastructure provider. <br />
 
-While we have a _strong_ preference 
-for `Unix` (e.g. `FreeBSD`) or
+While we have a _strong_ preference
+for `Unix` (e.g. `OpenBSD`) or
 `Linux` (_e.g. `Ubuntu` or `CentOS`_) we know that <br />
 _both_ `Phoenix` and `Postgres` run
 on almost _any_ environment including
 Microsoft Windows Desktop & Server.
+We typically deploy our `Phoenix` Apps using `Ubuntu` + `Docker`.
 
-## Continuous Integration
+## Continuous Integration ✅
 
 We are using
 [`GitHub` actions](https://docs.github.com/en/actions/get-started/continuous-integration)
@@ -532,7 +529,7 @@ e.g:
 or self-hosted `Jenkins`.
 We can easily adapt to the needs of the project.
 
-## Deployment
+## Deployment 🚀
 
 We make a point of deploying our work as _soon_ as
 there is _something_ worth showing
@@ -555,7 +552,7 @@ and
 
 Many people have found our notes helpful.
 
-## Application Server
+## Application Server 
 
 The `Phoenix` Application Server is hosted on (_a minimum of_)
 **Two Servers**. <br />
@@ -564,9 +561,9 @@ one another to distribute load as a cluster_). <br />
 The "_cluster_" is managed by Erlang's "Supervisor".
 The Erlang Supervisor
 is the "_Gold Standard_" in infrastructure management,
-having been used by Telecoms companies 
+having been used by Telecoms companies
 for over 20 years in production
-with some Telcos reporting 99.9999999% 
+with some Telcos reporting 99.9999999%
 ("_nine nines_") of "_up-time_".
 
 > It's _far_ more likely that the _infrastructure_ provider (_e.g. AWS/Azure_)
@@ -589,7 +586,7 @@ to help you get started, we wrote a
 
 <br /> <br /> <hr />
 
-# tl;dr
+# tl;dr 
 
 There is _no shortage_ of options available for
 Technology Stack!
@@ -601,10 +598,9 @@ We _already_ had a _really_ good
 [Node.js Stack](https://github.com/dwyl/technology-stack/blob/main/legacy)
 which worked well for us and our clients. so . . .
 
-
 ## Why Try a "New Stack"?
 
-#### Why Try Something New When We're _Already_ Good with the "Old"...?
+### Why Try Something New When We're _Already_ Good with the "Old"...?
 
 Our _reasoning_ for
 _considering_ an alternative approach/stack for building web apps
@@ -622,14 +618,14 @@ and
 > LIFE Magazine (2 May 1955) p. 64”
 -->
 
-In November 2016 we (_once again_) 
+In November 2016 we (_once again_)
 **questioned our _assumptions_**,
 **_re-examined_** and
 [**_surveyed_**](https://github.com/dwyl/learn-elm/issues/10)
 the "landscape" of "_emerging trends_" in web app development.
-We were ~~pleasantly surprised~~ ***delighted*** to see the _amazing progress_
+We were ~~pleasantly surprised~~ **_delighted_** to see the _amazing progress_
 made by the people in the `Elixir` / `Phoenix` community!
-Please see: 
+Please see:
 [dwyl/learn-phoenix-framework#**questions**](https://github.com/dwyl/learn-phoenix-framework#questions)
 
 ## Making Difficult Decisions
@@ -658,38 +654,39 @@ trends and investigated the "_new and promising_" technologies
 e.g: Stack Overflow
 ["Most Wanted" list](https://github.com/dwyl/the-book#most-wanted-programming-languages).
 
+### _Most_ "_Application Architects_" Pick One Of These 3 Options:
 
-#### _Most_ "_Application Architects_" will pick one of these 3 options:
-
-1.  ***Go with what you (already) know***, use _existing_ stack
+1. **_Stick with what you (already) know_**, use _existing_ stack
 with a minor variation because it's "easy to deploy" with
 the existing infrastructure and will not get questioned by the "Executives",
 DevOps team or "Compliance" department. This is the easy choice
 and nobody ever got "_fired_" for sticking with what they know "_works_".
 
-2.  Buy the whizz-bang all-in-one solution sold to them by the "Consultant"
-from "Big Vendor XYZ" (_outsource the thinking to a sales person who last
-  wrote code in the 90's ... seems like a great idea ... NOT!_)
+2. Buy the whizz-bang all-in-one solution sold to them by the "**Consultant**"
+from "**Big Vendor XYZ**";
+this can _feel_ like a safe option,
+but it results in
+[vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in).
 
-3. Be "Bold" and try "***Popular Framework XYZ***" 
+3. **Be Bold** and try "**_Popular Framework XYZ_**"
 and hire an _external_
-team to build the new magic app. 
+team to build the new magic app.
 Then attempt to "_up-skill_" the _internal_
 team to _maintain_ the code written by the consultants.
 
-None of these choices is _optimal_, 
+None of these choices is _optimal_,
 all have different levels of risk/reward.
-The "_hardest_" choice to make 
+The "_hardest_" choice to make
 is the one where you try something _totally_ different.
 The _reality_ is that very few people
-have the time/resources/mindset/inclination 
+have the time/resources/mindset/inclination
 to take a step back
-and open their minds 
-to the idea that there _might_ 
-be a "_better tool_" for the job 
+and open their minds
+to the idea that there _might_
+be a "_better tool_" for the job
 than the one they are _currently_ using.
 
-### Toast Knife Analogy
+### Toast Knife Analogy 🔪
 
 Imagine Want to Make Yourself Some **Toast**. <br />
 The "_user story_" for this would be:
@@ -702,7 +699,7 @@ The "_user story_" for this would be:
 to reduce the options for solutions for simplicity <br />
 i.e. not baking from scratch!_ )
 
-The "_traditional_" way to "_solve_" 
+The "_traditional_" way to "_solve_"
 the challenge of making toast: <br />
 
 1. Cut bread with bread knife
@@ -710,27 +707,26 @@ the challenge of making toast: <br />
 3. Turn on toaster for pre-determined amount of time
 4. Wait patiently for toaster to make toast
 
-
 But ... what if instead the "_old_" way we just described,
-someone invented a way 
+someone invented a way
 to _toast_ the bread `while` slicing it...?!
 
 ![b4df5698-914e-4dd2-b271-9c00881b6599-274-0000001c8c73f018_tmp](https://cloud.githubusercontent.com/assets/194400/22363833/07798ad6-e465-11e6-9d92-44898a774148.png)
 ![9f9fc56d-b22a-4e77-b60f-f3619254023b-274-0000001ce1dcb22a_tmp](https://cloud.githubusercontent.com/assets/194400/22363837/0d860594-e465-11e6-9dcd-292f441983b0.png)
 
-Simply by using the "***New Tool***" for the job - 
+Simply by using the "**_New Tool_**" for the job -
 _in this case the
-["**Toast Knife**"](https://youtu.be/3ttzWuaPGMo?t=1m1s)_ - 
+["**Toast Knife**"](https://youtu.be/3ttzWuaPGMo?t=1m1s)_ -
 you can
-simplify the process to a ***single step***! <br />
+simplify the process to a **_single step_**! <br />
 This is the power of being _open_ to considering "New" Tools/Technologies! <br />
-Get the ***same result*** in **fewer** than half the "**steps**"!
+Get the **_same result_** in **fewer** than half the "**steps**"!
 
 ### Focussing on Long-term Benefits
 
 The _short-term_ cost of learning a new stack
 (_programming language or framework_) is time,
-We contend that the 1 week learning time 
+We contend that the 1 week learning time
 (_depending on the focus of learners_)
 will pay for itself within 1 month
 (_often sooner if the team is large/distributed because the **structure**
@@ -739,22 +735,22 @@ will pay for itself within 1 month
 
 #### Further Reading on Long-term Thinking
 
-+ https://hbr.org/2012/08/thinking-long-term-in-a-short
-+ https://hbr.org/2011/03/capitalism-for-the-long-term
+- https://hbr.org/2012/08/thinking-long-term-in-a-short
+- https://hbr.org/2011/03/capitalism-for-the-long-term
 
-### *Contextualising* Technology Adoption (_Mini History Lesson_)
+### _Contextualising_ Technology Adoption (_Mini History Lesson_)
 
 In **1996** Nokia introduced the
-["***Communicator***"](https://en.wikipedia.org/wiki/Nokia_Communicator)
+["**Communicator**"](https://en.wikipedia.org/wiki/Nokia_Communicator)
 and was a **_incredible_ revolutionary innovation**!
-**Internet, Email and _Fax_** in your ***Pocket***!! <br />
+**Internet, Email and _Fax_** in your **_Pocket_**!! <br />
 
 ![nokia-communicator](https://cloud.githubusercontent.com/assets/194400/23014351/89c07b64-f426-11e6-8c5a-f93b71a3aa53.jpg) <br />
 
 Nokia continued to _dominate_ the mobile phone industry/market for the next
-***decade*** producing the _best-selling_
+**decade** producing the _best-selling_
 [**5110**](https://en.wikipedia.org/wiki/Nokia_5110)
-and 
+and
 [**3310**](https://en.wikipedia.org/wiki/Nokia_3310)
 some of us are old enough to remember! <br />
 But by being "_ahead_" Nokia was _unable_ to see the "_contender_"
@@ -762,17 +758,19 @@ coming "_out of nowhere_" to challenge their position.
 
 In 2006 _nobody_ was making/buying "smart" mobile phones
 with glass touch screens that ran "apps" ... <br />
-in 
+in
 [January 2007 Steve Jobs introduced the iPhone](https://www.youtube.com/results?search_query=Steve+Jobs+iPhone+Introduction+2007)
 and _literally_ changed the industry!
 
 ![Steve Jobs introduces iphone](https://cloud.githubusercontent.com/assets/194400/22934275/4bc76090-f2c6-11e6-9b90-91226e39ea09.png)
 
 The dominant/incumbent mobile phone maker **Nokia** had
-[***49% market share in 2007***](https://www.bbc.co.uk/news/technology-23947212)
+[**_49% market share_ in 2007**](https://www.bbc.co.uk/news/technology-23947212)
 _mocked_ Apple's lack of features, poor battery life and high price. <br />
-By 2013 Nokia had 3% Market Share (_for new device sales_) and was sold off "for parts" to Microsoft
-while Apple was the [most valuable company](https://www.statista.com/statistics/263264/top-companies-in-the-world-by-market-value/)
+By 2013 Nokia had **3% Market Share** (_for new device sales_)
+and was sold off "for parts" to Microsoft
+while Apple became the 
+[most valuable company](https://www.statista.com/statistics/263264/top-companies-in-the-world-by-market-value/)
 in history!
 
 > _Many **people still buy** "**feature phones**"
@@ -792,7 +790,7 @@ but if you can **inexpensively switch** <br />
 to something **demonstrably better** in **every aspect**,
 why would you stick with the "feature phone" of web frameworks...?_ <br />
 _It's like taking the Bus to work when there's a perfectly
-good teleporter right next to the bus stop!! Madness._
+good **teleporter** right next to the bus stop!! Madness._
 
 We are not _suggesting_ that _everyone_
 is going to _suddenly_ flock to the "**PETAL**" stack
@@ -888,7 +886,7 @@ to make it _available_ to more people!
 
 ![no-javascript](https://cloud.githubusercontent.com/assets/194400/22939705/88d3e524-f2d7-11e6-91c6-47513f6b4fa7.jpg)
 
-This not the place to "diss" JavaScript;
+This not the place to "diss" `JavaScript`;
 _plenty_ of people have written blog posts/tweets "_ranting_"
 about the
 ["_State of Web Development_"](https://medium.com/@wob/the-sad-state-of-web-development-1603a861d29f).
@@ -902,7 +900,6 @@ a website dedicated to the "Callback Hell" issue: http://callbackhell.com <br />
 why do we even _need_ to have an _expression_ for that?
 why can't ***elegant*** asynchronous control flow
 be the **_only_ way** to write code?
-
 
 The **fact** is: we _only_ use JavaScript because it is the
 ["***Lingua Franca***"](https://en.wikipedia.org/wiki/Lingua_franca)
@@ -935,12 +932,12 @@ If you're in any doubt, ***Just Do it***._
 
 ### What About _Full Stack `JavaScript`_?
 
-We still think that 
-"***Full Stack `JavaScript`***"
-is a ***compelling proposition***
+We still think that
+"**Full Stack `JavaScript`**"
+is a **_compelling_ proposition**
 _especially_ for people who are just starting out!
 It allows you to write _one_ programming language
-on both the client and server; we get it!
+on both the client and server; we _get_ it!
 However we have learned from years of experience
 that it requires **a _lot_ more code and _maintenance_**
 than **`PETAL`** for an **_inferior_ result**
@@ -950,7 +947,7 @@ in terms of UX/performance and developer productivity.
 
 If we were to _consider_ an alternative to `SQL`, we
 would use `RethinkDB`:
-https://rethinkdb.com <br />
+[rethinkdb.com](https://rethinkdb.com) <br />
 But we are _relieved_ that the `Phoenix` team
 is _focussed_ on `Postgres` because that _eliminates_ <br />
 the "ambiguity" or "discussion" of "_which database_" to use!
@@ -968,7 +965,7 @@ See:
 > “_If it takes an hour to figure out what’s going on, well,<br />
 > that’s an hour that wasn’t spent
 > doing something else more useful and interesting_." <br />
-> ~ 
+> ~
 > [Rachel Kroll](https://rachelbythebay.com/w/2021/09/05/clever/)
 
 Please read:
@@ -998,12 +995,12 @@ No need for microservices message queues or other
 complex tech that is only relevant to 0.1% of mega scale companies:
 ![image](https://user-images.githubusercontent.com/194400/185088279-241c2d23-3986-4820-9b59-7acb6f9b8235.png)
 
-We agree. 
+We agree.
 
 <br />
 
 If by some luck our product reaches the point where
-we _need_ mega scale 
+we _need_ mega scale
 (_millions of `people` creating billions of `items`_)
 we know that our chosen stack will scale just fine.
 
