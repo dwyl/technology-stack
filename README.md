@@ -15,28 +15,28 @@ The software and systems we use to build **`@dwyl`**.
 - [Why?](#why)
 - [What?](#what)
   - [The `PETAL` Stack](#the-petal-stack)
-    - [**`Phoenix`**](#phoenix)
+    - [**`Phoenix`** 🐦‍🔥](#phoenix-)
       - [`Phoenix` the "Most Loved" Framework](#phoenix-the-most-loved-framework)
-    - [**`Elixir`**](#elixir)
+    - [**`Elixir`** 💧](#elixir-)
       - [`Elixir` Remains Most Loved Language](#elixir-remains-most-loved-language)
-    - [`Tailwind CSS`](#tailwind-css)
-    - [`Alpine.js` (Optional)](#alpinejs-optional)
+    - [`Tailwind CSS` 😍](#tailwind-css-)
+    - [`Alpine.js` (Optional) ✨](#alpinejs-optional-)
     - [`LiveView`](#liveview)
   - [_Beginner_ Tutorials?](#beginner-tutorials)
     - [`Phoenix` / `Elixir`](#phoenix--elixir)
-    - [Small Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
+    - [_Small_ Projects That Showcase `Phoenix`](#small-projects-that-showcase-phoenix)
     - [`Elixir` Utilities](#elixir-utilities)
     - [**`Flutter`**](#flutter)
     - [Miscellaneous](#miscellaneous)
     - [Our `MVP`](#our-mvp)
   - [Database?](#database)
     - [We _Prefer_ `PostgreSQL`](#we-prefer-postgresql)
-        - [List of Organizations Using PostgreSQL](#list-of-organizations-using-postgresql)
+      - [List of Organizations Using PostgreSQL](#list-of-organizations-using-postgresql)
   - [Operating System?](#operating-system)
   - [Continuous Integration](#continuous-integration)
   - [Deployment](#deployment)
-      - [Application Server](#application-server)
-      - [SSL/TLS Encryption](#ssltls-encryption)
+  - [Application Server](#application-server)
+  - [SSL/TLS Encryption](#ssltls-encryption)
 - [tl;dr](#tldr)
   - [Why Try a "New Stack"?](#why-try-a-new-stack)
       - [Why Try Something New When We're _Already_ Good with the "Old"...?](#why-try-something-new-when-were-already-good-with-the-old)
@@ -93,42 +93,47 @@ and _**world-class quality**_!
 
 ## The `PETAL` Stack
 
-![dwyl-technology-stack-diagram-PETAL](https://user-images.githubusercontent.com/194400/184719877-a6112c04-7cd9-441f-a293-e6b133d4b67c.png)
+![dwyl-technology-stack-diagram-PETAL-2](https://github.com/user-attachments/assets/8e0d17f7-9a4d-4e3d-a269-06965aeea8eb)
 <!--
 To update this diagram see: 
 https://github.com/dwyl/technology-stack/issues/1
 -->
 
-"PETAL" is an acronym<sup>1</sup>
+**`PETAL`** is an **acronym**
 for the following elements:
-+ **P**hoenix - the Web Application Framework.
-+ **E**lixir - the functional fault-tolerant programming language.
-+ **T**ailwind - the **interface** library
+
+- **P**hoenix - the Web App framework
+  that organizes routes, schemas, controllers and tests
+  like a well-oiled machine.
+- **E**lixir - the functional fault-tolerant programming language.
+- **T**ailwind - the **interface** library
 used for building beautiful mobile-first & responsive web apps that feel fast.
-+ **A**lpine.js - the tiny effects & enhancements JavaScript library
+- **A**lpine.js - the tiny effects & enhancements JavaScript library
 that loads fast and progressively enhances the user experience. 
 This is 100% optional, apps work fine without it.
-+ **L**iveView - the system that significantly simplifies creating interfaces
+- **L**iveView - the system that significantly simplifies creating interfaces
 that update in real-time whenever a change is made by anyone else.
 
 Let's go through each of these in a bit more detail.
 
-### **`Phoenix`**
+### **`Phoenix`** 🐦‍🔥
 
 **`Phoenix`** is the Web Application Framework
 that **does not compromise**
 on **speed**<br />
 (both when building apps/features and serving requests),
 **reliability** or **maintainability**!<br />
+
 **`Phoenix`** is the _successor_
 to the incredibly popular
 [Ruby-on-Rails](https://rubyonrails.org/)
 framework
-(commonly referred to as just `Rails`)
+(commonly referred to as `Rails`)
 that was used by many startups and successful companies
 e.g: `AirBnB`, `GitHub`, `Shopify` and `Twitter`
 (most of which have migrated away from `Rails` for scalability reasons).
-`Phoenix` was built _from scratch_
+
+**`Phoenix`** was built _from scratch_
 by highly experienced engineers
 who worked on/with `Rails`.
 It _solves_
@@ -136,13 +141,14 @@ all of the speed/socket/scaling/concurrency issues
 people felt when building/using Rails apps.
 The list of _**benefits**_ `Phoenix` has over
 (_virtually every_) other Web Frameworks is _extensive_.<br />
-Please see:
+See:
 [dwyl/**learn-phoenix-framework**#our-**top-10-reasons**-why-phoenix](https://github.com/dwyl/learn-phoenix-framework#our-top-10-reasons-why-phoenix) <br />
 
 #### `Phoenix` the "Most Loved" Framework
 
 **`Phoenix`** tops the list of "**Most Loved**" Frameworks
-on the for the **3<sup>rd</sup> year in a row** on the
+for the **3<sup>rd</sup> year in a row**<br />
+on the
 [2025 StackOverflow Developer Survey](https://survey.stackoverflow.co/2025/technology#2-web-frameworks-and-technologies). ❤️
 
 ![stackoverflow-most-loved-framework-phoenix](https://user-images.githubusercontent.com/194400/184833098-0e9cd055-9e4f-4c93-96ed-4411e1a8154c.png)
@@ -154,9 +160,9 @@ This is not a
 the votes are private/confidential.
 When software engineering community collectively
 votes that a framework is their "most loved",
+you know that they _love_ using it.
 
-
-### **`Elixir`**
+### **`Elixir`** 💧
 
 **`Elixir`** is the _functional_ programming language 
 used by the **`Phoenix`** framework. 
@@ -192,7 +198,7 @@ in the language.
 And as we all know people who _enjoy_ their work
 are _better_ at doing it!
 
-### `Tailwind CSS`
+### `Tailwind CSS` 😍
 
 **`Tailwind`** is the most _sane_ way
 of creating a _beautiful_ web app UI
@@ -211,7 +217,7 @@ We paid for a license for
 It has hundreds of carefully crafted UI templates
 that can easily be customized.
 
-### `Alpine.js` (Optional)
+### `Alpine.js` (Optional) ✨
 
 **`Alpine.js`** is a **lightweight** library
 for enhancing interactions in a web application.
@@ -228,11 +234,38 @@ the size footprint drops down to roughly `14 KB`.
 This means it loads in under **`200ms`** (1/5 second)
 even on a slower **`3G`** connection.
 
+For a concrete example of how we are using `Alpine.js`,
+read:
+[`app.js`](https://github.com/dwyl/mvp/blob/main/assets/js/app.js)
+it handles the drag-and-drop and effects in the `MVP`.
+
 ### `LiveView`
 
 **`LiveView`** is a radically simplified way
-of building **realtime web apps** with significantly less code.
+of building **realtime web apps**
+with **_significantly_ less code**.
 
+`Phoenix` + `LiveView` allows us
+to build rich interactive web apps
+with realtime reactive UI
+(no page refresh when data updates)
+without writing `JavaScript`!
+This enables building
+incredible interactive experiences
+in less time and
+with considerably less code.
+
+For more detail, on the "Why? What? How?" of `LiveView`,
+please see:
+[dwyl/phoenix-liveview-counter-tutorial#liveview](https://github.com/dwyl/phoenix-liveview-counter-tutorial/tree/764308bca4b23a1a1c55de12577d9b5cffd15d00#liveview)
+
+> **Note**: We only use `LiveView`
+> where **appropriate** to the **desired UI/UX**;
+> it's not a shiny object we _must_ use everywhere.
+> If live updates are **not needed**
+> e.g: in `Auth` or `Payment` flows
+> we use server-side rendered controllers
+> with _bare minimum_ client-side validation.
 
 <br />
 
@@ -240,12 +273,14 @@ of building **realtime web apps** with significantly less code.
 
 We have _crafted_ a "**_Complete Beginner's_ Guide**"
 for each element in the stack, so that we:
-- **Document our collective learning**
+
+1. **Document our collective learning**
 `while` we are building projects. <br />
 (_because as humans
 we **forget fast**
 unless we **capture** it **immediately**_!)
-- **_Share_** our knowledge with other people so we can
+
+2. **_Share_** our knowledge with other people so we can
   - Help to train (_potential_) new team members
   as quickly/effectively as possible.
   - **_Collectively iterate_** on our knowledge
@@ -259,7 +294,8 @@ unless we **capture** it **immediately**_!)
   interested in _understanding_ the project.
   - Enlighten other teams/organizations/agencies/etc. we aren't in
   _direct_ contact with that there is a "_more fun_" way of building software!
-- Make _everyone's_ life easier/better
+
+3. Make _everyone's_ life easier/better
 by having a "launch pad" for
 [_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
 
@@ -278,12 +314,12 @@ pertaining to `Phoenix` and `Phoenix Liveview`.
 [dwyl/learn-**phoenix**-framework](https://github.com/dwyl/learn-phoenix-framework)
 3. Counter (`LiveView`):
 [dwyl/phoenix-liveview-**counter**-tutorial](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
-4. Todo List (`LiveView`):
-[dwyl/phoenix-liveview-**todo-list**-tutorial](https://github.com/dwyl/phoenix-liveview-todo-list-tutorial)
-5. Stopwatch (`LiveView`):
-[dwyl/phoenix-liveview-**stopwatch**](https://github.com/dwyl/phoenix-liveview-stopwatch)
-6. Chat:
+4. Chat (`Phoenix` + `Channels`):
 [dwyl/phoenix-**chat**-example](https://github.com/dwyl/phoenix-chat-example)
+5. Todo List (`LiveView`):
+[dwyl/phoenix-liveview-**todo-list**-tutorial](https://github.com/dwyl/phoenix-liveview-todo-list-tutorial)
+6. Stopwatch (`LiveView`):
+[dwyl/phoenix-liveview-**stopwatch**](https://github.com/dwyl/phoenix-liveview-stopwatch)
 7. Chat (`LiveView`):
 [dwyl/phoenix-**liveview-chat**-example](https://github.com/dwyl/phoenix-liveview-chat-example)
 8. Realtime cursor tracking (`LiveView`):
@@ -293,16 +329,19 @@ pertaining to `Phoenix` and `Phoenix Liveview`.
 10. `Flutter` and `Phoenix`:
 [dwyl/**flutter-phoenix**-channels-demo](https://github.com/dwyl/flutter-phoenix-channels-demo)
 
-### Small Projects That Showcase `Phoenix`
+### _Small_ Projects That Showcase `Phoenix`
 
 We have a couple of "internal" (but Open Source) projects
 that use `Phoenix`
 and serve as a good showcase for the stack:
 
-1. Labels:
-[dwyl/**labels**](https://github.com/dwyl/labels)
-2. Hits:
-[dwyl/**hits**](https://github.com/dwyl/hits)
+1. Hits:
+  [dwyl/**hits**](https://github.com/dwyl/hits)
+2. Image Uploads:
+  [dwyl/**imgup**](https://github.com/dwyl/imgup)
+3. Labels:
+  [dwyl/**labels**](https://github.com/dwyl/labels)
+
 
 ### `Elixir` Utilities
 
@@ -332,26 +371,26 @@ One of the many beauties of `Elixir` code
 is that it requires _very_ low maintenance;
 it just keeps working year after year.
 
-### **`Flutter`**
+### **`Flutter`** 
 
 In this section you will find learning repositories
 where you can learn `Flutter`
-*and* how to use it with other technologies.
+_and_ how to use it with other technologies.
 
 1. Learn `Flutter`:
 [dwyl/learn-**flutter**](https://github.com/dwyl/learn-flutter)
 2. Learn `Dart`:
 [dwyl/learn-**dart**](https://github.com/dwyl/learn-dart)
-3. `Supabase` and `Flutter`:
-[dwyl/**supabase**-flutter-demo](https://github.com/dwyl/supabase-flutter-demo)
-4. Counter:
+3. Counter:
 [dwyl/flutter-**counter**-example](https://github.com/dwyl/flutter-counter-example)
-5. Stopwatch:
+4. Stopwatch:
 [dwyl/flutter-**stopwatch**-tutorial](https://github.com/dwyl/flutter-stopwatch-tutorial)
-6. Todo list:
+5. Todo list:
 [dwyl/flutter-**todo-list**-tutorial](https://github.com/dwyl/flutter-todo-list-tutorial)
-7. `Bloc`:
+6. `Bloc`:
 [dwyl/flutter-**bloc**-tutorial](https://github.com/dwyl/flutter-bloc-tutorial)
+7. `Supabase` and `Flutter`:
+[dwyl/**supabase**-flutter-demo](https://github.com/dwyl/supabase-flutter-demo)
 
 ### Miscellaneous  
 
@@ -380,11 +419,11 @@ Check it out at
 ## Database?
 
 The _reason_ we do not _specify_ our Database
-in the "PETAL" Acronym is <br />
+in the `PETAL` acronym is
 that **`Phoenix`** abstracts its'
 database access via
 [`Ecto`](https://phoenix.hexdocs.pm/ecto.html)
-to provide built-in support 
+to provide built-in support
 to the following **databases**:
 
 * `PostgreSQL` (via [`postgrex`](https://github.com/elixir-ecto/postgrex))
@@ -394,7 +433,7 @@ to the following **databases**:
 * `SQLite3` (via [`ecto_sqlite3`](https://github.com/elixir-sqlite/ecto_sqlite3))
 
 By _abstracting_ the data layer
-using "Ecto" the application is "_decoupled_"
+using `Ecto` the application is "_decoupled_"
 from the database. <br />
 This means that if a client _asks_ us to deploy to `MySQL` or
 `Microsoft SQL Server` <br />
@@ -407,14 +446,11 @@ is all that is needed.
 
 ### We _Prefer_ `PostgreSQL`
 
-<img width="500" alt="postgres logo" 
-src="https://cloud.githubusercontent.com/assets/194400/22939394/6cc00918-f2d6-11e6-8400-77886d70b520.png"/>
-
-Our "_standard_" (_preference_) @dwyl is for `Postgres`.
+Our "_standard_" (_preferred_) DB @dwyl is `Postgres`.
 see: 
 [dwyl/**learn-postgresql**](https://github.com/dwyl/learn-postgresql)
 <br />
-Postgres is the most "_mature_" Open Source Relational Database.
+`Postgres` is the most "_mature_" Open Source Relational Database.
 It's ***100% Free*** (_including all **"advanced"** features_)
 and has been deployed and ***battle-tested*** in ***every*** environment
 from `AWS` to "Bare Metal" and `Google Cloud` to `Microsoft Azure`!
@@ -427,7 +463,7 @@ based on who `else` is using it,_ <br />
 > _but it's **good to know** that **plenty** of teams
 are getting **excellent results** with `Postgres`!_
 
-##### [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
+#### [List of Organizations Using PostgreSQL](https://github.com/dwyl/learn-postgresql/issues/31)
 
 We have used _most_ of the "_popular_" Relational Databases.
 e.g: `MySQL`, `Microsoft SQL Server`, 
@@ -435,11 +471,14 @@ e.g: `MySQL`, `Microsoft SQL Server`,
 all
 [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)
 have their pros/cons. <br />
-The ***reason*** we like/use **`Postgres`** 
-is because the ***community*** is _superb_. 
+The **_reason_** we like/use **`Postgres`**
+is because the **_community_** is _superb_.<br />
 There is a great "_bank_" of _answered_ questions on
-[StackOverflow](https://stackoverflow.com/questions/tagged/postgresql)
+[StackOverflow](https://stackoverflow.com/questions/tagged/postgresql?tab=Votes)
 and new questions get answered _fast_.
+This means you don't _need_ 
+to have an _expert/full-time_ DBA on your team/staff,
+if you get stuck ask the internet!
 
 From 2023 to 2025 `Postgres` has remained
 the **most used** and **most desired** Database:
@@ -469,9 +508,9 @@ Microsoft Windows Desktop & Server.
 We are using
 [`GitHub` actions](https://docs.github.com/en/actions/get-started/continuous-integration)
 for
-[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) 
+[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 &
-[Deployment/Delivery](https://en.wikipedia.org/wiki/Continuous_deployment).
+[Deployment/Delivery](https://en.wikipedia.org/wiki/Continuous_deployment).<br />
 It's **free**/included with `GitHub`
 and easily meets our needs.
 
@@ -512,14 +551,14 @@ and
 
 Many people have found our notes helpful.
 
-#### Application Server
+## Application Server
 
-The Phoenix Application Server is hosted on (_a minimum of_)
-Two Linux Servers. <br />
+The `Phoenix` Application Server is hosted on (_a minimum of_)
+**Two Servers**. <br />
 (_often many more which send **messages**
 one another to distribute load as a cluster_). <br />
 The "_cluster_" is managed by Erlang's "Supervisor".
-The Erlang Supervisor 
+The Erlang Supervisor
 is the "_Gold Standard_" in infrastructure management,
 having been used by Telecoms companies 
 for over 20 years in production
@@ -528,30 +567,30 @@ with some Telcos reporting 99.9999999%
 
 > It's _far_ more likely that the _infrastructure_ provider (_e.g. AWS/Azure_)
 will have a fault in their network/datacenter than an Erlang server "crashing".
+An individual request/process may crash but never the whole server.
 
-#### SSL/TLS Encryption
+## SSL/TLS Encryption
 
 All communication is over secure/encrypted channel
 (_by default at all times_) <br />
 to protect the data/privacy
 of people using the applications we make. <br />
 
-We recommend using the "Let's Encrypt" service for SSL Certificates
-it's ***100% Free*** (and _provided by a Non-Profit foundation_) <br />
+We recommend using the **Let's Encrypt** service for SSL Certificates
+it's **_100% Free_** 
+(and _provided by a Non-Profit foundation_) <br />
 to help you get started, we wrote a
-***step-by-step setup guide*** for apps deployed to Heroku:
-[SSL-certificate-step-by-step-setup-instructions.md](https://github.com/dwyl/learn-heroku/blob/master/SSL-certificate-step-by-step-setup-instructions.md)
-
-
+**_step-by-step setup guide_** for apps deployed to any infrastructure:
+[/letsencrypt-wildcard-certificate.md](https://github.com/dwyl/learn-devops/blob/main/nginx/letsencrypt-wildcard-certificate.md)
 
 <br /> <br /> <hr />
-
 
 # tl;dr
 
 There is _no shortage_ of options available for
-Technology Stack! <br />
-See: https://www.google.com/search?q=technology+stack&tbm=isch <br />
+Technology Stack!
+See:
+[google.com/search?q=technology+stack](https://www.google.com/search?q=technology+stack&tbm=isch) <br />
 So, _how_ did we _arrive_ at the conclusion that `PETAL`
 was "_the **one**_" for us...? <br />
 We _already_ had a _really_ good
@@ -909,19 +948,21 @@ If we were to _consider_ an alternative to `SQL`, we
 would use `RethinkDB`:
 https://rethinkdb.com <br />
 But we are _relieved_ that the `Phoenix` team
-is _focussed_ on PostgreSQL because that _eliminates_ <br />
+is _focussed_ on `Postgres` because that _eliminates_ <br />
 the "ambiguity" or "discussion" of "_which database_" to use!
-Postgres is a _fantastic_ "_general purpose_" <br />
-store that has a _rich_ ("_structured_") query language
+`Postgres` is a _fantastic_ "_general purpose_" <br />
+db that has a _rich_ ("_structured_") query language
 that lets you JOIN data!! <br />
-Also, now that [`Citus DB` is Open Source](https://www.citusdata.com/blog/2016/03/24/citus-unforks-goes-open-source)
-we _know_ that `Postgres` 
-can _easily_ handle ***billions*** of writes per day!
+Also, now that `Citus DB` is fully Open Source
+we _know_ that `Postgres`
+can _easily_ handle **_billions_** of writes per day.
+See:
+[citusdata.com](https://www.citusdata.com/overview/)
 
 ## Radical Simplicity
 
 > “_If it takes an hour to figure out what’s going on, well,<br />
-> that’s an hour that wasn’t spent 
+> that’s an hour that wasn’t spent
 > doing something else more useful and interesting_." <br />
 > ~ 
 > [Rachel Kroll](https://rachelbythebay.com/w/2021/09/05/clever/)
@@ -930,10 +971,20 @@ Please read:
 https://www.radicalsimpli.city <br />
 In the site/manifesto
 [Stephan](https://www.linkedin.com/in/stephanjschmidt/)
-makes the case that Apps in 2021 
+makes the case that Apps
 have gotten far too complex:
 
 ![radical-simplicity-complexity](https://user-images.githubusercontent.com/194400/185086864-1e1dd075-18a8-45ff-9b51-84f9e17fe116.png)
+
+> **Note**: the "**Complexity 2021**"
+> is just the year when complex Single Page Apps (SPAs)
+> reached the fever pitch
+> Many people were using the `React`
+> [**hammer**](https://en.wikipedia.org/wiki/Law_of_the_instrument#Computer_programming)
+> to build slow-loading apps with complex architectures.
+> Thankfully, many people/teams
+> have realized that it's a poor UX
+> and moved away from it now.
 
 He advocates for a return to basics:
 
