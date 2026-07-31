@@ -27,15 +27,15 @@ The software and systems we use to build **`@dwyl`**.
     - [_Small_ Apps That Showcase `Phoenix` 💡](#small-apps-that-showcase-phoenix-)
     - [`Elixir` Utilities 🔪](#elixir-utilities-)
     - [`Flutter` 📱](#flutter-)
-    - [Miscellaneous](#miscellaneous)
-    - [Our `MVP`](#our-mvp)
-  - [Database?](#database)
-    - [We _Prefer_ `PostgreSQL`](#we-prefer-postgresql)
+    - [Miscellaneous 💳](#miscellaneous-)
+    - [Our `MVP` 💡](#our-mvp-)
+  - [Database? 🗄️](#database-️)
+    - [We _Prefer_ `PostgreSQL` 🫶](#we-prefer-postgresql-)
   - [Operating System? 🧠](#operating-system-)
   - [Continuous Integration ✅](#continuous-integration-)
   - [Deployment 🚀](#deployment-)
-  - [Application Server](#application-server)
-  - [SSL/TLS Encryption](#ssltls-encryption)
+  - [Application Server 🏢](#application-server-)
+  - [SSL/TLS Encryption 🔐](#ssltls-encryption-)
 - [tl;dr](#tldr)
   - [Why Try a "New Stack"?](#why-try-a-new-stack)
     - [Why Try Something New When We're _Already_ Good with the "Old"...?](#why-try-something-new-when-were-already-good-with-the-old)
@@ -86,7 +86,7 @@ we use for **`dwyl`** products/projects.
 
 Each element in our stack was _carefully_ selected based
 on its individual merits. <br />
-When _assembled_ into a seamless "machine",
+When _assembled_ into a seamless machine,
 the stack is _unrivaled_ for **developer effectiveness**
 and _**world-class quality**_!
 
@@ -296,7 +296,7 @@ interested in _understanding_ the project.
 - Enlighten other teams/organizations/agencies/etc. we aren't in
 _direct_ contact with that there is a "_more fun_" way of building software!
 
-1. Make _everyone's_ life easier/better
+3. Make _everyone's_ life easier/better
 by having a "launch pad" for
 [_rapid_ learning](https://youtu.be/hOZnP4dZYK0 "Matrix Easter Egg ;-)")!
 
@@ -395,7 +395,7 @@ and how to use it with other technologies:
 1. `Supabase` and `Flutter`:
 [dwyl/**supabase**-flutter-demo](https://github.com/dwyl/supabase-flutter-demo)
 
-### Miscellaneous 
+### Miscellaneous 💳
 
 In this section,
 we will list a few repos that explain
@@ -413,13 +413,13 @@ while developing our [`app`](https://github.com/dwyl/app).
 1. `Github Pages` deployment:
 [dwyl/learn-**github-pages**](https://github.com/dwyl/learn-github-pages)
 
-### Our `MVP`
+### Our `MVP` 💡
 
 We have built a working MVP version of our App!
 Check it out at
-[dwyl/**mvp**](https://github.com/dwyl/mvp)!
+[dwyl/**mvp**](https://github.com/dwyl/mvp)! 📱
 
-## Database?
+## Database? 🗄️
 
 The _reason_ we do not _specify_ our Database
 in the `PETAL` acronym is
@@ -447,7 +447,7 @@ without re-writing _any_ of the `Phoenix` app!
 Changing a couple of lines of configuration
 is all that is needed.
 
-### We _Prefer_ `PostgreSQL`
+### We _Prefer_ `PostgreSQL` 🫶
 
 Our "_standard_" (_preferred_) DB @dwyl is `Postgres`.
 see:
@@ -552,14 +552,15 @@ and
 
 Many people have found our notes helpful.
 
-## Application Server 
+## Application Server 🏢
 
 The `Phoenix` Application Server is hosted on (_a minimum of_)
 **Two Servers**. <br />
 (_often many more which send **messages**
 one another to distribute load as a cluster_). <br />
 The "_cluster_" is managed by Erlang's "Supervisor".
-The Erlang Supervisor
+The
+[Erlang Supervisor](https://learnyousomeerlang.com/supervisors)
 is the "_Gold Standard_" in infrastructure management,
 having been used by Telecoms companies
 for over 20 years in production
@@ -570,7 +571,7 @@ with some Telcos reporting 99.9999999%
 will have a fault in their network/datacenter than an Erlang server "crashing".
 An individual request/process may crash but never the whole server.
 
-## SSL/TLS Encryption
+## SSL/TLS Encryption 🔐
 
 All communication is over secure/encrypted channel
 (_by default at all times_) <br />
