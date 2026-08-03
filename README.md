@@ -101,14 +101,14 @@ https://github.com/dwyl/technology-stack/issues/1
 for the following elements:
 
 - **P**hoenix - the Web App framework
-  that organizes routes, schemas, controllers and tests
-  like a well-oiled machine.
+  that **_organizes_ routes, schemas, controllers** and **tests _logically_**.
 - **E**lixir - the **functional** fault-tolerant **programming language**
 that is a _joy_ to work with.
-- **T**ailwind - the **interface** library
-used for building **beautiful mobile-first** & **responsive web apps**
+- **T**ailwind - the **interface library**
+for building **beautiful mobile-first** & **responsive web apps**
 that feel fast and are easy to extend.
-- **A**lpine.js - the _tiny_ effects & enhancements `JavaScript` library
+With hundreds of templates & examples.
+- **A**lpine.js - the **_tiny_ effects and enhancements `JavaScript` library**
 that loads fast and **progressively enhances** the **user experience**.
 This is **100% optional**, apps work fine without it.
 - **L**iveView - the system that **_significantly_ simplifies**
@@ -162,17 +162,26 @@ you know that they **_love_ using it**.
 
 ### **`Elixir`** 💧
 
-**`Elixir`** is the _functional_ programming language
-used by the **`Phoenix`** framework.
-**`Elixir`** is a _beautiful_ language
+**`Elixir`** is the **_functional_ programming language**
+used by the **`Phoenix`** framework.<br />
+**`Elixir`** is a **_beautiful_ language**
 written _from scratch_ to be
-***friendly, concise and efficient***.
+**_friendly, concise and efficient_**.
+What this means is that you can write
+elegant expressive programs
+that achieve impressive results with fewer words.
+And because it's **functional** (with immutable data),
+it's considerably easier to follow the logic
+even when reading someone else's code
+or your own you're returning to after a few years.
+
 **_Yes_**, `Elixir` not as
 ["_mainstream_"](https://github.com/dwyl/learn-elixir/issues/102#issuecomment-1105416646)
 as `JavaScript`, `Java`, `C#` or `Python`,
 but the adoption is _growing rapidly_ and most importantly
-many _experienced_ developers are gravitating towards and
-describing it as their ["most wanted"](https://github.com/dwyl/the-book#you-will-learn-in-demand-tech-toolsskills)
+many **_experienced_ engineers** are gravitating towards and
+describing it as their
+["most wanted"](https://github.com/dwyl/learn-elixir/issues/102#issuecomment-3214201950)
 Also a language's popularity has more
 to do with the intellectual inertia people/companies have because
 they allow existing (_legacy_) codebases to dictate future development;
@@ -191,7 +200,7 @@ For the 3<sup>rd</sup> year running,
 
 ![stackoverflow-survey-elixir](https://user-images.githubusercontent.com/194400/184831055-7f22484b-4c2b-472a-bf09-9165ef5fc7f9.png)
 
-First appeared on: 
+First appeared on:
 https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages
 
 This is a good measure
@@ -199,6 +208,10 @@ of how much people _enjoy_ working
 in the language.
 And as we all know people who _enjoy_ their work
 are _better_ at doing it!
+
+> **Note**: The 2026 StackOverflow Survey 
+> will be released later this year,
+> we will update this repo accordingly. 
 
 ### `Tailwind CSS` 😍
 
