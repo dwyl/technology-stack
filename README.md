@@ -73,21 +73,21 @@ to make product(s) that are
 -->
 
 > _If **anything** is **unclear** or you have **any questions** please_
-[***ask***](https://github.com/dwyl/technology-stack/issues). <br />
+[**_ask_**](https://github.com/dwyl/technology-stack/issues). <br />
 We are always happy to answer tech stack related questions. <br />
-But please make sure you read the whole doc first.
+Please make sure you read the whole doc first.
 
 # What?
 
 This document + diagrams _describe_
-the full "**`PETAL`**" Technology Stack
+the full **`PETAL`** Technology Stack
 we use for **`dwyl`** products/projects.
 
 Each element in our stack was _carefully_ selected based
 on its individual merits. <br />
 When _assembled_ into a seamless machine,
 the stack is _unrivaled_ for **developer effectiveness**
-and _**world-class quality**_!
+and _**world-class reliability**_!
 
 ## The `PETAL` Stack
 
@@ -103,14 +103,17 @@ for the following elements:
 - **P**hoenix - the Web App framework
   that organizes routes, schemas, controllers and tests
   like a well-oiled machine.
-- **E**lixir - the functional fault-tolerant programming language.
+- **E**lixir - the **functional** fault-tolerant **programming language**
+that is a _joy_ to work with.
 - **T**ailwind - the **interface** library
-used for building beautiful mobile-first & responsive web apps that feel fast.
-- **A**lpine.js - the tiny effects & enhancements JavaScript library
-that loads fast and progressively enhances the user experience. 
-This is 100% optional, apps work fine without it.
-- **L**iveView - the system that significantly simplifies creating interfaces
-that update in real-time whenever a change is made by anyone else.
+used for building **beautiful mobile-first** & **responsive web apps**
+that feel fast and are easy to extend.
+- **A**lpine.js - the _tiny_ effects & enhancements `JavaScript` library
+that loads fast and **progressively enhances** the **user experience**.
+This is **100% optional**, apps work fine without it.
+- **L**iveView - the system that **_significantly_ simplifies**
+creating interfaces that update in **real-time**
+whenever a change is made by anyone else.
 
 Let's go through each of these in a bit more detail.
 
@@ -123,14 +126,14 @@ that **does not compromise**.
 to the incredibly popular
 [Ruby-on-Rails](https://rubyonrails.org/)
 framework
-(commonly referred to as `Rails`)
-that was used by many startups and successful companies
+(commonly referred to as `Rails`).
+That was used by many startups and successful companies
 e.g: `AirBnB`, `GitHub`, `Shopify` and `Twitter`
 (most of which have migrated away from `Rails` for scalability reasons).
 
 **`Phoenix`** was built _from scratch_
 by highly experienced engineers
-who worked on/with `Rails`.
+who worked on/with `Rails`.<br />
 It _solves_
 all of the speed/socket/scaling/concurrency issues
 people felt when building/using Rails apps.
@@ -151,11 +154,11 @@ on the
 https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies
 
 This is not a
-[popularity contest](https://en.wikipedia.org/wiki/Popularity_contest),
+[popularity contest](https://en.wikipedia.org/wiki/Popularity_contest);
 the votes are private/confidential.
-When software engineering community collectively
-votes that a framework is their "most loved",
-you know that they _love_ using it.
+When software engineering community _collectively_
+votes that a framework is their "**most loved**",
+you know that they **_love_ using it**.
 
 ### **`Elixir`** 💧
 
@@ -175,14 +178,14 @@ to do with the intellectual inertia people/companies have because
 they allow existing (_legacy_) codebases to dictate future development;
 i.e.
 [_**sunk cost bias**_](https://www.investopedia.com/terms/s/sunk-cost-trap.asp).
-see: 
+see:
 [dwyl/**learn-elixir#key-advantages**](https://github.com/dwyl/learn-elixir#key-advantages-)
 
 #### `Elixir` Remains Most Loved Language
 
 For the 3<sup>rd</sup> year running,
-`Elixir` is the 2<sup>nd</sup>
-"Most Loved" programming language:
+`Elixir` is the 3<sup>rd</sup>
+"Most Loved" programming language in the world:
 [survey.stackoverflow.co/2025/technology/#2-programming-scripting](https://survey.stackoverflow.co/2025/technology/#2-programming-scripting-and-markup-languages)
 
 
@@ -219,8 +222,9 @@ that can easily be customized.
 ### `Alpine.js` (Optional) ✨
 
 **`Alpine.js`** is a **lightweight** library
-for enhancing interactions in a web application.
+for enhancing interactions in a web application.<br />
 It's **declarative**, responsive and easy to learn.
+
 `Alphine.js` plays well with `LiveView` for
 [progressive enhancements](https://en.wikipedia.org/wiki/Progressive_enhancement).
 see:
@@ -237,6 +241,8 @@ For a concrete example of how we are using `Alpine.js`,
 read:
 [`app.js`](https://github.com/dwyl/mvp/blob/main/assets/js/app.js)
 it handles the drag-and-drop and effects in the `MVP`.
+This is **_fully_ documented** in:
+[`/drag-and-drop.md`](https://github.com/dwyl/learn-alpine.js/blob/main/drag-and-drop.md)
 
 ### `LiveView` 🚀
 
