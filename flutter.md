@@ -2,17 +2,19 @@
 
 # `Flutter`
 
-**Creative technology** 
+**Creative technology**
 is **_constantly_ evolving**. <br />
 There is always
-a **`new` way** 
-of ***solving*** an 
+a **`new` way**
+of **_solving_** an
 **old problem** <br />
-and in some cases 
-**_significantly_ simplifying** 
+and in some cases
+**_significantly_ simplifying**
 the solution.
 
+<!--
 [![nelsonic-overwhelmed-learning-tweet](https://user-images.githubusercontent.com/194400/71715853-b6399880-2e0a-11ea-9529-35fc660c04bc.png "embrace learning!")](https://twitter.com/nelsonic/status/913811339709173760?s=20)
+-->
 
 </div>
 
@@ -25,7 +27,6 @@ after all there are still plenty of jobs writing [FORTRAN](
 This works in the _short-term_ because
 most _organisations_ take a long time to adopt new tech
 so people can cling onto their ageing knowledge.
-
 -->
 
 # _Why_? 🤷‍♀️
@@ -34,17 +35,17 @@ so people can cling onto their ageing knowledge.
 If I was **starting** my journey **from _scratch_** now
 **what tech** would I learn/use? <br />
 
-If we could keep all 
+If we could keep all
 the knowledge/wisdom and experience gained
-over 20+ years of programming 
-but avoid any preconceptions and biases 
-i.e.
-["sunk cost bias"](https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect).
-Would we still choose the tech/tools we are _currently_ using?
-Or would we pick something else completely different?
+over 20+ years building Apps,
+but avoid any preconceptions and biases
+(e.g:
+[**sunk cost bias**](https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect)
+).
+Would we **still choose** the **tech/tools** we are **_currently_ using**?
+Or would we pick something else **completely different**?
 
-
-The people/teams/organisations that can _objectively_
+The people/teams/organizations that can _objectively_
 question why they use particular tech/tools
 can take advantage
 of all the advancements being made
@@ -56,35 +57,45 @@ The question we need to ask/answer
 _before_ diving into any discussion
 of which technology/language/framework
 we should or shouldn't use is:
-**What are _problem_ are we _trying_ to _solve_?**
 
+## What _Problem_ Are _Solving_?
 
-The last time we (_informally_) looked at `Flutter` in early 2018,
-it did _not_ meet all our needs for a UI framework. 
-At the time, it was focussed on Android,
+We are trying to deploy a **`Native` Mobile App**
+that **launches fast** and **performs well** (with a low memory footprint)
+on both `Android` and `IOs`.
+
+`Flutter` solves this for us
+and allows maximum cross-platform code-reuse.
+
+When we (_initially_) looked at `Flutter` in early 2018,
+it did _not_ meet all our needs for a UI framework.<br />
+At the time, it was focussed on `Android`,
 didn't support Web/PWAs
-and only had partial/beta support for IOs.
+and only had partial/beta support for `IOs`.
 
 In the last couple of years `Flutter` has seen _rapid_
 development both from the _army_ of **Google** Developers
 and the thriving community and it has matured considerably.
 It _excels_  at _all_ of our requirements.
 
+# Who?
+
 Google is using `Flutter`
 for several of their cross-platform Native Mobile Apps
 including **Google Adds** (_their main money maker_)
 and **Google _Pay_** their popular global payments platform.  
-See: 
+See:
 [flutter.dev/showcase](https://flutter.dev/showcase)
 
 [![google-apps-built-with-flutter](https://user-images.githubusercontent.com/194400/195553065-74416c1b-2306-4d8a-9a5b-82ba716cf370.png)](https://flutter.dev/showcase)
 
-There are _thousands_ more examples and more each day!
+There are _hundreds of thousands_ more examples
+and hundreds more published each day!
 
 <img width="1704" alt="logos of companies using flutter" src="https://github.com/dwyl/start-here/assets/194400/5d11b7c9-3f87-4a05-b6e6-37c6ee3b5651">
 
-It's almost certain that you are _already_ using an App on your Smart Phone 
-that was built with `Flutter` whether you know it or not.  
+It's almost certain that you are _already_ using an App on your Smart Phone
+that was built with `Flutter` whether you know it or not.
 
 For a community list of Apps built with `Flutter`
 including many Open Source ones, see:
@@ -198,65 +209,80 @@ All the _practical_ detail is there.
 
 # Background
 
-We are building our App: 
+We are building our `App`:
 [dwyl/app](https://github.com/dwyl/app).
-We selected **`Phoenix`** for the Backend 
-because we find **`Elixir`** easy to read, reason about and write. 
-(far more so than other major programming languages). 
-More detail in: 
-[learn-elixir/issues/102](https://github.com/dwyl/learn-elixir/issues/102)
-The data we are storing is _relational_ in nature. 
-We are creating `items` of `text` 
-that have an _unlimited_ length. 
-We want to apply meta data to those `items` 
-and create rich interactions around them. 
-We will have _many_ useful features in the App
-but the core will be `items`, `timers`, `lists` and `people`.
+We selected **`Phoenix`** for the Backend
+because we find **`Elixir`** easy to read, write
+and reason about.
+(far more so than other major programming languages).
+More detail in:
+[**learn-elixir**](https://github.com/dwyl/learn-elixir/#key-advantages-)
+The data we are storing is _relational_ by nature.
+We are creating `items` of `text`
+that have an _unlimited_ length.
+We want to apply `metadata` to those `items`
+and create rich interactions around them.
+We will have _many_ useful features in the `App`
+but the core will be:
+`items`, `timers`, `lists`, `people` and `groups`.
 
-As a _small_ team with finite resources 
-(_and no desire to "raise" money from outside investors_), 
-we want to maximise our efforts 
-to build the App that _most_ people want/need. 
-We are focussing on building the Web App initially 
-because the web is universally accessible. 
-_Many_ companies have focussed their initial efforts on `iOS` 
-because it's the _easiest_ platform to target, 
-`iOS` users have more disposable income 
+As a _small_ team with finite resources
+<!--(_and no desire to "raise" money from outside investors_),-->
+we want to maximize our efforts
+to build the `App` that _most_ people want/need.
+We are focussing on building the **`Web App`** initially
+because the web is universally accessible.
+_Many_ companies have focussed their initial efforts on `iOS`
+because it's the _easiest_ platform to target,
+`iOS` buyers have more disposable income
 and are more likely to _pay_ for apps.
 
 > "_Making an App for `iOS` is Faster and Less Expensive_".
-> "_`Android` users tend to be 
-> less willing to pay for apps than `iOS` users, 
-> so free apps with in-app ads are more common._"
+> "_`Android` users tend to be
+> less willing to pay for apps than `iOS` users,
+> so **free apps** with **in-app ads** are more common._"
 https://medium.com/@the_manifest/android-vs-ios-which-platform-to-build-your-app-for-first-22ea8996abe1
-> There are fewer iOS devices to target and test on which dramatically shortens dev timelines.
-e.g in 2022 there are only **7 supported screen sizes** for iPhone:
-> + 4" - iPhone 5S and SE (old screen size but still used by [tens of millions](https://deviceatlas.com/blog/most-popular-iphones) people)
-> + 4.7" - iPhone 6, 7, 8 and SE 2020 & 2022
-> + 5.42" - iPhone 12 & 13 Mini
-> + 5.5" iPhone 6 Plus, 7 Plus and 8 Plus
-> + 5.85" - iPhone X, XS and 11 Pro
-> + 6.06" - iPhone XR, iPhone 11, 12 & 13 Pro
-> + 6.46" - iPhone XS Max and iPhone 11, 12, 13 Pro Max
-See: https://en.wikipedia.org/wiki/List_of_iOS_devices
-The _full_ device feature compatibility matrix 
-is lets developers see _exactly_ what features are available for all iOS devices (including all iPads): https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html
+> There are fewer iOS devices to target
+> and test on which dramatically shortens dev timelines.
+e.g in 2026 there are only **8 supported screen sizes** for iPhone:
+<!-- + 4" - iPhone 5S and SE (old screen size but still used by [tens of millions](https://deviceatlas.com/blog/most-popular-iphones) people) -->
+> + 4.7": iPhone SE (2<sup>nd</sup> & 3<sup>rd</sup> generation)
+> + 5.42": iPhone 12 & 13 Mini
+> + 5.5": iPhone 6 Plus, 7 Plus and 8 Plus
+> + 5.85": iPhone X, XS and 11 Pro
+> + 6.06": iPhone 11, 12, 13 Pro, 14 Pro
+> + 6.3": iPhone 15 Pro, 16 Pro, 17
+> + 6.46" iPhone 11, 12, 13 & 14 Pro Max
+> + 6.7": iPhone 16 Plus
+> + 6.9": iPhone 16 Pro Max, iPhone 17 Pro Max
+See:
+[support.apple.com/en-gb/guide/iphone/iphe3fa5df43/ios](https://support.apple.com/en-gb/guide/iphone/iphe3fa5df43/ios)
+and
+[wikipedia.org/wiki/List_of_iOS_devices](https://en.wikipedia.org/wiki/List_of_iOS_devices)
+The _full_ device feature compatibility matrix
+lets developers see _exactly_ what features
+are available for all iOS devices (including all iPads):
+https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html
 
-> In **2015** there were _already_ 
-> "_more than **24,000 different `Android` devices**
-> from 1300 brands_"
+## How Many Distinct `Android` Devices
+
+By **2015** there were _already_
+"_more than **24,000 different `Android` devices**
+from **1300 brands**_"
 https://www.zdnet.com/article/android-fragmentation-there-are-now-24000-devices-from-1300-brands
+
 ![image](https://user-images.githubusercontent.com/194400/83424494-60523680-a424-11ea-829c-d75be55d7f17.png)
+
 That was before the _explosion_ of new devices from Chinese and manufacturers.
-In 2022 there is no official stat 
-for the number of devices or screen sizes 
-(_because Google is painfully aware 
-of the fragmentation problem 
-but doesn't want to surface it!_) 
-suffice to say that it's _several_ orders of magnitude 
-more complex to build an Android App 
+In 2026 there is no official stat
+for the number of devices or screen sizes
+(_because Google is painfully aware
+of the fragmentation problem
+but doesn't want to surface it!_)
+suffice to say that it's **_several_ orders of magnitude**
+**more complex** to **build** an **`Android App`**
 that looks _consistently_ good across all devices.
-Android development is _considerably_ more complex, 
+Android development is _considerably_ more complex,
 which is why devs prefer `iOS` for their MVP.
 
 
@@ -277,9 +303,13 @@ and was the 3rd "most loved" framework:
 [https://insights.stackoverflow.com/survey/2020#technology-most-loved](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-other-frameworks-libraries-and-tools-loved3)
 <img width="864" alt="StackOverflow-survey-2020-flutter-most-loved" src="https://user-images.githubusercontent.com/194400/83624662-ce187280-a58a-11ea-8ef1-77c190b22cf8.png">
 
-In the 2022 survey `Flutter` 
-has overtaken `React Native`
-in popularity: 
+In the 2022 survey `Flutter`
+overtook `React Native`
+in popularity:
 https://survey.stackoverflow.co/2022/#section-most-popular-technologies-other-frameworks-and-libraries
+and in all years since it has maintained its' lead:
+https://survey.stackoverflow.co/2025
+
 
 [![HitCount](https://hits.dwyl.com/dwyl/technology-stack-flutter.svg?style=flat-square)](https://hits.dwyl.com/dwyl/technology-stack)
+
