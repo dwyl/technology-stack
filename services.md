@@ -8,7 +8,7 @@ because almost any change required shipping code to 3 or more different repos.
 However we do see the benefits
 of separate services for specific functionality.
 
-<img src="https://github.com/user-attachments/assets/75a758dd-5ca6-483c-9a40-eecfdd9c5c2a" />
+<img src="https://github.com/user-attachments/assets/79d7c85f-cf97-455d-aaf7-b71023fed36a" />
 <!--
 To Edit visit: 
 https://docs.google.com/drawings/d/1ach2TPrH4Qhnvv1GjfU3lru-zT4ZpJEDjLdBliEm_9A/edit
