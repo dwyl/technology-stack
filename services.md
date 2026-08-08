@@ -1,7 +1,16 @@
 # Separation of Concerns Diagram
 
-This diagram is created using `Mermaid`.
+<img src="https://github.com/user-attachments/assets/cda3ec6a-c920-4192-bd6c-4e20837d9cd2" />
 
+<!--
+To Edit visit: 
+https://docs.google.com/drawings/d/1ach2TPrH4Qhnvv1GjfU3lru-zT4ZpJEDjLdBliEm_9A/edit
+-->
+
+<hr />
+
+I _attempted_ to create the
+diagram using `Mermaid`:
 
 ```mermaid
 ---
@@ -17,7 +26,7 @@ config:
 ---
 graph BT
 
-    WebClient["<h3>Web Client</h3>(All Devices)"]
+    WebClient["`<h3>Web Client</h3>(All Devices)`"]
     MobileApp["<h4>Native Mobile App</h4><br/>(iOS / Android)"]
     
     WebClient <--> WebApp
@@ -59,3 +68,8 @@ Tracks deliverability, open & click-through rate. Dashboards display stats + ins
 		class authDb,authDb2,mainDb,backDb,anaDb,comDb db
 		class AWS, aws
 ```
+
+But sadly the renderer is **_non-deterministic_**
+(i.e. we can't control the layout or position of elements)
+See:
+[dwyl/technology-stack#172](https://github.com/dwyl/technology-stack/issues/172#issuecomment-5220721045)
