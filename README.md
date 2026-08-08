@@ -22,6 +22,7 @@ The software and systems we use to build **`@dwyl`**.
     - [`Tailwind CSS` 😍](#tailwind-css-)
     - [`Alpine.js` (Optional) ✨](#alpinejs-optional-)
     - [`LiveView` 🚀](#liveview-)
+  - [Separation of Concerns into Services? 🕸️](#separation-of-concerns-into-services-️)
   - [_Beginner_ Tutorials? 🔰](#beginner-tutorials-)
     - [`Phoenix` / `Elixir` 📝](#phoenix--elixir-)
     - [_Small_ Apps That Showcase `Phoenix` 💡](#small-apps-that-showcase-phoenix-)
@@ -286,6 +287,13 @@ please see:
 > with _bare minimum_ client-side validation.
 
 <br />
+
+## Separation of Concerns into Services? 🕸️
+
+For a more in-depth understanding
+of our backend architecture,
+please see:
+[`/services.md`](./services.md)
 
 ## _Beginner_ Tutorials? 🔰
 
